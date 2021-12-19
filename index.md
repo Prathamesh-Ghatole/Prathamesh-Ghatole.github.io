@@ -60,10 +60,10 @@ Foundational Level [Current]
 - 🪶 Soft Skills: 
 Leadership, Team Management, Public Speaking, Copywriting
 - 🧑‍💼 Misc Skills:
-[Audio/Music Production & Mixing: ProTools, FL Studio, Audacity]
-[Design/Editing: Adobe Photoshop, Adobe After Effects, Adobe Illustrator, Canva]
-[Office/Productivity/Management: Notion, Microsoft Office Suite, Google Workspace]
-[Social Media/Marketing: 3yrs of Business Social Media Handling Linkedin/Twitter/Instagram/GitHub/Medium.com w/ [toneden.io](http://toneden.io) / [later.com](http://later.com)]
+  [Audio/Music Production & Mixing: ProTools, FL Studio, Audacity]
+  [Design/Editing: Adobe Photoshop, Adobe After Effects, Adobe Illustrator, Canva]
+  [Office/Productivity/Management: Notion, Microsoft Office Suite, Google Workspace]
+  [Social Media/Marketing: 3yrs of Business Social Media Handling Linkedin/Twitter/Instagram/GitHub/Medium.com w/ [toneden.io](http://toneden.io) / [later.com](http://later.com)]
 
 ---
 
