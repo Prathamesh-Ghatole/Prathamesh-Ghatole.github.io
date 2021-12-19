@@ -59,7 +59,7 @@ Foundational Level [Current]
 - 🗣 English, Hindi, Marathi & Japanese [Learning]
 - 🪶 Soft Skills: 
 Leadership, Team Management, Public Speaking, Copywriting
-- 🧑‍💼 Misc Skills:
+🧑‍💼 Misc Skills:
 - [Audio/Music Production & Mixing: ProTools, FL Studio, Audacity]
 - [Design/Editing: Adobe Photoshop, Adobe After Effects, Adobe Illustrator, Canva]
 - [Office/Productivity/Management: Notion, Microsoft Office Suite, Google Workspace]
