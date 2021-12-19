@@ -87,7 +87,3 @@ Leadership & Team Management, Public Speaking, [Copywriting [Marketing]](https:/
     [https://www.kaggle.com/learn/certification/prathameshghatole/pandas](https://www.kaggle.com/learn/certification/prathameshghatole/pandas)
     - **Git from Basics to Advanced: Practical Guide for Developers** [12-Jul-21]
     [http://ude.my/UC-2058f8c0-2019-4ebf-b5f9-93a786218925](http://ude.my/UC-2058f8c0-2019-4ebf-b5f9-93a786218925)
-
----
-
-[https://timelinetool.app/notion/event/M0HRFIIIOL2MB12N](https://timelinetool.app/notion/event/M0HRFIIIOL2MB12N)
