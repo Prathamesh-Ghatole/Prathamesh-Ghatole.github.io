@@ -2,23 +2,34 @@
 
 # **Prathamesh S. Ghatole**
 
-### Aspiring Data Scientist 👁‍🗨💾 | Efficiency Freak 💻♻ | Pianist / Music Producer 🎹🎧
+### Aspiring Data Scientist 👁‍🗨💾 | Machine Learning Enthusiast 📊🧠 | IEEE CLAP 2021💻🛠 | Pianist/Music Producer 🎹🎧 | Learning Japanese 🎴🗾
 
-I believe that data is the new oil.
-My life involves trifling around with data and extracting useful information from it, or turn it into something new!
-I am ALWAYS learning.
+Updated Dec 20 2021
 
-Updated Oct 29 2021
+---
 
 ### ☎️ Contact:
 
-- 📧 **Email**: prathamesh.ghatole.ai@ghrcem.raisoni.net | prathamesh.s.ghatole@gmail.com
-- 📱 **Mob**. **No.**: (+91) 8669881189
-- 💻 **Linkedin**: [https://www.linkedin.com/in/prathamesh-ghatole/](https://www.linkedin.com/in/prathamesh-ghatole/)
-- 🧑‍💻 **GitHub**: [https://github.com/Prathamesh-Ghatole/](https://github.com/Prathamesh-Ghatole/)
-- #️⃣ **Twitter:** [https://twitter.com/PrathameshG69](https://twitter.com/PrathameshG69) ****
+📧 **Email**: prathamesh.ghatole.ai@ghrcem.raisoni.net | prathamesh.s.ghatole@gmail.com
+
+📱 **Mob**. **No.**: (+91) 8669881189
+
+💻 **Linkedin**: [https://www.linkedin.com/in/prathamesh-ghatole/](https://www.linkedin.com/in/prathamesh-ghatole/)
+
+🧑‍💻 **GitHub**: [https://github.com/Prathamesh-Ghatole/](https://github.com/Prathamesh-Ghatole/)
+
+#️⃣ **Twitter:** [https://twitter.com/PrathameshG69](https://twitter.com/PrathameshG69) ****
 
 ---
+
+### 🔬 Work Experience:
+
+- President | [Student's Association of Artificial Intelligence, GHRCEM, Pune](https://www.linkedin.com/company/saai-ghrcem)
+[20th Nov 21]
+- 🧑‍🎓 Vice President - Music Club, GH Raisoni College of Engineering & Management, Pune
+[Oct 2021 - Current]
+- 👨‍💼 [Speaker and Project Lead | Ek Bharat Shrestha Bharat Club, GHRCEM Pune](https://ekbharat.gov.in/images/InstituteActivities/Documents/205720210909102002/News%20Report%20on%20Culinary%20Festivals%20of%20Maharashtra%20with%20Opportunity%20to%20Learn%20in%20Culinary%20Practices%20of%20Odisha.pdf) 
+[4th Sep 21]
 
 ### 🏫 Education:
 
@@ -27,63 +38,47 @@ CGPA: 8.51 [Feb 2021 - Current]
 - 📘 [BSc. Programming and Data Science](http://onlinedegree.iitm.ac.in/) | Indian Institute of Technology Madras
 Qualified [April 2021]
 Foundational Level [Current]
-- 📗 [Specialization in Applied Data Science w/ Python Specialization by University of Michigan](https://www.coursera.org/specializations/data-science-python) | Coursera
-[August 2021 - Current]
-- 📗 [Data Structures & Algorithms in Python - Google](https://classroom.udacity.com/courses/ud513) | Udacity
-[October 2021 - Current]
+- 🧑‍🎓 [IEEE CLAP Bootcamp (2021)](https://yp.ieeer10.org/clap/) | IEEE Region 10 yp
+[18th - 25th Sep 2021]
+
+### 📜 Certificates:
+
+- [Introduction to Python Data Analysis](http://coursera.org/verify/C7UQEBMK26DK) | Coursera [Sep 2021]
+- [Applied Plotting, Charting & Data Representation in Python](http://coursera.org/verify/XCW3F8W864ZK) | Coursera [Oct 2021]
+- [Working with BigQuery](http://coursera.com/verify/HXK4YXHGXJTT) | Coursera [Nov 2021]
+- [Data Manipulation with Pandas](https://www.kaggle.com/learn/certification/prathameshghatole/pandas) | Kaggle [Sep 2021]
+- [Data Cleaning](https://www.kaggle.com/learn/certification/prathameshghatole/data-cleaning) | Kaggle[Oct 2021]
+- [Git from Basics to Advanced: Practical Guide for Developers](http://ude.my/UC-2058f8c0-2019-4ebf-b5f9-93a7862f8925) | Udemy [Jul 2021]
 
 ---
 
 ### 🎯 Skills:
 
-- ⌨ Git, C++, Python, Pandas, Numpy, Regex, Matplotlib, Seaborn, Scikitlearn.
-- 💻 Data Analytics with Python, Data Engineering (Pre Processing), Text Mining, Data Analytics.
+- ⌨ Git, Python, Pandas, Numpy, Regex, Matplotlib, Seaborn, Scikitlearn
+- 💻 Data Analytics with Python, Data Wrangling, Text Mining
 - 🗣 English, Hindi, Marathi & Japanese [Learning]
+- 🪶 Soft Skills: 
+Leadership, Team Management, Public Speaking, Copywriting
 - 🧑‍💼 Misc Skills:
-[Audio/Music Production & Mixing: FL Studio, ProTools, Audacity]
+[Audio/Music Production & Mixing: ProTools, FL Studio, Audacity]
 [Design/Editing: Adobe Photoshop, Adobe After Effects, Adobe Illustrator, Canva]
 [Office/Productivity/Management: Notion, Microsoft Office Suite, Google Workspace]
-[Social Media/Marketing: 3yrs of Business Social Media Handling, Toneden.io, Twitter/Facebook/Google Analyics]
-- 🪶 Soft Skills: 
-Leadership & Team Management, Public Speaking, [Copywriting [Marketing]](https://en.wikipedia.org/wiki/Copywriting#:~:text=Copywriting%20is%20the%20act%20or,to%20take%20a%20particular%20action.), Meticulous, Dedicated, Willing to take Responsibilities.
+[Social Media/Marketing: 3yrs of Business Social Media Handling Linkedin/Twitter/Instagram/GitHub/Medium.com w/ [toneden.io](http://toneden.io) / [later.com](http://later.com)]
 
 ---
 
-### 🔬 Work Experience:
+### 🎹 Hobbies
 
-- President | Student's Association of Artificial Intelligence, GHRCEM, Pune
-    
-    [20th Nov 21]
-    
-- 🧑‍🎓 Vice President - Music Club, GH Raisoni College of Engineering & Management, Pune [](https://yp.ieeer10.org/clap/)
-[Oct 2021 - Current]
-- 👨‍💼 [Speaker and Project Lead | Ek Bharat Shrestha Bharat Club, GHRCEM Pune](https://ekbharat.gov.in/images/InstituteActivities/Documents/205720210909102002/News%20Report%20on%20Culinary%20Festivals%20of%20Maharashtra%20with%20Opportunity%20to%20Learn%20in%20Culinary%20Practices%20of%20Odisha.pdf) 
-[4th Sep 21]
-- 🧑‍🎓 [IEEE CLAP Bootcamp (2021)](https://yp.ieeer10.org/clap/) 
-[18th - 25th Sep 2021]
+- In my free time, I like playing Piano 🎹, and Producing Music 🎧 under my artist alias [SNÆK](https://snaek.biglink.to/SNAEK).
+- I also LOVE listening to music whenever I can! Check out my streams here: [https://www.last.fm/user/snaekboi](https://www.last.fm/user/snaekboi)
+- Been trying to get into books as well!
+My favorites are **“The Subtle Art of Not Giving a F*ck”** by Mark Manson, and “**Tokyo Ghoul”** by Sui Ishida.
+- I am also a huge anime & manga fan. You can find my favorites here: [https://myanimelist.net/profile/snaekboi](https://myanimelist.net/profile/snaekboi)
+
+---
 
 ### ✂ Projects:
 
-- *In Progress*
+Coming soon on GitHub!
 
 ---
-
-### 🏆 Achievements:
-
-- 📜 Certifications:
-    - **Coursera & University of Michigan: Applied Data Science with Python Specialization** 
-    [https://www.coursera.org/specializations/data-science-python](https://www.coursera.org/specializations/data-science-python) [July 2021 - Current]
-    Introduction to Python Data Analysis: 
-    Completed - Certificates Pending [Sep-21]
-    **Applied Plotting, Charting & Data Representation in Python: 
-    Ongoing - Certificates Pending [Sep-21]
-    Applied Machine Learning in Python: 
-    Ongoing - Certificates Pending [Sep-21]
-    Applied Text Mining in Python: 
-    Ongoing - Certificates Pending [Sep-21]
-    Applied Social Network Analysis in Python: 
-    Ongoing - Certificates Pending [Sep-21]
-    - **Kaggle: Pandas Micro-Course** [11-Sep-21]
-    [https://www.kaggle.com/learn/certification/prathameshghatole/pandas](https://www.kaggle.com/learn/certification/prathameshghatole/pandas)
-    - **Git from Basics to Advanced: Practical Guide for Developers** [12-Jul-21]
-    [http://ude.my/UC-2058f8c0-2019-4ebf-b5f9-93a786218925](http://ude.my/UC-2058f8c0-2019-4ebf-b5f9-93a786218925)
