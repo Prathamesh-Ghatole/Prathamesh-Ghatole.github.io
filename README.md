@@ -1,5 +1,4 @@
 # Welcome to my Repo!
----
 ## Features:
 - Completely Written in Markdown!
 - Uses APIs to fetch stats from GitHub, and Last.fm
