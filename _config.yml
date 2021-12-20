@@ -1,0 +1,28 @@
+# Site settings
+title: Prathamesh Ghatole
+subtitle: 
+email: prathamesh.s.ghatole@gmail.com
+instiemail: prathamesh.ghatole.ai@ghrcem.raisoni.net
+description: Nerd
+#baseurl: "/editorial-jekyll-theme" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site
+author: Prathamesh Ghatole
+street_address: GHRCEM, Pune
+city: Pune
+state: Maharashtra
+zip_code: 412207
+country: India
+# phone: +91 
+
+# Social settings
+500px_url:
+github_url: https://github.com/Prathamesh-Ghatole
+instagram_url: https://www.instagram.com/snaek.mp3
+linkedin_url: https://www.linkedin.com/in/prathamesh-ghatole
+# pinterest_url:
+# slack_url:
+# stack_overflow_url: https://stackoverflow.com/users/13746066/param-rathour
+twitter_url: https://twitter.com/PrathameshG69
+
+# Build settings
+markdown: kramdown
