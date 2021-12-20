@@ -6,7 +6,7 @@
 Updated Dec 20 2021
 
 ### ☎️ Contact:
-📧 **Email**: prathamesh.ghatole.ai@ghrcem.raisoni.net | prathamesh.s.ghatole@gmail.com
+📧 **Email**: [prathamesh.s.ghatole@gmail.com](mailto:prathamesh.s.ghatole@gmail.com) | [prathamesh.ghatole.ai@ghrcem.raisoni.net](mailto:prathamesh.ghatole@ieee.org)
 
 <a href="https://www.linkedin.com/in/prathamesh-ghatole/" target="_blank"><img align="left" alt="Prathamesh-Ghatole.github.io" width="22px" src="https://i.imgur.com/E3wQKuX.png" /></a>
 <a href="https://twitter.com/PrathameshG69" target="_blank"><img align="left" alt="Prathamesh Ghatole Twitter" width="22px" src="https://i.imgur.com/xuMouim.png" />
