@@ -1,6 +1,6 @@
 # Resume
 
-# **Prathamesh S. Ghatole**
+<img src="https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io/blob/main/src/Banner.png">
 
 ### Aspiring Data Scientist 👁‍🗨💾 | Machine Learning Enthusiast 📊🧠 | IEEE CLAP 2021💻🛠 | Pianist/Music Producer 🎹🎧 | Learning Japanese 🎴🗾
 
@@ -9,6 +9,19 @@ Updated Dec 20 2021
 ### ☎️ Contact:
 
 📧 **Email**: prathamesh.ghatole.ai@ghrcem.raisoni.net | prathamesh.s.ghatole@gmail.com
+
+---
+
+<a href="https://www.linkedin.com/in/prathamesh-ghatole/" target="_blank"><img align="left" alt="Prathamesh-Ghatole.github.io" width="22px" src="https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io/blob/main/src/social%20icons/linkedin.png" /></a>
+<a href="https://twitter.com/PrathameshG69" target="_blank"><img align="left" alt="Aakarsh B | LinkedIn" width="22px" src="https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io/blob/main/src/social%20icons/twitter.png" />
+<a href="https://behance.net/aakarshb" target="_blank"><img align="left" alt="Aakarsh B | Behance" width="22px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/behance.svg" />
+<a href="https://dribbble.com/aakarshb" target="_blank"><img align="left" alt="Aakarsh B | Dribbble" width="22px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/dribbble.svg" />
+<a href="https://instagram.com/_.aakarsh._" target="_blank"><img align="left" alt="Aakarsh B | Instagram" width="22px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/insta.svg" />
+<a href="https://twitter.com/Aakarsh-Bhttps://www.w3.org/html/" target="_blank"><img align="left" alt="Aakarsh B | Twitter" width="22px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/twitter.svg" />
+<a href="https://medium.com/@aakarshbiju" target="_blank"><img align="left" alt="Aakarsh B | Medium" width="22px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/medium.svg" />
+<a href="https://dev.to/aakarshb" target="_blank"><img align="left" alt="dev to aakarsh" width="22px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/dev-badge.svg" /></a>
+
+---
 
 💻 **Linkedin**: [https://www.linkedin.com/in/prathamesh-ghatole/](https://www.linkedin.com/in/prathamesh-ghatole/)
 
@@ -20,9 +33,9 @@ Updated Dec 20 2021
 
 ### 🔬 Work Experience:
 
-- President | [Student's Association of Artificial Intelligence, GHRCEM, Pune](https://www.linkedin.com/company/saai-ghrcem)
+- 🎓 President | [Student's Association of Artificial Intelligence, GHRCEM, Pune](https://www.linkedin.com/company/saai-ghrcem)
 [20th Nov 21]
-- 🧑‍🎓 Vice President - Music Club, GH Raisoni College of Engineering & Management, Pune
+- 🎓 Vice President - Music Club, GH Raisoni College of Engineering & Management, Pune
 [Oct 2021 - Current]
 - 👨‍💼 [Speaker and Project Lead | Ek Bharat Shrestha Bharat Club, GHRCEM Pune](https://ekbharat.gov.in/images/InstituteActivities/Documents/205720210909102002/News%20Report%20on%20Culinary%20Festivals%20of%20Maharashtra%20with%20Opportunity%20to%20Learn%20in%20Culinary%20Practices%20of%20Odisha.pdf) 
 [4th Sep 21]
