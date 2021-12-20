@@ -1,6 +1,5 @@
 # Resume
-
-<img src="https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io/blob/main/src/Banner.png">
+<img src="https://i.imgur.com/DpRDLbI.png">
 
 ### Aspiring Data Scientist 👁‍🗨💾 | Machine Learning Enthusiast 📊🧠 | IEEE CLAP 2021💻🛠 | Pianist/Music Producer 🎹🎧 | Learning Japanese 🎴🗾
 
@@ -9,10 +8,10 @@ Updated Dec 20 2021
 ### ☎️ Contact:
 📧 **Email**: prathamesh.ghatole.ai@ghrcem.raisoni.net | prathamesh.s.ghatole@gmail.com
 
-<a href="https://www.linkedin.com/in/prathamesh-ghatole/" target="_blank"><img align="left" alt="Prathamesh-Ghatole.github.io" width="22px" src="https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io/blob/main/src/social_icons/icons8-linkedin.svg" /></a>
-<a href="https://twitter.com/PrathameshG69" target="_blank"><img align="left" alt="Prathamesh Ghatole Twitter" width="22px" src="https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io/blob/main/src/social_icons/icons8-twitter.svg" />
-<a href="https://github.com/Prathamesh-Ghatole/" target="_blank"><img align="left" alt="Prathamesh Ghatole | GitHub" width="22px" src="https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io/blob/main/src/social_icons/icons8-github.svg" />
-<a href="https://instagram.com/snaek.mp3" target="_blank"><img align="left" alt="Prathamesh Ghatole | Instagram" width="22px" src="https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io/blob/main/src/social_icons/icons8-instagram.svg" />
+<a href="https://www.linkedin.com/in/prathamesh-ghatole/" target="_blank"><img align="left" alt="Prathamesh-Ghatole.github.io" width="22px" src="https://i.imgur.com/E3wQKuX.png" /></a>
+<a href="https://twitter.com/PrathameshG69" target="_blank"><img align="left" alt="Prathamesh Ghatole Twitter" width="22px" src="https://i.imgur.com/xuMouim.png" />
+<a href="https://github.com/Prathamesh-Ghatole/" target="_blank"><img align="left" alt="Prathamesh Ghatole | GitHub" width="22px" src="https://i.imgur.com/3k7GBxd.png" />
+<a href="https://instagram.com/snaek.mp3" target="_blank"><img align="left" alt="Prathamesh Ghatole | Instagram" width="22px" src="https://i.imgur.com/n2ERNif.png" />
 <br />
 
 ---
