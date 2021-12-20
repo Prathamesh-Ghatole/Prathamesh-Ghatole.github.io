@@ -68,7 +68,9 @@ Leadership, Team Management, Public Speaking, Copywriting
   [![My Last.fm](https://lastfm-recently-played.vercel.app/api?user=snaekboi)](https://www.last.fm/user/snaekboi) 
 - Been trying to get into books as well!
 My favorites are **“The Subtle Art of Not Giving a F*ck”** by Mark Manson, and “**Tokyo Ghoul”** by Sui Ishida.
-- I am also a huge anime & manga fan. You can find my favorites here: [https://myanimelist.net/profile/snaekboi](https://myanimelist.net/profile/snaekboi)
+- I am also a huge anime & manga fan. You can find my favorites here: 
+  [https://myanimelist.net/profile/snaekboi](https://myanimelist.net/profile/snaekboi)
+
 ---
 
 ### My GitHub Stats:
