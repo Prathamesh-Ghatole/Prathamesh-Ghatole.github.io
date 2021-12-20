@@ -66,9 +66,9 @@ Leadership, Team Management, Public Speaking, Copywriting
 
 - In my free time, I like playing Piano 🎹, and Producing Music 🎧 under my artist alias [SNÆK](https://snaek.biglink.to/SNAEK).
 - I also LOVE listening to music whenever I can! Check out my streams here: [https://www.last.fm/user/snaekboi](https://www.last.fm/user/snaekboi)
-  ####
+  <br/>
   [![My Last.fm](https://lastfm-recently-played.vercel.app/api?user=snaekboi)](https://www.last.fm/user/snaekboi) 
-  ####
+  <br/>
 - Been trying to get into books as well!
 My favorites are **“The Subtle Art of Not Giving a F*ck”** by Mark Manson, and “**Tokyo Ghoul”** by Sui Ishida.
 - I am also a huge anime & manga fan. You can find my favorites here: [https://myanimelist.net/profile/snaekboi](https://myanimelist.net/profile/snaekboi)
