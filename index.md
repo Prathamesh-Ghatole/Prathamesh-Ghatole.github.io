@@ -6,19 +6,15 @@
 
 Updated Dec 20 2021
 
----
-
 ### ☎️ Contact:
 
 📧 **Email**: prathamesh.ghatole.ai@ghrcem.raisoni.net | prathamesh.s.ghatole@gmail.com
 
-📱 **Mob**. **No.**: (+91) 8669881189
-
 💻 **Linkedin**: [https://www.linkedin.com/in/prathamesh-ghatole/](https://www.linkedin.com/in/prathamesh-ghatole/)
 
-🧑‍💻 **GitHub**: [https://github.com/Prathamesh-Ghatole/](https://github.com/Prathamesh-Ghatole/)
+💻 **GitHub**: [https://github.com/Prathamesh-Ghatole/](https://github.com/Prathamesh-Ghatole/)
 
-#️⃣ **Twitter:** [https://twitter.com/PrathameshG69](https://twitter.com/PrathameshG69) ****
+#️⃣ **Twitter:** [https://twitter.com/PrathameshG69](https://twitter.com/PrathameshG69)
 
 ---
 
@@ -41,7 +37,7 @@ Foundational Level [Current]
 - 🧑‍🎓 [IEEE CLAP Bootcamp (2021)](https://yp.ieeer10.org/clap/) | IEEE Region 10 yp
 [18th - 25th Sep 2021]
 
-### 📜 Certificates:
+#### 📜 Certificates:
 
 - [Introduction to Python Data Analysis](http://coursera.org/verify/C7UQEBMK26DK) | Coursera [Sep 2021]
 - [Applied Plotting, Charting & Data Representation in Python](http://coursera.org/verify/XCW3F8W864ZK) | Coursera [Oct 2021]
@@ -71,14 +67,14 @@ Leadership, Team Management, Public Speaking, Copywriting
 
 - In my free time, I like playing Piano 🎹, and Producing Music 🎧 under my artist alias [SNÆK](https://snaek.biglink.to/SNAEK).
 - I also LOVE listening to music whenever I can! Check out my streams here: [https://www.last.fm/user/snaekboi](https://www.last.fm/user/snaekboi)
+  ####
+  [![My Last.fm](https://lastfm-recently-played.vercel.app/api?user=snaekboi)](https://www.last.fm/user/snaekboi) 
+  ####
 - Been trying to get into books as well!
 My favorites are **“The Subtle Art of Not Giving a F*ck”** by Mark Manson, and “**Tokyo Ghoul”** by Sui Ishida.
 - I am also a huge anime & manga fan. You can find my favorites here: [https://myanimelist.net/profile/snaekboi](https://myanimelist.net/profile/snaekboi)
-
 ---
 
-### ✂ Projects:
-
-Coming soon on GitHub!
-
----
+### My GitHub Stats:
+![Prathamesh's github stats](https://github-readme-stats.vercel.app/api?username=Prathamesh-Ghatole&show_icons=true&hide_border=true)&nbsp;&nbsp;
+![Prathamesh's Language stats](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Prathamesh-Ghatole&layout=compact&langs_count=8&hide_border=true)
