@@ -10,24 +10,11 @@ Updated Dec 20 2021
 
 📧 **Email**: prathamesh.ghatole.ai@ghrcem.raisoni.net | prathamesh.s.ghatole@gmail.com
 
----
+<a href="https://www.linkedin.com/in/prathamesh-ghatole/" target="_blank"><img align="left" alt="Prathamesh-Ghatole.github.io" width="22px" src="https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io/blob/main/src/social%20icons/icons8-linkedin.svg" /></a>
+<a href="https://twitter.com/PrathameshG69" target="_blank"><img align="left" alt="Prathamesh Ghatole Twitter" width="22px" src="https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io/blob/main/src/social%20icons/icons8-twitter.svg" />
+<a href="https://github.com/Prathamesh-Ghatole/" target="_blank"><img align="left" alt="Prathamesh Ghatole | GitHub" width="22px" src="https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io/blob/main/src/social%20icons/icons8-github.svg" />
+<a href="https://instagram.com/snaek.mp3" target="_blank"><img align="left" alt="Prathamesh Ghatole | Instagram" width="22px" src="https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io/blob/main/src/social%20icons/icons8-instagram.svg" />
 
-<a href="https://www.linkedin.com/in/prathamesh-ghatole/" target="_blank"><img align="left" alt="Prathamesh-Ghatole.github.io" width="22px" src="https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io/blob/main/src/social%20icons/linkedin.png" /></a>
-<a href="https://twitter.com/PrathameshG69" target="_blank"><img align="left" alt="Aakarsh B | LinkedIn" width="22px" src="https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io/blob/main/src/social%20icons/twitter.png" />
-<a href="https://behance.net/aakarshb" target="_blank"><img align="left" alt="Aakarsh B | Behance" width="22px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/behance.svg" />
-<a href="https://dribbble.com/aakarshb" target="_blank"><img align="left" alt="Aakarsh B | Dribbble" width="22px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/dribbble.svg" />
-<a href="https://instagram.com/_.aakarsh._" target="_blank"><img align="left" alt="Aakarsh B | Instagram" width="22px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/insta.svg" />
-<a href="https://twitter.com/Aakarsh-Bhttps://www.w3.org/html/" target="_blank"><img align="left" alt="Aakarsh B | Twitter" width="22px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/twitter.svg" />
-<a href="https://medium.com/@aakarshbiju" target="_blank"><img align="left" alt="Aakarsh B | Medium" width="22px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/medium.svg" />
-<a href="https://dev.to/aakarshb" target="_blank"><img align="left" alt="dev to aakarsh" width="22px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/dev-badge.svg" /></a>
-
----
-
-💻 **Linkedin**: [https://www.linkedin.com/in/prathamesh-ghatole/](https://www.linkedin.com/in/prathamesh-ghatole/)
-
-💻 **GitHub**: [https://github.com/Prathamesh-Ghatole/](https://github.com/Prathamesh-Ghatole/)
-
-#️⃣ **Twitter:** [https://twitter.com/PrathameshG69](https://twitter.com/PrathameshG69)
 
 ---
 
