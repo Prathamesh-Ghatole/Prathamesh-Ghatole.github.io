@@ -7,14 +7,13 @@
 Updated Dec 20 2021
 
 ### ☎️ Contact:
-
 📧 **Email**: prathamesh.ghatole.ai@ghrcem.raisoni.net | prathamesh.s.ghatole@gmail.com
 
 <a href="https://www.linkedin.com/in/prathamesh-ghatole/" target="_blank"><img align="left" alt="Prathamesh-Ghatole.github.io" width="22px" src="https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io/blob/main/src/social%20icons/icons8-linkedin.svg" /></a>
 <a href="https://twitter.com/PrathameshG69" target="_blank"><img align="left" alt="Prathamesh Ghatole Twitter" width="22px" src="https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io/blob/main/src/social%20icons/icons8-twitter.svg" />
 <a href="https://github.com/Prathamesh-Ghatole/" target="_blank"><img align="left" alt="Prathamesh Ghatole | GitHub" width="22px" src="https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io/blob/main/src/social%20icons/icons8-github.svg" />
 <a href="https://instagram.com/snaek.mp3" target="_blank"><img align="left" alt="Prathamesh Ghatole | Instagram" width="22px" src="https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io/blob/main/src/social%20icons/icons8-instagram.svg" />
-
+<br />
 
 ---
 
