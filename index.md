@@ -8,11 +8,11 @@ Updated Aug 02 2022
 ### ☎️ Contact:
 📧 **Email**: [prathamesh.s.ghatole@gmail.com](mailto:prathamesh.s.ghatole@gmail.com) | [prathamesh.ghatole.ai@ghrcem.raisoni.net](mailto:prathamesh.ghatole@ieee.org)
 
-👔 **Linkedin**: https://www.linkedin.com/in/prathamesh-ghatole
+👔 **Linkedin**: [https://www.linkedin.com/in/prathamesh-ghatole](https://www.linkedin.com/in/prathamesh-ghatole)
 
-🐦 **Twitter**: https://twitter.com/PrathameshG69
+🐦 **Twitter**: [https://twitter.com/PrathameshG69](https://twitter.com/PrathameshG69)
 
-💻 **GitHub**: https://github.com/Prathamesh-Ghatole/
+💻 **GitHub**: [https://github.com/Prathamesh-Ghatole/](https://github.com/Prathamesh-Ghatole/)
 
 <!-- <a href="https://www.linkedin.com/in/prathamesh-ghatole/" target="_blank"><img align="left" alt="Prathamesh-Ghatole.github.io" width="22px" src="https://i.imgur.com/E3wQKuX.png" /></a>
 <a href="https://twitter.com/PrathameshG69" target="_blank"><img align="left" alt="Prathamesh Ghatole Twitter" width="22px" src="https://i.imgur.com/xuMouim.png" />
