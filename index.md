@@ -1,9 +1,9 @@
 # Curriculum vitae
 <img src="https://i.imgur.com/DpRDLbI.png">
 
-### Aspiring Data Scientist 👁‍🗨💾 | Machine Learning Enthusiast 📊🧠 | IEEE CLAP 2021💻🛠 | Pianist/Music Producer 🎹🎧 | Learning Japanese 🎴🗾
+### Aspiring Data Scientist 👁‍🗨💾 | Machine Learning Enthusiast 📊🧠 | Pianist/Music Producer 🎹🎧
 
-Updated Aug 02 2022
+Updated Dec 16 2022
 
 ### ☎️ Contact:
 📧 **Email**: [prathamesh.s.ghatole@gmail.com](mailto:prathamesh.s.ghatole@gmail.com) | [prathamesh.ghatole.ai@ghrcem.raisoni.net](mailto:prathamesh.ghatole@ieee.org)
@@ -22,7 +22,7 @@ Updated Aug 02 2022
 ---
 ## 💫 About Me
 
-Hi, I am Prathamesh, an aspiring Data Scientist with a sheer obsession for music & computers, currently working at MetaBrainz.org as a Google Summer of Code '22 Contributor. (Check out my work blog [here](https://blog.metabrainz.org/?p=9785)!)
+Hi, I am Prathamesh, an aspiring Data Engineer based in Pune with a sheer obsession for music & computers. I'm currently working at MetaBrainz.org as a Google Summer of Code '22 Contributor. (Check out my work blog [here](https://blog.metabrainz.org/?p=9785)!)
 
 Back in 4th grade, I started tinkering around with computers and developed a severe passion for technology, making it a highlight of most of my teen life.
 
@@ -33,23 +33,23 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
 
 
 ## 🔬 Work Experience
-- #### 💻 **Contributor | [Google Summer of Code 2022 @ Metabrainz](https://summerofcode.withgoogle.com/programs/2022/projects/OARdCHQq)** [May 22 - Current]
+- #### 💻 **Contributor | [Google Summer of Code 2022 @ Metabrainz](https://summerofcode.withgoogle.com/programs/2022/projects/OARdCHQq)** [May '22 - Oct 2022]
   - **One of 1,209 globally** selected GSoC contributors in 2022.
   - Implemented **high-performance** python code to process **27 billion rows of data in 83 hours**. Optimized Data-Lake **size by 53%** & **I/O speeds by 9%** using modern standards like ZSTD & Parquet; while providing **analytical insights** for various projects in a cross-functional environment using **Pandas, & PostgreSQL**.
   - Project Details: [https://summerofcode.withgoogle.com/programs/2022/projects/OARdCHQq](https://summerofcode.withgoogle.com/programs/2022/projects/OARdCHQq)
   - _Tech Stack: Python, Pandas, NumPy, PostgreSQL, Git._
 <!-- <br> -->
 
-- #### 🎓 **President | [Student's Association of Artificial Intelligence, GHRCEM, Pune](https://www.linkedin.com/company/saai-ghrcem)** [Nov 21 - Mar 2022]
+- #### 🎓 **President | [Student's Association of Artificial Intelligence, GHRCEM, Pune](https://www.linkedin.com/company/saai-ghrcem)** [Nov '21 - Mar 2022]
   - Operating Human Resources, Planning, and Execution for all SAAI Events.
   - **Hosted events and workshops** like “Tech Talks 1.0: Biostatistics w/  Mr. Shariq Mohammed, Boston University”, and “YOU 2.0: The complete personality upliftment program” with **200+ attendees** with **4.59/5.00** average event ratings.
 <!-- <br> -->
 
-- #### 👨‍💼 **Speaker and Project Lead | [Ek Bharat Shrestha Bharat Club, GHRCEM Pune](https://ekbharat.gov.in/images/InstituteActivities/Documents/205720210909102002/News%20Report%20on%20Culinary%20Festivals%20of%20Maharashtra%20with%20Opportunity%20to%20Learn%20in%20Culinary%20Practices%20of%20Odisha.pdf)** [4th Sep 21 - Nov 2021]
+- #### 👨‍💼 **Speaker and Project Lead | [Ek Bharat Shrestha Bharat Club, GHRCEM Pune](https://ekbharat.gov.in/images/InstituteActivities/Documents/205720210909102002/News%20Report%20on%20Culinary%20Festivals%20of%20Maharashtra%20with%20Opportunity%20to%20Learn%20in%20Culinary%20Practices%20of%20Odisha.pdf)** [Sep '21 - Nov 2021]
   - Designed and presented **5+ inter-state presentations** to Aryan Institute of Technology, Bhubaneshwar, Odisha; while **Representing** GH Raisoni College of Engineering and Management Pune, Maharashtra.
 <!-- <br> -->
 
-- #### 👔 **Volunteer | IEEE Student's Chapter, GHRCEM Pune** [Mar 2021 - Current]
+- #### 👔 **Co-Chair | IEEE Student's Chapter, GHRCEM Pune** [Mar '21 - Current]
   - **Hosted several flagship events** @ IEEE Pune Section, like:
   IEEE CODE-STROM [2022], EAC Funded Cloud & Data Engineering Workshop [2022]
   - **Represented the “Hadar Cluster”** (South East Asia) at **IEEE Asia Pacific’s CLAP [2021] program**.
