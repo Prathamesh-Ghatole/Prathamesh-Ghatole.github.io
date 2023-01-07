@@ -1,3 +1,27 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://prathamesh-ghatole.github.io'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Prathamesh Ghatole'
+theme = "paper"
+
+#disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # add disqus comments
+
+[params]
+  # color style
+  color = 'linen'                   # linen, wheat, gray, light
+
+  # header social icons
+  twitter = 'PrathameshG69'       # twitter.com/YOUR_TWITTER_ID
+  github = 'Prathamesh-Ghatole'         # github.com/YOUR_GITHUB_ID
+  instagram = 'snaek.mp3'   # instagram.com/YOUR_INSTAGRAM_ID
+  # mastodon = 'YOUR_MASTODON_LINK'   # e.g. 'https://mastodon.instance/@xxx'
+  # rss = true                        # show rss icon
+
+  # home page profile
+  # avatar = 'GRAVATAR_EMAIL'         # Gravatar email or image url
+  # name = 'Prathamesh Ghatole'
+  # bio = 'YOUR_BIO'
+
+  # misc
+  # disableHLJS = true                # disable requesting highlight.js
+  # monoDarkIcon = true               # show monochrome dark mode icon
+  # gravatarCdn = 'GRAVATAR_CDN_LINK' # e.g. 'https://cdn.v2ex.com/gravatar/'
