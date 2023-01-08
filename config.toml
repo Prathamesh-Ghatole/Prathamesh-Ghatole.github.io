@@ -1,27 +1,79 @@
-baseURL = 'http://prathamesh-ghatole.github.io'
-languageCode = 'en-us'
-title = 'Prathamesh Ghatole'
-theme = "paper"
+# baseURL = 'http://prathamesh-ghatole.github.io'
+# languageCode = 'en-us'
+# title = 'Prathamesh Ghatole - Portfolio'
 
-#disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # add disqus comments
+####
+
+baseURL = 'prathamesh-ghatole.github.io/'
+languageCode = 'en-us'
+title = 'Portflio - Prathamesh Ghatole'
+theme = "terminal"
 
 [params]
-  # color style
-  color = 'linen'                   # linen, wheat, gray, light
+  # dir name of your main content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
 
-  # header social icons
-  twitter = 'PrathameshG69'       # twitter.com/YOUR_TWITTER_ID
-  github = 'Prathamesh-Ghatole'         # github.com/YOUR_GITHUB_ID
-  instagram = 'snaek.mp3'   # instagram.com/YOUR_INSTAGRAM_ID
-  # mastodon = 'YOUR_MASTODON_LINK'   # e.g. 'https://mastodon.instance/@xxx'
-  # rss = true                        # show rss icon
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "orange"
 
-  # home page profile
-  # avatar = 'GRAVATAR_EMAIL'         # Gravatar email or image url
-  # name = 'Prathamesh Ghatole'
-  # bio = 'YOUR_BIO'
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 0
 
-  # misc
-  # disableHLJS = true                # disable requesting highlight.js
-  # monoDarkIcon = true               # show monochrome dark mode icon
-  # gravatarCdn = 'GRAVATAR_CDN_LINK' # e.g. 'https://cdn.v2ex.com/gravatar/'
+  # show selector to switch language
+  showLanguageSelector = false
+
+  # set theme to full screen width
+  fullWidthTheme = true
+
+  # center theme with default width
+  centerTheme = false
+
+  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
+  # then the file will be used as a cover automatically.
+  # With this option you don't have to put the `cover` param in a front-matter.
+  autoCover = false
+
+  # set post to show the last updated
+  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+  showLastUpdated = false
+
+  # set a custom favicon (default is a `themeColor` square)
+  # favicon = "favicon.ico"
+
+  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
+  # updatedDatePrefix = "Updated"
+
+  # set all headings to their default size (depending on browser settings)
+  # oneHeadingSize = true # default
+
+  # whether to show a page's estimated reading time
+  # readingTime = false # default
+
+  # whether to show a table of contents
+  # can be overridden in a page's front-matter
+  # Toc = false # default
+
+  # set title for the table of contents
+  # can be overridden in a page's front-matter
+  # TocTitle = "Table of Contents" # default
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Portfolio - Prathamesh Ghatole"
+    subtitle = "duh"
+    owner = "Prathamesh Ghatole"
+    keywords = "porfolio, Prathamesh Ghatole, Ghatole, Prathamesh"
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+    [languages.en.params.logo]
+      logoText = "Prathamesh Ghatole"
+      logoHomeLink = "/"

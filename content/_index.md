@@ -3,19 +3,9 @@ title: "Portfolio"
 # date: 2023-01-07T02:45:38+05:30
 draft: false
 ---
+Updated Jan 07 2023
 ### GSoC '22 @ Metabrainz ☀| Aspiring Data Engineer💿| Data Science @ IITM 🧠 | Pianist/Music Producer 🎧
 
-Updated Jan 07 2023
-
-<!-- ### ☎️ Contact: -->
-
-<!-- 📧 **Email**: [prathamesh.s.ghatole@gmail.com](mailto:prathamesh.s.ghatole@gmail.com)
-
-👔 **Linkedin**: [https://www.linkedin.com/in/prathamesh-ghatole](https://www.linkedin.com/in/prathamesh-ghatole)
-
-🐦 **Twitter**: [https://twitter.com/PrathameshG69](https://twitter.com/PrathameshG69)
-
-💻 **GitHub**: [https://github.com/Prathamesh-Ghatole/](https://github.com/Prathamesh-Ghatole/) -->
 [📧 **Email**](mailto:prathamesh.s.ghatole@gmail.com) | 
 [👔 **Linkedin**](https://www.linkedin.com/in/prathamesh-ghatole) | 
 [🐦 **Twitter**](https://twitter.com/PrathameshG69) | 
@@ -25,7 +15,7 @@ Updated Jan 07 2023
 
 # 💫 About Me
 
-Hi, I am Prathamesh, an aspiring Data Engineer based in Pune with a sheer obsession for music & computers. I'm currently working at MetaBrainz.org as a Google Summer of Code '22 Contributor. (Check out my work blog [here](https://blog.metabrainz.org/?p=9785)!)
+Hi, I am Prathamesh, an aspiring Data Engineer based in Pune with a sheer obsession for music & computers. I'm currently working at MetaBrainz.org as a Google Summer of Code '22 Contributor. (Check out my work blog [__here__](https://blog.metabrainz.org/?p=9785)!)
 
 Back in 4th grade, I started tinkering around with computers and developed a severe passion for technology, making it a highlight of most of my teen life.
 
@@ -117,5 +107,4 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
   [![My Last.fm](https://lastfm-recently-played.vercel.app/api?user=snaekboi)](https://www.last.fm/user/snaekboi) 
 - Been trying to get into books as well!
 My favorites are **“The Subtle Art of Not Giving a F*ck”** by Mark Manson, and “**Tokyo Ghoul”** by Sui Ishida.
-- I am also a huge anime & manga fan. You can find my favorites here: [https://myanimelist.net/profile/snaekboi](https://myanimelist.net/profile/snaekboi)
 ---
