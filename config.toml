@@ -4,7 +4,7 @@
 
 ####
 
-baseURL = 'prathamesh-ghatole.github.io/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Portflio - Prathamesh Ghatole'
 theme = "terminal"
