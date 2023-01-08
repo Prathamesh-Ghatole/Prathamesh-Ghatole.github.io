@@ -3,7 +3,7 @@ title: "Portfolio"
 date: 2023-01-07T02:45:38+05:30
 draft: false
 ---
-
+![Cover Image](/cover.png)
 `Updated Jan 08 2023`
 
 ### GSoC '22 @ Metabrainz ☀| Aspiring Data Engineer💿| Data Science @ IITM 🧠 | Pianist/Music Producer 🎧
@@ -30,7 +30,9 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
 
 # 🎯 Skills:
 - 🛠 **Software Engineering**: Python, Git, Linux, REST APIs, Jupyter Notebooks
-- 💾 **Data Science**: Pandas, NumPy, SQL (PostgreSQL), API Scraping, Matplotlib/Seaborn/Plotly, scikit-learn | Data Wrangling, Machine Learning.
+- 💾 **Data Science**: Pandas, NumPy, SQL (PostgreSQL), API Scraping, scikit-learn | Data Wrangling, Machine Learning.
+- 📊 **Data Visualization**: Tableau, PowerBI, Plotly, Matplotlib, Seaborn.
+- 🖼️ **Web Development**: HTML, CSS, Markdown, Hugo.
 - 👔 **Soft Skills**: Leadership, Team Management, Creative Writing, Good Sense of Humor.
 - 📻 **Audio/Music Production & Mixing**: ProTools, FL Studio, Audacity.
 - 🎨 **Design/Editing**: Adobe Photoshop, Da Vinci Resolve, Canva.
