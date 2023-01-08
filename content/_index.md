@@ -3,7 +3,7 @@ title: "Portfolio"
 # date: 2023-01-07T02:45:38+05:30
 draft: false
 ---
-Updated Jan 07 2023
+Updated Jan 08 2023
 ### GSoC '22 @ Metabrainz ☀| Aspiring Data Engineer💿| Data Science @ IITM 🧠 | Pianist/Music Producer 🎧
 
 [📧 **Email**](mailto:prathamesh.s.ghatole@gmail.com) | 
