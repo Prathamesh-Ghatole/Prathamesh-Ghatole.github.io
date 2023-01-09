@@ -1,6 +1,10 @@
 ### Welcome to my Portoflio site!
 
---- Insert Video Preview ---
+
+
+https://user-images.githubusercontent.com/77586602/211361178-8f234ee8-26bf-4dc8-98aa-d71e94fbe8b0.mp4
+
+
 
 Built and maintained with [Hugo](https://gohugo.io/), this site is built with convenience and ease of editability kept in mind.
 
