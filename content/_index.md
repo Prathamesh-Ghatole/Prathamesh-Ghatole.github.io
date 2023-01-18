@@ -47,8 +47,10 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
 
   - **One of 1,209 globally** selected GSoC contributors in 2022.
   - Implemented **high-performance** python code to process **27 billion rows of data in 83 hours**. Optimized Data-Lake **size by 53%** & **I/O speeds by 9%** using modern standards like ZSTD & Parquet; while providing **analytical insights** for various projects in a cross-functional environment using **Pandas, & PostgreSQL**.
-  - Project Details: [https://summerofcode.withgoogle.com/programs/2022/projects/OARdCHQq](https://summerofcode.withgoogle.com/programs/2022/projects/OARdCHQq)
-  - _Tech Stack: Python, Pandas, NumPy, PostgreSQL, Git._
+  - [```🔗 Project Details```](https://summerofcode.withgoogle.com/programs/2022/projects/OARdCHQq)
+  - [```🔗 Project Blog```](https://blog.metabrainz.org/2022/10/28/cleaning-up-the-music-listening-histories-dataset/)
+  - **Tech Stack**: Python, Pandas, NumPy, PostgreSQL, Git, Matplotlib
+  - **Skills used**: Data Science, Data Analytics, Data Engineering.
 <!-- <br> -->
 
 - #### 🎓 **President | [Student's Association of Artificial Intelligence, GHRCEM, Pune](https://www.linkedin.com/company/saai-ghrcem)** ```[Nov '21 - Mar 2022]```
@@ -104,6 +106,12 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
   - **Tech Stack**: Hugo, Git, GitHub Actions.
 
 ---
+
+# ⌨️ Blogs:
+
+- [```Google Summer of Code 101: A Practical Guide with Resources!```](https://prathamesh-ghatole.hashnode.dev/google-summer-of-code-101-a-practical-guide-with-resources)
+
+- [```Cleaning The Music Listening Histories Dataset```](https://blog.metabrainz.org/2022/10/28/cleaning-up-the-music-listening-histories-dataset/)
 
 # 📜 Certificates:
 
