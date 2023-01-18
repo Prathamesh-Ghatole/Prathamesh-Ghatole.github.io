@@ -81,6 +81,24 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
   - An off-campus 4-year degree program in Applied Data Science.
   - Courses: Statistics for Data Science, Mathematics for Data Science, Python, Computational Thinking, etc.
 
+---
+
+# 🏗️ Projects:
+- #### lastfm-scraper
+  - Last.fm offers services that allow users to track their music listening histories across multiple streaming services. However, I realized there was no way to download my own listening history for my own use!
+Inspired by Spotify Wrapped, I was hell-bent on utilizing this data for exciting analytics and machine learning applications. This is why I developed my own scraper to scrape my listening history by leveraging the last.fm API. The goal of this project is to scrape, process & deliver user data into accessible formats like CSV and JSON.
+  - **Project Demo**: http://lastfm-scraper.azurewebsites.net (Takes a while to load!)
+  - **Codebase**: https://github.com/Prathamesh-Ghatole/lastfm-scraper
+  - _Tech Stack: Python, Pandas, Git, MS Azure, HTML/CSS/JS, REST APIs (+ Caching), GitHub Actions_
+  - _Skills used: Data Wrangling, Data Cleaning, Cloud Deployment, CI/CD_
+
+- #### Portfolio Site
+  - This portfolio site was custom-built with clean looks and minimalism kept in mind. I used [Hugo](https://gohugo.io/), a static site generator to write the site contents in Markdown for better, distraction-free maintenance. Even the site rendering and hosting are automated with a simple CI/CD pipeline built using [GitHub Actions](https://docs.github.com/en/actions). The site is finally hosted on [GitHub pages](https://docs.github.com/en/pages).
+  - **Project Demo**: http://prathamesh-ghatole.github.io/
+  - **Codebase**: https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io
+
+---
+
 # 📜 Certificates:
 
 - [```Supervised Machine Learning & Classification in Python```](https://www.coursera.org/verify/EALDCHQLAM7D) | Coursera [Jul 2022]
