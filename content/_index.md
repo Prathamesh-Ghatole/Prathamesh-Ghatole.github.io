@@ -49,39 +49,35 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
   - Implemented **high-performance** python code to process **27 billion rows of data in 83 hours**. Optimized Data-Lake **size by 53%** & **I/O speeds by 9%** using modern standards like ZSTD & Parquet; while providing **analytical insights** for various projects in a cross-functional environment using **Pandas, & PostgreSQL**.
   - [```🔗 Project Details```](https://summerofcode.withgoogle.com/programs/2022/projects/OARdCHQq)
   - [```🔗 Project Blog```](https://blog.metabrainz.org/2022/10/28/cleaning-up-the-music-listening-histories-dataset/)
-  - **Tech Stack**: Python, Pandas, NumPy, PostgreSQL, Git, Matplotlib
+  - **Tech Stack**: Python, Pandas, NumPy, PostgreSQL, Git, Matplotlib, Apache Arrow
   - **Skills used**: Data Science, Data Analytics, Data Engineering.
-<!-- <br> -->
 
 - #### 🎓 **President | [Student's Association of Artificial Intelligence, GHRCEM, Pune](https://www.linkedin.com/company/saai-ghrcem)** ```[Nov '21 - Mar 2022]```
   - Operating Human Resources, Planning, and Execution for all SAAI Events.
   - **Hosted events and workshops** like “Tech Talks 1.0: Biostatistics w/  Mr. Shariq Mohammed, Boston University”, and “YOU 2.0: The complete personality upliftment program” with **200+ attendees** with **4.59/5.00** average event ratings.
-<!-- <br> -->
 
 - #### 👔 **Co-Chair | IEEE Student's Chapter, GHRCEM Pune** ```[Mar '21 - Current]```
   - **Hosted several flagship events** @ IEEE Pune Section, like:
   IEEE CODE-STROM [2022], EAC Funded Cloud & Data Engineering Workshop [2022]
   - **Represented the “Hadar Cluster”** (South East Asia) at **IEEE Asia Pacific’s CLAP [2021] program**.
-<!-- <br> -->
 
 - #### 👨‍💼 **Speaker and Project Lead | [Ek Bharat Shrestha Bharat Club, GHRCEM Pune](https://ekbharat.gov.in/images/InstituteActivities/Documents/205720210909102002/News%20Report%20on%20Culinary%20Festivals%20of%20Maharashtra%20with%20Opportunity%20to%20Learn%20in%20Culinary%20Practices%20of%20Odisha.pdf)** ```[Sep '21 - Nov 2021]```
   - Designed and presented **5+ inter-state presentations** to Aryan Institute of Technology, Bhubaneshwar, Odisha; while **Representing** GH Raisoni College of Engineering and Management Pune, Maharashtra.
-<!-- <br> -->
 
 - #### 🎓 **Vice President - Music Club, GH Raisoni College of Engineering & Management, Pune** ```[Aug 2021 - Nov 2021]```
   - Operated Human Resources, Planning, and execution for 6+ introductory and jamming sessions.
 
 # 🏫 Education:
 
-- #### 📕 [Btech. Artificial Intelligence](https://ghrcem.raisoni.net/artificial-intelligence) | G.H. Raisoni College of Engineering & Management, Pune ```[2020 - 2024]```
-  - SGPA: 9.01 [Feb 2021 - Current]
-  - An on-campus undergraduate 4-year degree program in Artificial Intelligence & Computer Science.
-  - Courses: Foundational Data Analytics & Statistics, Machine Learning, Artificial Intelligence Knowledge Representation, Object Oriented Programming, Computer Networks, Operating Systems, DSA, etc.
-
 - #### 📘 [BS. Data Science and Applications](http://onlinedegree.iitm.ac.in/) | Indian Institute of Technology Madras ```[2021 - 2025]```
   - SGPA: 8.50
   - An off-campus 4-year degree program in Applied Data Science.
   - Courses: Statistics for Data Science, Mathematics for Data Science, Python, Computational Thinking, etc.
+
+- #### 📕 [Btech. Artificial Intelligence](https://ghrcem.raisoni.net/artificial-intelligence) | G.H. Raisoni College of Engineering & Management, Pune ```[2020 - 2024]```
+  - SGPA: 9.01 [Feb 2021 - Current]
+  - An on-campus undergraduate 4-year degree program in Artificial Intelligence & Computer Science.
+  - Courses: Foundational Data Analytics & Statistics, Machine Learning, Artificial Intelligence Knowledge Representation, Object Oriented Programming, Computer Networks, Operating Systems, DSA, etc.
 
 ---
 
