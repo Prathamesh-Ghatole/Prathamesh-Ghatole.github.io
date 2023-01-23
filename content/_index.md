@@ -90,7 +90,7 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
   - **Tech Stack**: Python, Flask, Pandas, Git, MS Azure, HTML/CSS/JS, REST APIs, GitHub Actions.
   - **Skills used**: Data Wrangling, Data Cleaning, Cloud, CI/CD.
 
-- #### 📄 Document Topic Modelling | [```🔗 Codebase```](https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io)
+- #### 📄 Document Topic Modelling | [```🔗 Codebase```](https://github.com/Prathamesh-Ghatole/Document-Topic-Modelling)
   - A simple interactive commandline utility to classify text into pre-defined topics using Machine Learning (NLP). This project is based on the [```LDA (Latent Dirichlet Allocation) model```](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation), and built using Python, Scikit-learn, and Gensim.
 
   - **Tech Stack**: Python, Git, Scikit-learn, Gensim, Rich.
