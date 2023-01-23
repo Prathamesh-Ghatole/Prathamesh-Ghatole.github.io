@@ -29,9 +29,9 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
 ---
 
 # 🎯 Skills:
-- 🛠 **Software Engineering**: Python, Git, Linux, REST APIs, Jupyter Notebooks, VSCode, NeoVim.
+- 🛠 **Software Engineering**: Python, Git, Linux, REST APIs, Vim.
 - 💾 **Data Science**: Pandas, NumPy, SQL (PostgreSQL), API Scraping, scikit-learn | Data Wrangling, Machine Learning.
-- 📊 **Data Visualization**: Tableau, PowerBI, Plotly, Matplotlib, Seaborn.
+- 📊 **Data Visualization**: Tableau, Matplotlib, Seaborn, Plotly.
 - 🖼️ **Web Development**: HTML, CSS, Markdown, Hugo.
 - 👔 **Soft Skills**: Leadership, Team Management, Creative Writing, Good Sense of Humor.
 - 📻 **Audio/Music Production & Mixing**: ProTools, FL Studio, Audacity.
