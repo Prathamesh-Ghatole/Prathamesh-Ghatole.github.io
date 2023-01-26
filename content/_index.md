@@ -34,7 +34,7 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
 - 📊 **Data Visualization**: Tableau, Matplotlib, Seaborn, Plotly.
 - 🖼️ **Web Development**: HTML, CSS, Markdown, Hugo.
 - 👔 **Soft Skills**: Leadership, Team Management, Creative Writing, Good Sense of Humor.
-- 📻 **Audio/Music Production & Mixing**: ProTools, FL Studio, Audacity.
+- 📻 **Audio/Music Production & Mixing**: FL Studio, Pro Tools Audacity.
 - 🎨 **Design/Editing**: Adobe Photoshop, Da Vinci Resolve, Canva.
 - 📮 **Office/Productivity/Management**: Notion, Microsoft Office Suite, Google Workspace.
 - 📸 **Social Media/Marketing**: 3+yrs of Business Social Media Handling Linkedin, Twitter, Instagram, GitHub, Medium.com - using toneden.io &later.com.
@@ -101,29 +101,36 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
 
   - **Tech Stack**: Hugo, Git, GitHub Actions.
 
+- #### 💵 Monthly Budget Dashboard - Tableau | [```🔗 Project Demo```](https://public.tableau.com/views/VisualizationWorkbook_16720800537450/MonthlyBudgetDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
+  - A simple and elegant tableau dashboard that visualizes my monthly financial spending habits. For this project, I fetched data from my personal spreadsheet based budget tracking system hosted on [notion](notion.so).
+
+  - **Tech Stack**: Tableau, MS Excel
+  - **Skills used**: Data Visualization, Dashboarding.
+
 ---
 
 # ⌨️ Blogs:
 
-- [```Google Summer of Code 101: A Practical Guide with Resources!```](https://prathamesh-ghatole.hashnode.dev/google-summer-of-code-101-a-practical-guide-with-resources)
+- [```🔗 Google Summer of Code 101: A Practical Guide with Resources!```](https://prathamesh-ghatole.hashnode.dev/google-summer-of-code-101-a-practical-guide-with-resources)
 
-- [```Cleaning The Music Listening Histories Dataset```](https://blog.metabrainz.org/2022/10/28/cleaning-up-the-music-listening-histories-dataset/)
+- [```🔗 Cleaning The Music Listening Histories Dataset```](https://blog.metabrainz.org/2022/10/28/cleaning-up-the-music-listening-histories-dataset/)
 
 # 📜 Certificates:
 
-- [```Supervised Machine Learning & Classification in Python```](https://www.coursera.org/verify/EALDCHQLAM7D) | Coursera [Jul 2022]
-- [```Introduction to Python Data Analysis```](http://coursera.org/verify/C7UQEBMK26DK) | Coursera [Sep 2021]
-- [```Data Collection and Processing with Python```](https://coursera.org/verify/YYCGSTWDRNW6) | Coursera [Feb 2022]
-- [```Applied Plotting, Charting & Data Representation in Python```](http://coursera.org/verify/XCW3F8W864ZK) | Coursera [Oct 2021]
-- [```Applied Text Mining in Python - Coursera```](https://coursera.org/verify/B5JC3CZXZAFF) | Coursera [Jan 2022]
-- [```Regular Expressions in Python```](https://www.coursera.org/verify/QAFMHLVENJBS) | Coursera [Dec 2021]
-- [```Data Manipulation with Pandas```](https://www.kaggle.com/learn/certification/prathameshghatole/pandas) | Kaggle [Sep 2021]
-- [```Data Cleaning with Python```](https://www.kaggle.com/learn/certification/prathameshghatole/data-cleaning) | Kaggle[Oct 2021]
-- [```Git from Basics to Advanced: Practical Guide for Developers```](http://ude.my/UC-2058f8c0-2019-4ebf-b5f9-93a7862f8925) | Udemy [Jul 2021]
-- [```Python Basics```](https://coursera.org/verify/XTW6T783SRUC) | Coursera [Feb 2022]
-- [```Python Functions, Files, and Dictionaries```](https://coursera.org/verify/9YXWBE345T9G/) | Coursera [Jan 2022]
-- [```Python Classes and Inheritance```](https://coursera.org/verify/447F4NQL694J) | Coursera [Feb 2022]
-- [```Working with BigQuery```](http://coursera.com/verify/HXK4YXHGXJTT) | Coursera [Nov 2021]
+- [```🔗 Supervised Machine Learning & Classification in Python```](https://www.coursera.org/verify/EALDCHQLAM7D) | Coursera [Jul 2022]
+- [```🔗 Introduction to Python Data Analysis```](http://coursera.org/verify/C7UQEBMK26DK) | Coursera [Sep 2021]
+- [```🔗 Data Collection and Processing with Python```](https://coursera.org/verify/YYCGSTWDRNW6) | Coursera [Feb 2022]
+- [```🔗 Applied Plotting, Charting & Data Representation in Python```](http://coursera.org/verify/XCW3F8W864ZK) | Coursera [Oct 2021]
+- [```🔗 Applied Text Mining in Python - Coursera```](https://coursera.org/verify/B5JC3CZXZAFF) | Coursera [Jan 2022]
+- [```🔗 Regular Expressions in Python```](https://www.coursera.org/verify/QAFMHLVENJBS) | Coursera [Dec 2021]
+- [```🔗 Data Manipulation with Pandas```](https://www.kaggle.com/learn/certification/prathameshghatole/pandas) | Kaggle [Sep 2021]
+- [```🔗 Data Cleaning with Python```](https://www.kaggle.com/learn/certification/prathameshghatole/data-cleaning) | Kaggle[Oct 2021]
+- [```🔗 Git from Basics to Advanced: Practical Guide for Developers```](http://ude.my/UC-2058f8c0-2019-4ebf-b5f9-93a7862f8925) | Udemy [Jul 2021]
+- [```🔗 Python Basics```](https://coursera.org/verify/XTW6T783SRUC) | Coursera [Feb 2022]
+- [```🔗 Python Functions, Files, and Dictionaries```](https://coursera.org/verify/9YXWBE345T9G/) | Coursera [Jan 2022]
+- [```🔗 Python Classes and Inheritance```](https://coursera.org/verify/447F4NQL694J) | Coursera [Feb 2022]
+- [```🔗 Working with BigQuery```](http://coursera.com/verify/HXK4YXHGXJTT) | Coursera [Nov 2021]
 
 ---
 
