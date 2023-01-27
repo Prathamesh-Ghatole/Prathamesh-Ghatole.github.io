@@ -39,11 +39,12 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
 - 📮 **Office/Productivity/Management**: Notion, Microsoft Office Suite, Google Workspace.
 - 📸 **Social Media/Marketing**: 3+yrs of Business Social Media Handling Linkedin, Twitter, Instagram, GitHub, Medium.com - using toneden.io &later.com.
 - 📢 **Languages**: English, Marathi, Hindi (Proficient) | Japanese (Elementry)
+- 😄 **Interests**: Technology, Music Production, Playing Piano, Reading, Memes, Anime.
 
 ---
 
 ## 🔬 Work Experience
-- #### 💻 **Contributor | [Google Summer of Code 2022 @ Metabrainz](https://summerofcode.withgoogle.com/programs/2022/projects/OARdCHQq)** `[May '22 - Oct 2022]`
+- #### 💻 **GSoC Contributor | [Google Summer of Code 2022 @ Metabrainz](https://summerofcode.withgoogle.com/programs/2022/projects/OARdCHQq)** `[May '22 - Oct 2022]`
 
   - **One of 1,209 globally** selected GSoC contributors in 2022.
   - Implemented **high-performance** python code to process **27 billion rows of data in 83 hours**. Optimized Data-Lake **size by 53%** & **I/O speeds by 9%** using modern standards like ZSTD & Parquet; while providing **analytical insights** for various projects in a cross-functional environment using **Pandas, & PostgreSQL**.
@@ -61,7 +62,7 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
   IEEE CODE-STROM [2022], EAC Funded Cloud & Data Engineering Workshop [2022]
   - **Represented the “Hadar Cluster”** (South East Asia) at **IEEE Asia Pacific’s CLAP [2021] program**.
 
-- #### 👨‍💼 **Speaker and Project Lead | [Ek Bharat Shrestha Bharat Club, GHRCEM Pune](https://ekbharat.gov.in/images/InstituteActivities/Documents/205720210909102002/News%20Report%20on%20Culinary%20Festivals%20of%20Maharashtra%20with%20Opportunity%20to%20Learn%20in%20Culinary%20Practices%20of%20Odisha.pdf)** ```[Sep '21 - Nov 2021]```
+- #### 👨‍💼 **Speaker and Project Lead | [Ek Bharat Shrestha Bharat Club, GHRCEM, Pune](https://ekbharat.gov.in/images/InstituteActivities/Documents/205720210909102002/News%20Report%20on%20Culinary%20Festivals%20of%20Maharashtra%20with%20Opportunity%20to%20Learn%20in%20Culinary%20Practices%20of%20Odisha.pdf)** ```[Sep '21 - Nov 2021]```
   - Designed and presented **5+ inter-state presentations** to Aryan Institute of Technology, Bhubaneshwar, Odisha; while **Representing** GH Raisoni College of Engineering and Management Pune, Maharashtra.
 
 - #### 🎓 **Vice President - Music Club, GH Raisoni College of Engineering & Management, Pune** ```[Aug 2021 - Nov 2021]```
