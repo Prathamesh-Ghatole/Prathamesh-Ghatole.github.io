@@ -36,8 +36,7 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
 - 👔 **Soft Skills**: Leadership, Team Management, Creative Writing, Good Sense of Humor.
 - 📻 **Audio/Music Production & Mixing**: FL Studio, Pro Tools Audacity.
 - 🎨 **Design/Editing**: Adobe Photoshop, Da Vinci Resolve, Canva.
-- 📮 **Office/Productivity/Management**: Notion, Microsoft Office Suite, Google Workspace.
-- 📸 **Social Media/Marketing**: 3+yrs of Business Social Media Handling Linkedin, Twitter, Instagram, GitHub, Medium.com - using toneden.io &later.com.
+- 📸 **Social Media/Marketing**: 3+yrs of Business Social Media Handling Linkedin, Twitter, Instagram, GitHub, etc - using toneden.io & later.com.
 - 📢 **Languages**: English, Marathi, Hindi (Proficient) | Japanese (Elementry)
 - 😄 **Interests**: Technology, Music Production, Playing Piano, Reading, Memes, Anime.
 
@@ -106,12 +105,13 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
   - This portfolio site was custom-built with clean looks and minimalism kept in mind. I used [```Hugo```](https://gohugo.io/), a static site generator to write the site contents in Markdown for better, distraction-free maintenance. Even the site rendering and hosting are automated with a simple CI/CD pipeline built using [```GitHub Actions```](https://docs.github.com/en/actions). The site is finally hosted on [```GitHub pages```](https://docs.github.com/en/pages).
 
   - **Tech Stack**: Hugo, Git, GitHub Actions.
+  - **Skills Used**: Web Development, CI/CD.
 
-- #### 💵 Monthly Budget Dashboard - Tableau | [```🔗 Project Demo```](https://public.tableau.com/views/VisualizationWorkbook_16720800537450/MonthlyBudgetDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+- #### 💵 Monthly Budget Tableau Dashboard | [```🔗 Project Demo```](https://public.tableau.com/views/VisualizationWorkbook_16720800537450/MonthlyBudgetDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
   - A simple and elegant tableau dashboard that visualizes my monthly financial spending habits. For this project, I fetched data from my personal spreadsheet based budget tracking system hosted on [notion](notion.so).
 
-  - **Tech Stack**: Tableau, MS Excel
+  - **Tech Stack**: Tableau, MS Excel.
   - **Skills used**: Data Visualization, Dashboarding.
 
 ---
@@ -125,7 +125,7 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
 # 📜 Certificates:
 
 - [```🔗 Supervised Machine Learning & Classification in Python```](https://www.coursera.org/verify/EALDCHQLAM7D) | Coursera [Jul 2022]
-- [```🔗 Introduction to Python Data Analysis```](http://coursera.org/verify/C7UQEBMK26DK) | Coursera [Sep 2021]
+- [```🔗 Introduction to Data Science in Python```](http://coursera.org/verify/C7UQEBMK26DK) | Coursera [Sep 2021]
 - [```🔗 Data Collection and Processing with Python```](https://coursera.org/verify/YYCGSTWDRNW6) | Coursera [Feb 2022]
 - [```🔗 Applied Plotting, Charting & Data Representation in Python```](http://coursera.org/verify/XCW3F8W864ZK) | Coursera [Oct 2021]
 - [```🔗 Applied Text Mining in Python - Coursera```](https://coursera.org/verify/B5JC3CZXZAFF) | Coursera [Jan 2022]
