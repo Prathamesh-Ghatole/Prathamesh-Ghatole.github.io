@@ -69,7 +69,7 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
 
 # 🏫 Education:
 
-- #### 📘 [BS. Data Science and Applications](http://onlinedegree.iitm.ac.in/) | Indian Institute of Technology Madras ```[2021 - 2025]```
+- #### 📘 [BS. Data Science and Applications](http://onlinedegree.iitm.ac.in/) | Indian Institute of Technology, Madras ```[2021 - 2025]```
   - SGPA: 8.50
   - An off-campus 4-year degree program in Applied Data Science.
   - Courses: Statistics for Data Science, Mathematics for Data Science, Python, Computational Thinking, etc.
@@ -78,6 +78,11 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
   - SGPA: 9.01 [Feb 2021 - Current]
   - An on-campus undergraduate 4-year degree program in Artificial Intelligence & Computer Science.
   - Courses: Foundational Data Analytics & Statistics, Machine Learning, Artificial Intelligence Knowledge Representation, Object Oriented Programming, Computer Networks, Operating Systems, DSA, etc.
+
+- #### 📗 [Career and Leadership Aid Program (CLAP) 2021](https://yp.ieeer10.org/career-and-leadership-aid-program/) | IEEE Region 10 (Asia Pacific) ```[2020 - 2024]```
+  - A 3 Day boot camp by IEEE Asia Pacific (Region 10) about academia, entrepreneurship, and industry careers.
+  - Represented the Hadar Cluster (with delegates from India, Sri Lanka, Bangladesh & Pakistan)
+  - Hosted a “Booth Presentation” about “workplace communication” for the Hadar Cluster.
 
 ---
 
