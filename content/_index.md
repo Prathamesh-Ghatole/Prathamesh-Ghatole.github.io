@@ -17,14 +17,14 @@ draft: false
 
 # 💫 About Me
 
-Hi, I am Prathamesh, an aspiring Data Engineer based in Pune with a sheer obsession for music & computers. I'm currently working at MetaBrainz.org as a Google Summer of Code '22 Contributor. (Check out my work blog [`here`](https://blog.metabrainz.org/?p=9785)!)
+Hi, I am Prathamesh, an aspiring Data Engineer based in Pune with a sheer obsession for data, music, computers, cats, and open-source software.
+
+I have previously worked with the MetaBrainz Foundation as a Google Summer of Code ‘22 contributor, and as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and applications at IIT Madras and a BTech. in AI at GHRCEM Pune, where my friends know me for my enthusiasm & weird sense of humor, and my teachers know me for my perseverance and reliability.
 
 Back in 4th grade, I started tinkering around with computers and developed a severe passion for technology, making it a highlight of most of my teen life.
 
-5 years ago I developed a similar passion for making & consuming insane amounts of music.
-Given my 3+ years of experience in Music Production, playing Piano, & Audio Engineering under my artist alias “SNÆK” & a life-long love for computers, my passion for the world of audio and technology has now convolved into a passion for Data Science and AI involving various audio Technologies!
-
-And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and applications at IIT Madras and a BTech. in AI at GHRCEM Pune, where my friends know me for my enthusiasm & weird sense of humor, and my teachers know me for my perseverance and reliability.
+6 years ago I developed a similar passion for making & consuming insane amounts of music.
+Given my 3+ years of experience in Music Production, playing Piano, & Audio Engineering under my artist alias “SNÆK” & a life-long love for computers, my passion for the world of music and technology has now convolved into a passion for Data and AI involving various audio Technologies!
 
 ---
 
