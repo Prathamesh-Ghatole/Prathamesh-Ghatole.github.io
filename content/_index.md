@@ -79,7 +79,7 @@ Given my 3+ years of experience in Music Production, playing Piano, & Audio Engi
 - #### 🎓 **Vice President - Music Club, GH Raisoni College of Engineering & Management, Pune** ```[Aug 2021 - Nov 2021]```
   - Operated Human Resources, Planning, and execution for 6+ introductory and jamming sessions.
 
-- #### 📗 [Career and Leadership Aid Program (CLAP) 2021](https://yp.ieeer10.org/career-and-leadership-aid-program/) | IEEE Region 10 (Asia Pacific) ```[2020 - 2024]```
+- #### 📗 [Career and Leadership Aid Program (CLAP) 2021](https://yp.ieeer10.org/career-and-leadership-aid-program/) | IEEE Region 10 (Asia Pacific) ```[2021 - 2021]```
   - A 3 Day boot camp by IEEE Asia Pacific (Region 10) about academia, entrepreneurship, and industry careers.
   - Represented the Hadar Cluster (with delegates from India, Sri Lanka, Bangladesh & Pakistan)
   - Hosted a “Booth Presentation” about “workplace communication” for the Hadar Cluster.
