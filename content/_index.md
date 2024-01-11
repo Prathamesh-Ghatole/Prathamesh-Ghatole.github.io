@@ -62,10 +62,10 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
 
 #### **Contributor (Data Engineer & Analyst) | [Google Summer of Code 2022 @ Metabrainz](https://summerofcode.withgoogle.com/programs/2022/projects/OARdCHQq)** `[May '22 - Oct 2022]`
 
-- Streamlined **Data Analytics** and **Visualization**, created **Dashboards**, conducted **Benchmarking**, and handled **Report Generation** for the ”ListenBrainz” project in collaboration with various teams at the MetaBrainz Foundation.
 - Executed various Data Engineering functions, employing **high-performance Python and SQL scripts** with **PostgreSQL, Pandas, Apache Arrow, and Numba** to optimize & transform the Music Listening Histories Dataset.
 - Led the overhaul of **611.39 GB (27 billion rows)** of music streaming data, originating from **583k+ last.fm users**.
 - Significantly **enhanced Data-Lake efficiency** by reducing **storage size by 53%** and improving **read/write speeds by 9%**.
+- Streamlined **Data Analytics** and **Visualization**, created **Dashboards**, conducted **Benchmarking**, and handled **Report Generation** for the ”ListenBrainz” project in collaboration with various teams at the MetaBrainz Foundation.
 - **Tech Stack**: Python, SQL (PostgreSQL), Pandas, Apache Arrow, Matplotlib, Git, Shell Scripting.
 - **Domain**: Data Engineering, Data Analytics.
 - **Project Summary**: https://blog.metabrainz.org/?p=9785
