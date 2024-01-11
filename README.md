@@ -17,3 +17,9 @@ This clean & minimal single-page static site is based on [Panr](https://github.c
    - Windows: https://gohugo.io/installation/
    - Linux: `sudo apt install hugo`
 5. Run server: `hugo server`
+
+### Modifying:
+- Edit `config.toml` to change site title, description, etc.
+- Replace files in `static/` to change favicon, banner, etc.
+- Edit `content/_index.md` to change content of the site.
+- Commit & push changes to update the website!
