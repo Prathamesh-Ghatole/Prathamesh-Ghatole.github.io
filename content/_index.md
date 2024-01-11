@@ -48,7 +48,7 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
 #### **Data Engineer Intern | [New Engen Inc.](https://www.newengen.com/)** `[Dec '23 - Current]`
 
 - Working with New Engen Inc to build Data Pipelines and transformations to handle massive amounts of Marketing Data for clients like Jockey, Google Fiber, Home Depot and more!
-- **Tech Stack**: Python, Google Cloud Platform, BigQuery, Airflow, Adverity, SalesForce Intelligence (formerly Datorama), Git, etc.
+- **Tech Stack**: Python, dbt, Google Cloud Platform, BigQuery, Airflow, Adverity, SalesForce Intelligence (Datorama), Git, etc.
 
 #### **Contributor (Data Engineer & Analyst) | [Google Summer of Code 2023 @ Metabrainz](https://summerofcode.withgoogle.com/programs/2023/projects/TsPwhRct)** `[May '23 - Nov 2023]`
 
