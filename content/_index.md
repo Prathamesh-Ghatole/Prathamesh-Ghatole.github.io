@@ -6,7 +6,7 @@ draft: false
 {{<image src="/cover.png">}}
 `Updated Jan 11 2024`
 
-#### Data Engineer Intern @ New Engen 💿 | 2x GSoC @ MetaBrainz ☀️ | Open Source 🧑‍💻 | Python Dev 🐍 | IIT Madras 🧠
+#### Data Engineer 💿 | 2x GSoC @ MetaBrainz ☀️ | Open Source 🧑‍💻 | Python Dev 🐍 | IIT Madras 🧠
 
 [📧 **Email**](mailto:prathamesh.s.ghatole@gmail.com) | 
 [👔 **Linkedin**](https://www.linkedin.com/in/prathamesh-ghatole) | 
@@ -18,54 +18,53 @@ draft: false
 
 # 💫 About Me
 
-Hi, I am Prathamesh, an aspiring Data Engineer & Analyst based in Pune with a sheer obsession for data, music, computers, and open-source software.
+Hello, I'm Prathamesh, a seasoned Data Engineer & Analyst with a knack for turning raw data into actionable insights. With 2+ years of experience, and expertise in Data Extraction, Data Integration, Web Scraping, ETL, and Data Analytics, I've slashed costs by thousands of $$$ for my clients in Open Source and Corporate domains.
 
 Back in 4th grade, I started tinkering around with computers and developed a severe passion for technology, making it a highlight of most of my teen life. 6 years ago I developed a similar passion for making & consuming insane amounts of music. Given my 3+ years of experience in Music Production, playing Piano, & Audio Engineering under my artist alias “SNÆK” & a lifelong love for computers, my passion for the world of music and technology has now convolved into a passion for Data and AI involving various audio Technologies!
 
-I've 5+ months of experience, working as a Google Summer of Code '22 contributor @MetaBrainz where I've optimized, transformed, and cleaned 600+GBs of data and created various dashboards, ran benchmarks, and generated reports - aiding in the successful cleanup of the massive Music Listening Histories Dataset! I also love teaching and have worked as a Machine Learning Teaching Assistant at GHRCEM, Pune - instructing 70+ sophomores about the practical applications of ML.
-
-And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and applications at IIT Madras, and a BTech. in AI at GHRCEM Pune, where my friends know me for my enthusiasm & weird sense of humor, and my teachers know me for my perseverance and reliability.
-
+With proven work experience at competitive programs like Google Summer of Code, delivering excellent results to my freelance client, and a background in Artificial Intelligence, I bring a blend of expertise to leverage data and drive results.
 ---
 
 # 🎯 Skills:
 
-- **Domain**: Data Engineering, Data Analytics, Web Scraping, Python Development, API Scraping, Machine Learning, Web Automation.
-- **Languages and Tools**: Python, SQL, Linux, Git, Docker, Shell Scripting, MS Excel.
-- **Frameworks**: PostgreSQL, BigQuery, GitHub, Flask, BeautifulSoup, Pandas, Numpy, scikit-learn, Apache Arrow, Numba Multiprocessing, Mechanize.
-- **Dashboarding & Visualization**: Tableau, Matplotlib, Plotly, Seaborn, Hugo, HTML, CSS.
-- **Cloud**: Microsoft Azure - App Service, Linux VM Compute, ML Workspace | GCP - BigQuery
+- **Domain**: Data Engineering, Data Analytics, Python Development, API Scraping, AI Engineering
+- **Languages**: Python, SQL, Spark SQL, SPARQL, Shell Scripting
+- **Data Processing**: Pandas, Apache Spark (PySpark), NumPy | Airflow, Kafka, dbt, Databricks DLT Pipelines, Cron
+- **Data Integration**: PostgreSQL, BigQuery, Delta Lake, Apache Hive | Beautiful Soup, Scrapy, Requests, Regex
+- **Cloud & DevOps**: Git, Linux, Docker, CI/CD | Databricks, Azure (App Service, Azure Linux VM Compute)
+- **Misc**: Tableau, Matplotlib, Streamlit, Flask, HTML, CSS | Scikit-Learn, Tensorflow, llama-cpp, hugging-face
+- **Course Work**: DBMS, Big Data Computing, Business Data Management, Business Intelligence
 - **Soft Skills**: Leadership, Team Management, Creative Writing, Good Sense of Humor.
 - **Audio/Music Production & Mixing**: FL Studio, Pro Tools Audacity.
 - **Design/Editing**: Adobe Photoshop, Da Vinci Resolve, Canva.
-- **Social Media/Marketing**: 3+ years of Business Social Media Handling Linkedin, Twitter, Instagram, GitHub, etc - using toneden.io & later.com.
 - **Languages**: English, Marathi, Hindi (Proficient) | Japanese (Elementry), Russian (Elementry).
 - **Interests**: Technology, Music Production, Playing Piano, Reading, Cats.
 
 ---
 ## 🔬 Work Experience
 
-#### **Data Engineer Intern | [New Engen Inc.](https://www.newengen.com/)** `[Dec '23 - Current]`
+#### **Data Engineer Intern | [New Engen Inc.](https://www.newengen.com/)** `[Dec '23 - Mar '24]`
+- Assisted with Data Modelling and implementing Data Pipelines to Extract, Load, and Transform raw Facebook Ads data for Business Intelligence and Data Analytics teams at New Engen.
 
-- Working with New Engen Inc to build Data Pipelines and transformations to handle massive amounts of Marketing Data for clients like Jockey, Google Fiber, Home Depot and more!
+- Migrated complex pipelines from Salesforce Datorama and Adverity to a custom, In-house solution using GCP BigQuery, dbt, Apache Airflow, and Python.
+
 - **Tech Stack**: Python, dbt, Google Cloud Platform, BigQuery, Airflow, Adverity, SalesForce Intelligence (Datorama), Git, etc.
 
-#### **Contributor (Data Engineer & Analyst) | [Google Summer of Code 2023 @ Metabrainz](https://summerofcode.withgoogle.com/programs/2023/projects/TsPwhRct)** `[May '23 - Nov 2023]`
+#### **Data Engineering & Analytics Contributor | [Google Summer of Code 2023 @ Metabrainz](https://summerofcode.withgoogle.com/programs/2023/projects/TsPwhRct)** `[May '23 - Nov 2023]`
 
-- Conducted **Big Data Analytics** using **SPARQL, SQL, Pandas (Python)** to the explore highest quality and quantity data sources from Wikidata & Geonames.
-- Orchestrated mission-critical infrastructure to **automate the extraction, transformation, and loading of mission-critical data**, **eliminating 90% manual data feeding processes** for areas in MusicBrainz.
--  Architected and executed an **end-to-end data pipeline** leveraging **Python, PostgreSQL, and Shell Scripting** to seamlessly **synchronize metadata for 500k+ entities** between Wikidata and MusicBrainz.
-- Established **CI/CD pipelines**, deployed services through **Docker**, devised comprehensive test suites with **Pytest**, and meticulously managed **documentation**.
+- Assembled an ETL pipeline from Wikidata to the MusicBrainz database, facilitating a 60% increase in new location data, and slashing manual data feeding by 90%. [[link](https://community.metabrainz.org/t/automate-areas-management-in-musicbrainz-gsoc-23-proposal/630489)]
+- Independently designed and developed a scalable, production ready solution using Python (pandas, multiprocessing, requests, sqlalchemy), SQL (PostgreSQL), and Docker. [[architecture](https://blog.metabrainz.org/2023/11/06/gsoc-23-automating-area-management-in-musicbrainz/)] [[code](https://github.com/Prathamesh-Ghatole/MusicBrainz-AreaBot)]
+- Conducted extensive research and experimentation, optimizing SPARQL queries to cater to Wikidata’s graph data structure to significantly improve data quality and extraction efficiency. [[details](https://community.metabrainz.org/t/automate-areas-management-in-musicbrainz-gsoc-23-proposal/630489##wikidata-musicbrainz-area-coverage-comparison-spam-detection-11)]
+
 - **Tech Stack**: Python, SQL (PostgreSQL), SPARQL, Pandas, Git, Docker, Shell Scripting.
 - **Domain**: Data Engineering, Data Analytics.
-- **Project Summary**: https://blog.metabrainz.org/?p=11035
 
-#### **Contributor (Data Engineer & Analyst) | [Google Summer of Code 2022 @ Metabrainz](https://summerofcode.withgoogle.com/programs/2022/projects/OARdCHQq)** `[May '22 - Oct 2022]`
+#### **Data Engineering & Analytics Contributor | [Google Summer of Code 2022 @ Metabrainz](https://summerofcode.withgoogle.com/programs/2022/projects/OARdCHQq)** `[May '22 - Oct 2022]`
 
-- Executed various Data Engineering functions, employing **high-performance Python and SQL scripts** with **PostgreSQL, Pandas, Apache Arrow, and Numba** to optimize & transform the Music Listening Histories Dataset.
-- Led the overhaul of **611.39 GB (27 billion rows)** of music streaming data, originating from **583k+ last.fm users**.
-- Significantly **enhanced Data-Lake efficiency** by reducing **storage size by 53%** and improving **read/write speeds by 9%**.
-- Streamlined **Data Analytics** and **Visualization**, created **Dashboards**, conducted **Benchmarking**, and handled **Report Generation** for the ”ListenBrainz” project in collaboration with various teams at the MetaBrainz Foundation.
+- Enriched, cleaned, and combined 27 billion rows of music streaming data using Python (Pandas, Multiprocessing), SQL (PostgreSQL), and Apache Arrow – achieving high efficiency in Python without Spark. [[details](https://community.metabrainz.org/t/clean-up-the-music-listening-histories-dataset-gsoc-2022-proposal/579503)]
+- Researched, experimented with, and implemented cutting-edge technologies like Zstandard and Apache Arrow to optimize data lake efficiency, resulting in a 53% reduction in storage and a 9% improvement in read/write speeds. [[details](https://blog.metabrainz.org/2022/10/28/cleaning-up-the-music-listening-histories-dataset/)]
+- Performed Data Analytics and published Benchmarks, Dashboards, and Reports to help the collaborating teams better understand and utilize the data to train state-of-the-art Music Recommendation Systems.
+
 - **Tech Stack**: Python, SQL (PostgreSQL), Pandas, Apache Arrow, Matplotlib, Git, Shell Scripting.
 - **Domain**: Data Engineering, Data Analytics.
 - **Project Summary**: https://blog.metabrainz.org/?p=9785
@@ -81,31 +80,39 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
 
 #### [BS. Data Science and Applications](http://onlinedegree.iitm.ac.in/) | Indian Institute of Technology, Madras ```[2021 - 2025]```
   - An off-campus 4-year degree program in Applied Data Science.
-  - **SGPA**: 8.24
+  - **CGPA**: 8.24
 
 #### [Btech. Artificial Intelligence](https://ghrcem.raisoni.net/artificial-intelligence) | G.H. Raisoni College of Engineering & Management, Pune ```[2020 - 2024]```
   - An on-campus undergraduate 4-year degree program in Artificial Intelligence & Computer Science.
-  - **SGPA**: 8.78 [Feb 2021 - Current]
+  - **CGPA**: 8.88
 
 ---
 
 # 🏗️ Projects:
 
-#### lastfm-scraper | [```🔗 Project Demo```](http://lastfm-scraper.azurewebsites.net) | [```🔗 Codebase```](https://github.com/Prathamesh-Ghatole/lastfm-scraper)
+#### Freelance Project 1 | [proprietary]
+  - Scalable, fault-tolerant data pipeline to scrape BSE/NSE notices, extract intelligence using Google Gemini, and publish email updates.
+  - Written in Python, orchestrated with Cron. Containerized and Deployed on client VPS. This project was very heavy on Data Scraping and Cleaning using Beautiful Soup, PyPDF, and RegEx.
+  - **Tech Stack**: Python, SQL (PostgreSQL), Cron, Linux, RegEX, Beautiful Soup
+  - **Skills Used**: Data Scraping, ETL, DevOps
 
-  - [```Last.fm```](https://www.last.fm/) offers services that allow users to track their music listening histories across multiple streaming services. However, I realized there was no way to download my own listening history for my own use! Inspired by Spotify Wrapped, I was hell-bent on utilizing this data for exciting analytics and machine learning applications. This is why I developed my own scraper to scrape my listening history by leveraging the last.fm API. The goal of this project is to scrape, process & deliver user data into accessible formats like CSV and JSON.
+#### Freelance Project 2 | [proprietary]
+  - Deterministic NLP solution to incrementally extract KPIs and publish reports from daily logs for a major drilling intelligence firm in UK.
+  - Long term project heavy on Python Development. Maintains outstanding code quality with intricate OOP design, reliable tests, and containerized deployment.
+  - **Tech Stack**: Python, Pandas, RegEx (heavy usage), Excel
+  - **Skills Used**: Data Scraping, ETL, DevOps
+
+#### lastfm-scraper | [```🔗 Codebase```](https://github.com/Prathamesh-Ghatole/lastfm-scraper)
+
+  - Lastfm-scraper is a simple platform to scrape, clean, analyze, and download your music listening history for analytics and machine learning applications from last.fm, a music service to track and organize user music listening history across multiple devices and streaming services.
+  -  Implemented using Python, this project aims to scrape, process and deliver music streaming user data into accessible formats like CSV and JSON using Pandas by scraping the last.fm API. This project is hosted on Azure app service through a CI/CD pipeline using GitHub Actions.
   - **Tech Stack**: Python, Flask, Pandas, Git, MS Azure, HTML/CSS/JS, REST APIs, GitHub Actions.
-  - **Skills used**: Data Wrangling, Data Cleaning, Cloud, CI/CD.
+  - **Skills used**: Data Wrangling, Data Cleaning, Cloud, DevOps
 
 #### Document Topic Modelling | [```🔗 Codebase```](https://github.com/Prathamesh-Ghatole/Document-Topic-Modelling)
   - A simple interactive commandline utility to classify text into pre-defined topics using Machine Learning (NLP). This project is based on the [```LDA (Latent Dirichlet Allocation) model```](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation), and built using Python, Scikit-learn, and Gensim.
   - **Tech Stack**: Python, Git, Scikit-learn, Gensim, Rich.
   - **Skills used**: Machine Learning, Natural Language Processing.
-
-#### Portfolio Site | [```🔗 Project Demo```](http://prathamesh-ghatole.github.io/) | [```🔗 Codebase```](https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io)
-  - This portfolio site was custom-built with clean looks and minimalism kept in mind. I used [```Hugo```](https://gohugo.io/), a static site generator to write the site contents in Markdown for better, distraction-free maintenance. Even the site rendering and hosting are automated with a simple CI/CD pipeline built using [```GitHub Actions```](https://docs.github.com/en/actions). The site is finally hosted on [```GitHub pages```](https://docs.github.com/en/pages).
-  - **Tech Stack**: Hugo, Git, GitHub Actions.
-  - **Skills Used**: Web Development, CI/CD.
 
 #### Monthly Budget Tableau Dashboard | [```🔗 Project Demo```](https://public.tableau.com/views/VisualizationWorkbook_16720800537450/MonthlyBudgetDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
@@ -113,21 +120,31 @@ And as a 3rd-year undergrad, I am currently pursuing a BS in Data Science and ap
   - **Tech Stack**: Tableau, MS Excel.
   - **Skills used**: Data Visualization, Dashboarding.
 
+#### Portfolio Site | [```🔗 Project Demo```](http://prathamesh-ghatole.github.io/) | [```🔗 Codebase```](https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io)
+  - This portfolio site was custom-built with clean looks and minimalism kept in mind. I used [```Hugo```](https://gohugo.io/), a static site generator to write the site contents in Markdown for better, distraction-free maintenance. Even the site rendering and hosting are automated with a simple CI/CD pipeline built using [```GitHub Actions```](https://docs.github.com/en/actions). The site is finally hosted on [```GitHub pages```](https://docs.github.com/en/pages).
+  - **Tech Stack**: Hugo, Git, GitHub Actions.
+  - **Skills Used**: Web Development, CI/CD.
+
+
 ---
 
 # 🏆 Achievements
 
-  - Amongst 967 globally selected candidates out of 43,765 applicants in GSoC 2023.
-  - 2x Speaker at IIT Madras Student Placement Council about Open Source and GSoC, engaging and educating 3k+ students about OSS.
+  - Amongst 967 globally selected candidates out of 43,765 applicants for Google Summer of Code 2022 and 2023.
+  - Delivered multiple talks at IIT Madras, engaging and educating 3,000+ students about the benefits of Open Source.
   - Elected as President of the Student’s Association of Artificial Intelligence, GHRCEM Pune.
   - Elected as Vice-President of the IEEE Student’s Chapter, GHRCEM Pune.
-  - Wrote a GSoC guide blog with 35k+ Linkedin impressions and 3.7k+ views.
+  - Wrote a blog with 35k+ Linkedin impressions and 3.7k+ views.
   - Organized multiple college events with 200+ attendees each, achieving an average event rating of 4.59/5.00.
   - Represented the “Hadar Cluster” (South East Asia) at IEEE Asia Pacific’s CLAP (2021) program.
 
 ---
 
-# 🤝 Volunteering
+# 🤝 Leadership / Extracurriculars
+
+#### **Teaching Assistant (Machine Learning) | Dept. of Artificial Intelligence, GHRCEM Pune** ```[Mar 2023 '21 - May 2023]```
+  -  Conducted hands-on Machine Learning, Data Processing, and Data Visualization sessions for 70+ sophomore students at the Dept. of AI (GHRCEM).
+  - Introduced students to Machine Learning concepts like Linear Regression, Naive Bayes (incl. Text Classification), KNN, and Support Vector Machines, etc. using Python, scikit-learn, Pandas, Numpy, Matplotlib, and Seaborn.
 
 #### **President | [Student's Association of Artificial Intelligence, GHRCEM, Pune](https://www.linkedin.com/company/saai-ghrcem)** ```[Nov '21 - Mar 2022]```
   - Operated Human Resources, Planning, and Execution for all events at the Department of AI, GHRCEM, Pune.
