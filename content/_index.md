@@ -4,7 +4,7 @@ date: 2024-01-11
 draft: false
 ---
 {{<image src="/cover.png">}}
-`Updated Jan 11 2024`
+`Updated Aug 16 2024`
 
 #### Data Engineer 💿 | 2x GSoC @ MetaBrainz ☀️ | Open Source 🧑‍💻 | Python Dev 🐍 | IIT Madras 🧠
 
@@ -23,6 +23,7 @@ Hello, I'm Prathamesh, a seasoned Data Engineer & Analyst with a knack for turni
 Back in 4th grade, I started tinkering around with computers and developed a severe passion for technology, making it a highlight of most of my teen life. 6 years ago I developed a similar passion for making & consuming insane amounts of music. Given my 3+ years of experience in Music Production, playing Piano, & Audio Engineering under my artist alias “SNÆK” & a lifelong love for computers, my passion for the world of music and technology has now convolved into a passion for Data and AI involving various audio Technologies!
 
 With proven work experience at competitive programs like Google Summer of Code, delivering excellent results to my freelance client, and a background in Artificial Intelligence, I bring a blend of expertise to leverage data and drive results.
+
 ---
 
 # 🎯 Skills:
