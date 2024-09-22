@@ -44,6 +44,24 @@ With proven work experience at competitive programs like Google Summer of Code, 
 ---
 ## 🔬 Work Experience
 
+<!-- Gekko April 2024 – Current
+Data Engineer Consultant Bath, UK (Remote)
+• Led the design and development of a deterministic NLP solution to extract KPIs and publish reports from daily logs for
+a major drilling intelligence firm in UK.
+• Achieved over 98% extraction accuracy from extremely noisy text data, and generalized it over 15+ unique oil wells.
+• Optimized RegEx and Pandas code, boosting runtime speed by 30%. Enforced clean and efficient OOP design in Python. -->
+
+
+#### **Data Engineer Consultant | [Gekko](https://www.gekko.io/)** `[Apr '24 - Current]`
+- Led the design and development of a deterministic NLP solution to extract KPIs and publish reports from daily logs for
+a major drilling intelligence firm in UK.
+
+- Achieved over 98% extraction accuracy from extremely noisy text data, and generalized it over 15+ unique oil wells.
+
+- Optimized RegEx and Pandas code, boosting runtime speed by 30%. Enforced clean and efficient OOP design in Python.
+
+- **Tech Stack**: Python (RegEx, Pandas, Plotly), Linux, Excel
+
 #### **Data Engineer Intern | [New Engen Inc.](https://www.newengen.com/)** `[Dec '23 - Mar '24]`
 - Assisted with Data Modelling and implementing Data Pipelines to Extract, Load, and Transform raw Facebook Ads data for Business Intelligence and Data Analytics teams at New Engen.
 
