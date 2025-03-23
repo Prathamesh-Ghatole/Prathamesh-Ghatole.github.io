@@ -208,7 +208,7 @@ a major drilling intelligence firm in UK.
 
 # 🎹 Hobbies
 
-- In my free time, I like playing Piano 🎹, and Producing Music 🎧 under my artist alias [```SNÆK```](https://snaek.biglink.to/SNAEK).
+- In my free time, I like playing Piano 🎹, and Producing Music 🎧 under my artist alias [```SNÆK```]([https://open.spotify.com/artist/4HZUfVXSkdZtRyGBU4PtD2](https://www.youtube.com/@snaekboi)).
 - I also LOVE listening to music whenever I can! Check out my streams here: [```last.fm - snaekboi```](https://www.last.fm/user/snaekboi)
   [![My Last.fm](https://lastfm-recently-played.vercel.app/api?user=snaekboi)](https://www.last.fm/user/snaekboi) 
 - Been trying to get into books as well!
