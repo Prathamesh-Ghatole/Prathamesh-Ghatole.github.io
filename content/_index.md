@@ -189,7 +189,7 @@ a major drilling intelligence firm in UK.
 - [```🔗 Cleaning The Music Listening Histories Dataset```](https://blog.metabrainz.org/2022/10/28/cleaning-up-the-music-listening-histories-dataset/)
 
 # 📜 Certificates:
-
+<!-- 
 - [```🔗 Supervised Machine Learning & Classification in Python```](https://www.coursera.org/verify/EALDCHQLAM7D) | Coursera [Jul 2022]
 - [```🔗 Introduction to Data Science in Python```](http://coursera.org/verify/C7UQEBMK26DK) | Coursera [Sep 2021]
 - [```🔗 Data Collection and Processing with Python```](https://coursera.org/verify/YYCGSTWDRNW6) | Coursera [Feb 2022]
@@ -203,14 +203,5 @@ a major drilling intelligence firm in UK.
 - [```🔗 Python Functions, Files, and Dictionaries```](https://coursera.org/verify/9YXWBE345T9G/) | Coursera [Jan 2022]
 - [```🔗 Python Classes and Inheritance```](https://coursera.org/verify/447F4NQL694J) | Coursera [Feb 2022]
 - [```🔗 Working with BigQuery```](http://coursera.com/verify/HXK4YXHGXJTT) | Coursera [Nov 2021]
-
----
-
-# 🎹 Hobbies
-
-- In my free time, I like playing Piano 🎹, and Producing Music 🎧 under my artist alias [```SNÆK```]([https://open.spotify.com/artist/4HZUfVXSkdZtRyGBU4PtD2](https://www.youtube.com/@snaekboi)).
-- I also LOVE listening to music whenever I can! Check out my streams here: [```last.fm - snaekboi```](https://www.last.fm/user/snaekboi)
-  [![My Last.fm](https://lastfm-recently-played.vercel.app/api?user=snaekboi)](https://www.last.fm/user/snaekboi) 
-- Been trying to get into books as well!
-My favorites are **“The Subtle Art of Not Giving a F*ck”** by Mark Manson, and “**Tokyo Ghoul”** by Sui Ishida.
+-->
 ---
