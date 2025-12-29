@@ -4,63 +4,38 @@ date: 2024-01-11
 draft: false
 ---
 {{<image src="/cover.png">}}
-`Updated Aug 16 2024`
+`Updated Dec 29 2025`
 
-#### Data Engineer 💿 | 2x GSoC @ MetaBrainz ☀️ | Open Source 🧑‍💻 | Python Dev 🐍 | IIT Madras 🧠
+#### Data & Gen AI Engineer | 2x Google Summer of Code | GCP Professional Data Engineer | Open Source
 
-[📧 **Email**](mailto:prathamesh.s.ghatole@gmail.com) | 
-[👔 **Linkedin**](https://www.linkedin.com/in/prathamesh-ghatole) | 
-[🐦 **Twitter**](https://twitter.com/PrathameshG69) | 
-[💻 **GitHub**](https://github.com/Prathamesh-Ghatole/)
+[**Email**](mailto:prathamesh.s.ghatole@gmail.com) | 
+[**Linkedin**](https://www.linkedin.com/in/prathamesh-ghatole) | 
+[**Twitter**](https://twitter.com/PrathameshG69) | 
+[**GitHub**](https://github.com/Prathamesh-Ghatole/)
 
 ---
-
 
 # 💫 About Me
 
-Hello, I'm Prathamesh, a seasoned Data Engineer & Analyst with a knack for turning raw data into actionable insights. With 2+ years of experience, and expertise in Data Extraction, Data Integration, Web Scraping, ETL, and Data Analytics, I've slashed costs by thousands of $$$ for my clients in Open Source and Corporate domains.
-
-Back in 4th grade, I started tinkering around with computers and developed a severe passion for technology, making it a highlight of most of my teen life. 6 years ago I developed a similar passion for making & consuming insane amounts of music. Given my 3+ years of experience in Music Production, playing Piano, & Audio Engineering under my artist alias “SNÆK” & a lifelong love for computers, my passion for the world of music and technology has now convolved into a passion for Data and AI involving various audio Technologies!
-
-With proven work experience at competitive programs like Google Summer of Code, delivering excellent results to my freelance client, and a background in Artificial Intelligence, I bring a blend of expertise to leverage data and drive results.
-
----
-
-# 🎯 Skills:
-
-- **Domain**: Data Engineering, Data Analytics, Python Development, API Scraping, AI Engineering
-- **Languages**: Python, SQL, Spark SQL, SPARQL, Shell Scripting
-- **Data Processing**: Pandas, Apache Spark (PySpark), NumPy | Airflow, Kafka, dbt, Databricks DLT Pipelines, Cron
-- **Data Integration**: PostgreSQL, BigQuery, Delta Lake, Apache Hive | Beautiful Soup, Scrapy, Requests, Regex
-- **Cloud & DevOps**: Git, Linux, Docker, CI/CD | Databricks, Azure (App Service, Azure Linux VM Compute)
-- **Misc**: Tableau, Matplotlib, Streamlit, Flask, HTML, CSS | Scikit-Learn, Tensorflow, llama-cpp, hugging-face
-- **Course Work**: DBMS, Big Data Computing, Business Data Management, Business Intelligence
-- **Soft Skills**: Leadership, Team Management, Creative Writing, Good Sense of Humor.
-- **Audio/Music Production & Mixing**: FL Studio, Pro Tools Audacity.
-- **Design/Editing**: Adobe Photoshop, Da Vinci Resolve, Canva.
-- **Languages**: English, Marathi, Hindi (Proficient) | Japanese (Elementry), Russian (Elementry).
-- **Interests**: Technology, Music Production, Playing Piano, Reading, Cats.
+Hi, I'm Prathamesh, a Data / Gen AI Engineer experienced in shipping end-to-end, data-driven software in fast-paced startup environments with a great track record of open-source contributions. I'm a Google Cloud certified Professional Data Engineer and have an academic background in Data Science & AI @ IIT Madras and Pune University.
 
 ---
 ## 🔬 Work Experience
 
-<!-- Gekko April 2024 – Current
-Data Engineer Consultant Bath, UK (Remote)
-• Led the design and development of a deterministic NLP solution to extract KPIs and publish reports from daily logs for
-a major drilling intelligence firm in UK.
-• Achieved over 98% extraction accuracy from extremely noisy text data, and generalized it over 15+ unique oil wells.
-• Optimized RegEx and Pandas code, boosting runtime speed by 30%. Enforced clean and efficient OOP design in Python. -->
-
 
 #### **Data Engineer Consultant | [Gekko](https://www.gekko.io/)** `[Apr '24 - Current]`
-- Led the design and development of a deterministic NLP solution to extract KPIs and publish reports from daily logs for
-a major drilling intelligence firm in UK.
 
-- Achieved over 98% extraction accuracy from extremely noisy text data, and generalized it over 15+ unique oil wells.
+- **AI for Oil Drilling**: Architected a hybrid ML system from the ground up, combining classification, entity extraction, and proprietary algorithms to infer drilling operations & parameters and reconstruct activity timelines from unstructured reports with 95%+ accuracy, saving 4 hrs/well across 1000s of wells.
 
-- Optimized RegEx and Pandas code, boosting runtime speed by 30%. Enforced clean and efficient OOP design in Python.
+- Selected a combination of small LLMs (qwen, gpt-oss, gemini), fast fine-tuned transformer models (BERT, GLiNER), and decision trees to meet strict latency and cost constraints. Implemented context-aware corrections and domain-specific guardrails to ensure physically consistent outputs.
 
-- **Tech Stack**: Python (RegEx, Pandas, Plotly), Linux, Excel
+- **Data mining**: Engineered a pipeline to mine structured insights from PDFs using multi-modal LLMs (gemini-2.5-flash) with pre-defined schemas, few shot examples, and text rules; outperformed SOTA tools like Docling for our use case. Optimized w/ annotation caching, input pruning, etc
+
+- **Vessel & Fuel Analytics**: Designed a data warehousing solution & a Dagster pipeline to process vessel telemetry & geospatial data, saving clients $1.2M annually in fuel costs through clever fuel reporting using PostgreSQL, Dagster, Polars, Power BI.
+
+- **Leadership**: Promoted to technical lead, responsible for architectural decisions and team building to drive automation, platform modernization. Led the delivery of 10+ misson-critical projects with a team of 6 engineers.
+
+- **Tech Stack**: Python, Langchain, PyTorch, Pydantic, FastAPI, Dagster, PostgreSQL, Polars, Power BI, GCP, Docker, Git, etc.
 
 #### **Data Engineer Intern | [New Engen Inc.](https://www.newengen.com/)** `[Dec '23 - Mar '24]`
 - Assisted with Data Modelling and implementing Data Pipelines to Extract, Load, and Transform raw Facebook Ads data for Business Intelligence and Data Analytics teams at New Engen.
@@ -88,26 +63,39 @@ a major drilling intelligence firm in UK.
 - **Domain**: Data Engineering, Data Analytics.
 - **Project Summary**: https://blog.metabrainz.org/?p=9785
 
-#### **Teaching Assistant (Machine Learning) | [Dept. of Artificial Intelligence, GHRCEM Pune](https://ghrcem.raisoni.net)** `[March '22 - May 2023]`
+---
 
-- Conducted hands-on **Machine Learning, Data Processing, and Data Visualization** sessions for 70+ sophomore students at the Dept. of AI (GHRCEM).
-- Introduced students to **Machine Learning concepts** like Linear Regression, Naive Bayes (incl. Text Classification), KNN, and Support Vector Machines, etc.
-- **Tech Stack**: Python, scikit-learn, Pandas, Numpy, Matplotlib, and Seaborn.
-- **Domain**: Machine Learning.
+# 🎯 Skills:
+
+- **Languages / Tools**: 
+  - Python, SQL, Bash, Git, Linux, Docker
+- **Data Engineering**: 
+  - Pandas, Polars, Apache Arrow, PySpark, BigQuery, PostgreSQL, Dagster, Airflow, dbt
+- **Applied AI**:
+  - Langchain, Pydantic AI, n8n, GCP Vertex AI, OpenAI API
+  - PyTorch, RAG & Vector Search (FAISS, Milvus), Prompt Engineering, Fine Tuning, (PEFT on ModernBERT using LoRA)
+- **Cloud / DevOps**: CI/CD, GitHub Actions, Google Cloud (BigQuery, Vertex AI, Composer, Dataproc, IAM, etc), Azure (App Service, Virtual Machines)
+- **Data Analytics**:
+  - Power BI, Plotly Dash, Streamlit
+- **Backend**: 
+  - FastAPI, Pydantic, HTML, CSS, JavaScript
+
+---
 
 # 🏫 Education:
 
-#### [BS. Data Science and Applications](http://onlinedegree.iitm.ac.in/) | Indian Institute of Technology, Madras ```[2021 - 2025]```
-  - An off-campus 4-year degree program in Applied Data Science.
+#### [BS. Data Science and Applications](https://study.iitm.ac.in/ds/) | Indian Institute of Technology, Madras ```[2021 - 2025]```
+  - Dropped out to pursue full-time opportunities in Engineering.
   - **CGPA**: 8.24
 
 #### [Btech. Artificial Intelligence](https://ghrcem.raisoni.net/artificial-intelligence) | G.H. Raisoni College of Engineering & Management, Pune ```[2020 - 2024]```
-  - An on-campus undergraduate 4-year degree program in Artificial Intelligence & Computer Science.
   - **CGPA**: 8.88
 
 ---
 
 # 🏗️ Projects:
+
+[**entityxtract**](https://github.com/Prathamesh-Ghatole/entityxtract/): Open Source document intelligence platform enabling structured data extraction from unstructured files. Alternative to GCP Document AI with bring-your-own-key support. Built using Python, LangChain, OpenRouter, Pydantic.
 
 #### Freelance Project 1 | [proprietary]
   - Scalable, fault-tolerant data pipeline to scrape BSE/NSE notices, extract intelligence using Google Gemini, and publish email updates.
@@ -115,47 +103,13 @@ a major drilling intelligence firm in UK.
   - **Tech Stack**: Python, SQL (PostgreSQL), Cron, Linux, RegEX, Beautiful Soup
   - **Skills Used**: Data Scraping, ETL, DevOps
 
-#### Freelance Project 2 | [proprietary]
-  - Deterministic NLP solution to incrementally extract KPIs and publish reports from daily logs for a major drilling intelligence firm in UK.
-  - Long term project heavy on Python Development. Maintains outstanding code quality with intricate OOP design, reliable tests, and containerized deployment.
-  - **Tech Stack**: Python, Pandas, RegEx (heavy usage), Excel
-  - **Skills Used**: Data Scraping, ETL, DevOps
-
-#### lastfm-scraper | [```🔗 Codebase```](https://github.com/Prathamesh-Ghatole/lastfm-scraper)
-
-  - Lastfm-scraper is a simple platform to scrape, clean, analyze, and download your music listening history for analytics and machine learning applications from last.fm, a music service to track and organize user music listening history across multiple devices and streaming services.
-  -  Implemented using Python, this project aims to scrape, process and deliver music streaming user data into accessible formats like CSV and JSON using Pandas by scraping the last.fm API. This project is hosted on Azure app service through a CI/CD pipeline using GitHub Actions.
-  - **Tech Stack**: Python, Flask, Pandas, Git, MS Azure, HTML/CSS/JS, REST APIs, GitHub Actions.
-  - **Skills used**: Data Wrangling, Data Cleaning, Cloud, DevOps
-
-#### Document Topic Modelling | [```🔗 Codebase```](https://github.com/Prathamesh-Ghatole/Document-Topic-Modelling)
-  - A simple interactive commandline utility to classify text into pre-defined topics using Machine Learning (NLP). This project is based on the [```LDA (Latent Dirichlet Allocation) model```](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation), and built using Python, Scikit-learn, and Gensim.
-  - **Tech Stack**: Python, Git, Scikit-learn, Gensim, Rich.
-  - **Skills used**: Machine Learning, Natural Language Processing.
-
-#### Monthly Budget Tableau Dashboard | [```🔗 Project Demo```](https://public.tableau.com/views/VisualizationWorkbook_16720800537450/MonthlyBudgetDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
-
-  - A simple and elegant tableau dashboard that visualizes my monthly financial spending habits. For this project, I fetched data from my personal spreadsheet based budget tracking system hosted on [notion](notion.so).
-  - **Tech Stack**: Tableau, MS Excel.
-  - **Skills used**: Data Visualization, Dashboarding.
-
-#### Portfolio Site | [```🔗 Project Demo```](http://prathamesh-ghatole.github.io/) | [```🔗 Codebase```](https://github.com/Prathamesh-Ghatole/Prathamesh-Ghatole.github.io)
-  - This portfolio site was custom-built with clean looks and minimalism kept in mind. I used [```Hugo```](https://gohugo.io/), a static site generator to write the site contents in Markdown for better, distraction-free maintenance. Even the site rendering and hosting are automated with a simple CI/CD pipeline built using [```GitHub Actions```](https://docs.github.com/en/actions). The site is finally hosted on [```GitHub pages```](https://docs.github.com/en/pages).
-  - **Tech Stack**: Hugo, Git, GitHub Actions.
-  - **Skills Used**: Web Development, CI/CD.
-
-
 ---
 
 # 🏆 Achievements
 
-  - Amongst 967 globally selected candidates out of 43,765 applicants for Google Summer of Code 2022 and 2023.
-  - Delivered multiple talks at IIT Madras, engaging and educating 3,000+ students about the benefits of Open Source.
-  - Elected as President of the Student’s Association of Artificial Intelligence, GHRCEM Pune.
-  - Elected as Vice-President of the IEEE Student’s Chapter, GHRCEM Pune.
-  - Wrote a blog with 35k+ Linkedin impressions and 3.7k+ views.
-  - Organized multiple college events with 200+ attendees each, achieving an average event rating of 4.59/5.00.
-  - Represented the “Hadar Cluster” (South East Asia) at IEEE Asia Pacific’s CLAP (2021) program.
+  - Selected twice (Top 2% of 43K+ applicants) for Google Summer of Code 2022 & 2023.
+  - Elected President (Student’s Association) and Vice President (IEEE Student Chapter).
+  - Represented the South East Asia Cluster at IEEE Asia Pacific’s CLAP (2021) program.
 
 ---
 
@@ -172,7 +126,7 @@ a major drilling intelligence firm in UK.
 #### **Co-Chair | IEEE Student's Chapter, GHRCEM Pune** ```[Mar '21 - Feb 2023]```
   - **Hosted several flagship events at IEEE Pune Section** - like IEEE CODE-STROM [2022], EAC Funded Cloud and
   Data Engineering Workshop [2022]
-  - **Represented the “Hadar Cluster”** (South East Asia) at **IEEE Asia Pacific’s CLAP [2021]** program.
+  - **Represented the South East Asia Cluster** at **IEEE Asia Pacific’s CLAP [2021]** program.
 
 #### **Speaker and Project Lead | [Ek Bharat Shrestha Bharat Club, GHRCEM, Pune](https://ekbharat.gov.in/images/InstituteActivities/Documents/205720210909102002/News%20Report%20on%20Culinary%20Festivals%20of%20Maharashtra%20with%20Opportunity%20to%20Learn%20in%20Culinary%20Practices%20of%20Odisha.pdf)** ```[Sep '21 - Nov 2021]```
   - Designed and presented **5+ inter-state presentations** to Aryan Institute of Technology, Bhubaneshwar, Odisha; while **Representing** GH Raisoni College of Engineering and Management Pune, Maharashtra.
@@ -186,22 +140,6 @@ a major drilling intelligence firm in UK.
 
 - [```🔗 Google Summer of Code 101: A Practical Guide with Resources!```](https://prathamesh-ghatole.hashnode.dev/google-summer-of-code-101-a-practical-guide-with-resources)
 
-- [```🔗 Cleaning The Music Listening Histories Dataset```](https://blog.metabrainz.org/2022/10/28/cleaning-up-the-music-listening-histories-dataset/)
+- [```🔗 Automating Area Management in MusicBrainz using Wikidata | GSoC 2023```](https://blog.metabrainz.org/2023/11/06/gsoc-23-automating-area-management-in-musicbrainz/)
 
-# 📜 Certificates:
-<!-- 
-- [```🔗 Supervised Machine Learning & Classification in Python```](https://www.coursera.org/verify/EALDCHQLAM7D) | Coursera [Jul 2022]
-- [```🔗 Introduction to Data Science in Python```](http://coursera.org/verify/C7UQEBMK26DK) | Coursera [Sep 2021]
-- [```🔗 Data Collection and Processing with Python```](https://coursera.org/verify/YYCGSTWDRNW6) | Coursera [Feb 2022]
-- [```🔗 Applied Plotting, Charting & Data Representation in Python```](http://coursera.org/verify/XCW3F8W864ZK) | Coursera [Oct 2021]
-- [```🔗 Applied Text Mining in Python - Coursera```](https://coursera.org/verify/B5JC3CZXZAFF) | Coursera [Jan 2022]
-- [```🔗 Regular Expressions in Python```](https://www.coursera.org/verify/QAFMHLVENJBS) | Coursera [Dec 2021]
-- [```🔗 Data Manipulation with Pandas```](https://www.kaggle.com/learn/certification/prathameshghatole/pandas) | Kaggle [Sep 2021]
-- [```🔗 Data Cleaning with Python```](https://www.kaggle.com/learn/certification/prathameshghatole/data-cleaning) | Kaggle[Oct 2021]
-- [```🔗 Git from Basics to Advanced: Practical Guide for Developers```](http://ude.my/UC-2058f8c0-2019-4ebf-b5f9-93a7862f8925) | Udemy [Jul 2021]
-- [```🔗 Python Basics```](https://coursera.org/verify/XTW6T783SRUC) | Coursera [Feb 2022]
-- [```🔗 Python Functions, Files, and Dictionaries```](https://coursera.org/verify/9YXWBE345T9G/) | Coursera [Jan 2022]
-- [```🔗 Python Classes and Inheritance```](https://coursera.org/verify/447F4NQL694J) | Coursera [Feb 2022]
-- [```🔗 Working with BigQuery```](http://coursera.com/verify/HXK4YXHGXJTT) | Coursera [Nov 2021]
--->
----
+- [```🔗 Cleaning The Music Listening Histories Dataset```](https://blog.metabrainz.org/2022/10/28/cleaning-up-the-music-listening-histories-dataset/)
