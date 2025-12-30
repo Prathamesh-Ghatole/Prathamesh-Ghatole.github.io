@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <title>Prathamesh Ghatole</title>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <script
+            src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=Inter:wght@300;400;500;600&display=swap"
+            rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+            rel="stylesheet" />
+        <script id="tailwind-config">
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#1a1a1a",
+              secondary: "#555555",
+              accent: "#0000ff",
+              background: "#ffffff",
+              surface: "#f9f9f9",
+              border: "#e5e5e5",
+            },
+            fontFamily: {
+              display: ["Space Grotesk", "sans-serif"],
+              body: ["Inter", "sans-serif"],
+            },
+            borderRadius: { DEFAULT: "0px", lg: "4px", xl: "8px", full: "9999px" },
+          },
+        },
+      };
+    </script>
+        <style>
+      body {
+        font-family: "Inter", sans-serif;
+        color: #1a1a1a;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Space Grotesk", sans-serif;
+      }
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      .hover-underline-animation {
+        display: inline-block;
+        position: relative;
+      }
+      .hover-underline-animation::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background-color: currentColor;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+      }
+      .hover-underline-animation:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+
+      /* Markdown content styling (Tailwind preflight resets list styles) */
+      .md-content ul {
+        list-style: disc;
+        padding-left: 1.25rem;
+        margin: 0.75rem 0;
+      }
+      .md-content ol {
+        list-style: decimal;
+        padding-left: 1.25rem;
+        margin: 0.75rem 0;
+      }
+      .md-content li {
+        margin: 0.25rem 0;
+      }
+      .md-content ul ul {
+        list-style: circle;
+        margin-top: 0.25rem;
+      }
+      .md-content p {
+        margin: 0.75rem 0;
+      }
+
+      /* Content links (keep consistent across prose + markdown blocks) */
+      .md-content a,
+      .prose a {
+        color: #0000ff;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+        text-decoration-thickness: 1px;
+        overflow-wrap: anywhere;
+      }
+      .md-content a:hover,
+      .prose a:hover {
+        color: #1a1a1a;
+      }
+    </style>
+    </head>
+    <body
+        class="bg-background text-primary antialiased selection:bg-black selection:text-white">
+        <header
+    class="fixed top-0 z-50 w-full bg-white/90 backdrop-blur-md border-b border-border">
+    <div
+        class="mx-auto flex h-20 max-w-6xl items-center justify-between px-6 lg:px-12">
+        <div class="flex items-center gap-2 group cursor-pointer">
+            <span class="text-xl font-medium tracking-tight">PG</span>
+        </div>
+
+        <nav class="hidden md:flex items-center gap-8">
+            <a class="text-sm text-secondary hover:text-black transition-colors"
+                href="#about">About</a>
+            <a class="text-sm text-secondary hover:text-black transition-colors"
+                href="#experience">Experience</a>
+            <a class="text-sm text-secondary hover:text-black transition-colors"
+                href="#projects">Work</a>
+            <a class="text-sm text-secondary hover:text-black transition-colors"
+                href="#stack">Stack</a>
+            <a class="text-sm text-secondary hover:text-black transition-colors"
+                href="#highlights">Highlights</a>
+            <a class="text-sm text-secondary hover:text-black transition-colors"
+                href="#blogs">Writing</a>
+        </nav>
+
+        
+        <a
+            class="hidden sm:flex items-center gap-2 border border-border bg-white px-5 py-2 text-sm font-medium text-black hover:bg-black hover:text-white hover:border-black transition-all duration-300"
+            href="mailto:prathamesh.s.ghatole@gmail.com">
+            Get in touch
+        </a>
+        
+    </div>
+</header>
+
+        <main class="flex flex-col items-center w-full pt-20">
+            <section class="w-full max-w-6xl px-6 py-20 lg:px-12 lg:py-32"
+                id="about">
+                <div
+                    class="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-24 items-start">
+                    <div class="flex flex-col gap-8 order-2 lg:order-1 pt-4">
+                        <div class="space-y-6">
+                            <h1
+                                class="text-6xl sm:text-7xl lg:text-8xl font-light tracking-tight leading-[0.95]">
+                                
+                                AI / Data<br />
+                                
+                                Engineer<br />
+                                
+                            </h1>
+                            <p
+                                class="text-xl leading-relaxed text-secondary max-w-md font-light">
+                                2x Google Summer of Code · GCP Professional Data Engineer · Open Source
+                            </p>
+                        </div>
+                        <div
+                            class="flex flex-wrap items-center gap-6 pt-8 text-sm font-medium">
+                            
+                            <a
+                                class="flex items-center gap-2 text-secondary hover:text-black transition-colors hover-underline-animation pb-1"
+                                href="https://github.com/Prathamesh-Ghatole" target="_blank">
+                                GitHub
+                                <span
+                                    class="material-symbols-outlined text-[16px]">arrow_outward</span>
+                            </a>
+                            
+                            <a
+                                class="flex items-center gap-2 text-secondary hover:text-black transition-colors hover-underline-animation pb-1"
+                                href="https://www.linkedin.com/in/prathamesh-ghatole" target="_blank">
+                                LinkedIn
+                                <span
+                                    class="material-symbols-outlined text-[16px]">arrow_outward</span>
+                            </a>
+                            
+                            <a
+                                class="flex items-center gap-2 text-secondary hover:text-black transition-colors hover-underline-animation pb-1"
+                                href="https://twitter.com/PrathameshG69" target="_blank">
+                                Twitter
+                                <span
+                                    class="material-symbols-outlined text-[16px]">arrow_outward</span>
+                            </a>
+                            
+
+                            
+                            <a
+                                class="flex items-center gap-2 text-secondary hover:text-black transition-colors hover-underline-animation pb-1"
+                                href="mailto:prathamesh.s.ghatole@gmail.com">
+                                Email
+                                <span
+                                    class="material-symbols-outlined text-[16px]">mail</span>
+                            </a>
+                            
+                        </div>
+                    </div>
+
+                    <div
+                        class="relative order-1 lg:order-2 flex justify-center lg:justify-end">
+                        <div class="relative w-full aspect-square max-w-md">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-tr from-gray-100 to-white rounded-none"></div>
+                            <div
+                                class="relative h-full w-full overflow-hidden bg-gray-50"
+                                data-alt="Profile portrait">
+                                
+                                <div
+                                    class="absolute inset-0 bg-cover bg-center grayscale contrast-125"
+                                    style="background-image: url('/assets/profile.jpeg');"></div>
+                                
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-white/20 to-transparent"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="prose prose-neutral max-w-2xl mt-14">
+                    <p>Hi, I&rsquo;m Prathamesh, a Data / Gen AI Engineer experienced in shipping end-to-end, data-driven software in fast-paced startup environments with a great track record of open-source contributions. I&rsquo;m a Google Cloud certified Professional Data Engineer and have an academic background in Data Science &amp; AI @ IIT Madras and Pune University.</p>
+                </div>
+                
+            </section>
+
+            <div class="w-full border-t border-border max-w-6xl mx-auto"></div>
+
+            <section class="w-full max-w-6xl px-6 py-24 lg:px-12"
+                id="experience">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                    <div class="lg:col-span-4">
+                        <h2
+                            class="text-3xl font-normal tracking-tight sticky top-32">Experience
+                            /</h2>
+                    </div>
+                    <div class="lg:col-span-8 space-y-16">
+                        
+                        <div class="group border-b border-border pb-12 last:border-0">
+    <div
+        class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2 mb-4">
+        <h3 class="text-2xl font-medium text-primary">Data Engineer Consultant</h3>
+        <span class="text-sm text-secondary">Apr 2024 — Current</span>
+    </div>
+    <div class="text-lg text-secondary mb-6 font-light">
+        Gekko
+    </div>
+    
+    <div
+        class="md-content text-secondary leading-relaxed mb-6 max-w-2xl"><ul>
+<li>
+<p><strong>AI for Oil Drilling</strong>: Architected a hybrid ML system from the ground up, combining classification, entity extraction, and proprietary algorithms to infer drilling operations &amp; parameters and reconstruct activity timelines from unstructured reports with 95%+ accuracy, saving 4 hrs/well across 1000s of wells.</p>
+</li>
+<li>
+<p>Selected a combination of small LLMs (qwen, gpt-oss, gemini), fast fine-tuned transformer models (BERT, GLiNER), and decision trees to meet strict latency and cost constraints. Implemented context-aware corrections and domain-specific guardrails to ensure physically consistent outputs.</p>
+</li>
+<li>
+<p><strong>Data mining</strong>: Engineered a pipeline to mine structured insights from PDFs using multi-modal LLMs (gemini-2.5-flash) with pre-defined schemas, few shot examples, and text rules; outperformed SOTA tools like Docling for our use case. Optimized w/ annotation caching, input pruning, etc.</p>
+</li>
+<li>
+<p><strong>Vessel &amp; Fuel Analytics</strong>: Designed a data warehousing solution &amp; a Dagster pipeline to process vessel telemetry &amp; geospatial data, saving clients $1.2M annually in fuel costs through clever fuel reporting using PostgreSQL, Dagster, Polars, Power BI.</p>
+</li>
+<li>
+<p><strong>Leadership</strong>: Promoted to technical lead, responsible for architectural decisions and team building to drive automation, platform modernization. Led the delivery of 10+ mission-critical projects with a team of 6 engineers.</p>
+</li>
+</ul></div>
+    
+    
+    <div class="flex flex-wrap gap-3">
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Python</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">LangChain</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">PyTorch</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Pydantic</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">FastAPI</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Dagster</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">PostgreSQL</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Polars</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Power BI</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">GCP</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Docker</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Git</span>
+        
+    </div>
+    
+</div>
+                        
+                        <div class="group border-b border-border pb-12 last:border-0">
+    <div
+        class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2 mb-4">
+        <h3 class="text-2xl font-medium text-primary">Data Engineer Intern</h3>
+        <span class="text-sm text-secondary">Dec 2023 — Mar 2024</span>
+    </div>
+    <div class="text-lg text-secondary mb-6 font-light">
+        New Engen Inc.
+    </div>
+    
+    <div
+        class="md-content text-secondary leading-relaxed mb-6 max-w-2xl"><ul>
+<li>
+<p>Assisted with data modelling and implementing data pipelines to extract, load, and transform raw Facebook Ads data for BI and Analytics teams.</p>
+</li>
+<li>
+<p>Migrated complex pipelines from Salesforce Datorama and Adverity to a custom in-house solution using GCP BigQuery, dbt, Apache Airflow, and Python.</p>
+</li>
+</ul></div>
+    
+    
+    <div class="flex flex-wrap gap-3">
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Python</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">dbt</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Google Cloud Platform</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">BigQuery</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Airflow</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Adverity</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">SalesForce Intelligence (Datorama)</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Git</span>
+        
+    </div>
+    
+</div>
+                        
+                        <div class="group border-b border-border pb-12 last:border-0">
+    <div
+        class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2 mb-4">
+        <h3 class="text-2xl font-medium text-primary">Data Engineering &amp; Analytics Contributor</h3>
+        <span class="text-sm text-secondary">May 2023 — Nov 2023</span>
+    </div>
+    <div class="text-lg text-secondary mb-6 font-light">
+        Google Summer of Code 2023 @ MetaBrainz
+    </div>
+    
+    <div
+        class="md-content text-secondary leading-relaxed mb-6 max-w-2xl"><ul>
+<li>
+<p>Assembled an ETL pipeline from Wikidata to the MusicBrainz database, facilitating a 60% increase in new location data, and slashing manual data feeding by 90% <a href="https://community.metabrainz.org/t/automate-areas-management-in-musicbrainz-gsoc-23-proposal/630489">Link</a>.</p>
+</li>
+<li>
+<p>Independently designed and developed a scalable, production-ready solution using Python (pandas, multiprocessing, requests, sqlalchemy), SQL (PostgreSQL), and Docker. <a href="https://blog.metabrainz.org/2023/11/06/gsoc-23-automating-area-management-in-musicbrainz/">Architecture</a> <a href="https://github.com/Prathamesh-Ghatole/MusicBrainz-AreaBot">Code</a>.</p>
+</li>
+<li>
+<p>Conducted research and experimentation, optimizing SPARQL queries to cater to Wikidata’s graph data structure to improve data quality and extraction efficiency. <a href="https://community.metabrainz.org/t/automate-areas-management-in-musicbrainz-gsoc-23-proposal/630489##wikidata-musicbrainz-area-coverage-comparison-spam-detection-11">Details</a>.</p>
+</li>
+</ul></div>
+    
+    
+    <div class="flex flex-wrap gap-3">
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Python</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">PostgreSQL</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">SPARQL</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Docker</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Pandas</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Data Engineering</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Data Analytics</span>
+        
+    </div>
+    
+</div>
+                        
+                        <div class="group border-b border-border pb-12 last:border-0">
+    <div
+        class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2 mb-4">
+        <h3 class="text-2xl font-medium text-primary">Data Engineering &amp; Analytics Contributor</h3>
+        <span class="text-sm text-secondary">May 2022 — Oct 2022</span>
+    </div>
+    <div class="text-lg text-secondary mb-6 font-light">
+        Google Summer of Code 2022 @ MetaBrainz
+    </div>
+    
+    <div
+        class="md-content text-secondary leading-relaxed mb-6 max-w-2xl"><ul>
+<li>
+<p>Enriched, cleaned, and combined 27 billion rows of music streaming data using Python (Pandas, Multiprocessing), SQL (PostgreSQL), and Apache Arrow – achieving high efficiency in Python without Spark. <a href="https://community.metabrainz.org/t/clean-up-the-music-listening-histories-dataset-gsoc-2022-proposal/579503">Details</a></p>
+</li>
+<li>
+<p>Researched and implemented technologies like Zstandard and Apache Arrow to optimize data lake efficiency, resulting in a 53% reduction in storage and a 9% improvement in read/write speeds.<a href="https://blog.metabrainz.org/2022/10/28/cleaning-up-the-music-listening-histories-dataset/">Details</a></p>
+</li>
+<li>
+<p>Performed data analytics and published benchmarks, dashboards, and reports to help collaborating teams better understand and utilize the data to train state-of-the-art Music Recommendation Systems. <a href="https://blog.metabrainz.org/?p=9785">Project Summary</a></p>
+</li>
+</ul></div>
+    
+    
+    <div class="flex flex-wrap gap-3">
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Python</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">PostgreSQL</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Apache Arrow</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Pandas</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Data Engineering</span>
+        
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Data Analytics</span>
+        
+    </div>
+    
+</div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <div class="w-full border-t border-border max-w-6xl mx-auto"></div>
+
+            <section class="w-full max-w-6xl px-6 py-24 lg:px-12" id="projects">
+                <h2 class="text-3xl font-normal tracking-tight mb-16">Selected
+                    Works /</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16">
+                    
+                    
+
+
+
+<a class="group block" href="https://github.com/Prathamesh-Ghatole/entityxtract/" target="_blank">
+    
+
+        <div
+            class="aspect-[4/3] w-full overflow-hidden bg-gray-100 mb-6 border border-border transition-colors hover:border-secondary">
+            <div
+                class="h-full w-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                style="background-image: url('/assets/entityxtract_flow.png');" ></div>
+        </div>
+
+        <div class="flex flex-col">
+            <div class="flex items-center justify-between mb-2">
+                <h3
+                    class="text-xl font-medium group-hover:text-accent transition-colors">
+                    entityxtract
+                </h3>
+                <span
+                    class="material-symbols-outlined text-[18px] opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">arrow_forward</span>
+            </div>
+            
+            <div
+                class="text-secondary text-sm leading-relaxed mb-4 line-clamp-2">
+                <p>Open source document intelligence platform enabling structured data extraction from unstructured files. Alternative to GCP Document AI with bring-your-own-key support.</p>
+            </div>
+            
+            
+            <div class="flex flex-wrap gap-2 text-xs text-secondary/70"><span>Python</span> • <span>LangChain</span> • <span>OpenRouter</span> • <span>Pydantic</span></div>
+            
+        </div>
+
+        
+    </a>
+    
+                    
+                    
+
+
+
+    <div class="group">
+        
+
+        <div
+            class="aspect-[4/3] w-full overflow-hidden bg-gray-100 mb-6 border border-border transition-colors hover:border-secondary">
+            <div
+                class="h-full w-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                ></div>
+        </div>
+
+        <div class="flex flex-col">
+            <div class="flex items-center justify-between mb-2">
+                <h3
+                    class="text-xl font-medium group-hover:text-accent transition-colors">
+                    Freelance Project (Proprietary)
+                </h3>
+                <span
+                    class="material-symbols-outlined text-[18px] opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">arrow_forward</span>
+            </div>
+            
+            <div
+                class="text-secondary text-sm leading-relaxed mb-4 line-clamp-2">
+                <p>Scalable, fault-tolerant data pipeline to scrape BSE/NSE notices, extract intelligence using Google Gemini, and publish email updates.</p>
+<ul>
+<li>Written in Python, orchestrated with Cron. Containerized and deployed on a client VPS.</li>
+<li>Heavy on data scraping and cleaning using BeautifulSoup, PyPDF, and RegEx.</li>
+</ul>
+            </div>
+            
+            
+            <div class="flex flex-wrap gap-2 text-xs text-secondary/70"><span>Python</span> • <span>PostgreSQL</span> • <span>Cron</span> • <span>Linux</span> • <span>RegEx</span> • <span>Beautiful Soup</span></div>
+            
+        </div>
+
+        
+</div>
+
+                    
+                </div>
+            </section>
+
+            <section class="w-full bg-surface" id="stack">
+                <div class="max-w-6xl mx-auto px-6 py-24 lg:px-12">
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                        <div class="lg:col-span-4">
+                            <h2
+                                class="text-3xl font-normal tracking-tight">Technical
+                                Stack /</h2>
+                        </div>
+                        <div class="lg:col-span-8">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                                
+                                <div>
+    <h3 class="text-lg font-medium text-primary mb-3">Applied AI</h3>
+    
+    
+    
+    <div class="text-sm text-black font-mono">LangChain, PydanticAI, n8n, GCP Vertex AI, OpenAI API, PyTorch, RAG &amp; Vector Search (FAISS, Milvus), Prompt Engineering, Fine Tuning (PEFT / LoRA)</div>
+    
+</div>
+                                
+                                <div>
+    <h3 class="text-lg font-medium text-primary mb-3">Backend</h3>
+    
+    
+    
+    <div class="text-sm text-black font-mono">FastAPI, Pydantic, HTML, CSS, JavaScript</div>
+    
+</div>
+                                
+                                <div>
+    <h3 class="text-lg font-medium text-primary mb-3">Cloud / DevOps</h3>
+    
+    
+    
+    <div class="text-sm text-black font-mono">CI/CD, GitHub Actions, Google Cloud (BigQuery, Vertex AI, Composer, Dataproc, IAM), Azure (App Service, Virtual Machines)</div>
+    
+</div>
+                                
+                                <div>
+    <h3 class="text-lg font-medium text-primary mb-3">Data Analytics</h3>
+    
+    
+    
+    <div class="text-sm text-black font-mono">Power BI, Plotly Dash, Streamlit</div>
+    
+</div>
+                                
+                                <div>
+    <h3 class="text-lg font-medium text-primary mb-3">Data Engineering</h3>
+    
+    
+    
+    <div class="text-sm text-black font-mono">Pandas, Polars, Apache Arrow, PySpark, BigQuery, PostgreSQL, Dagster, Airflow, dbt</div>
+    
+</div>
+                                
+                                <div>
+    <h3 class="text-lg font-medium text-primary mb-3">Languages / Tools</h3>
+    
+    
+    
+    <div class="text-sm text-black font-mono">Python, SQL, Bash, Git, Linux, Docker</div>
+    
+</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="w-full max-w-6xl px-6 py-24 lg:px-12"
+                id="highlights">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-24">
+                    <div class="border-t border-black pt-8">
+                        <h2
+                            class="mb-8 text-2xl font-normal tracking-tight">Achievements</h2>
+                        <ul class="space-y-6">
+                            
+                            <li class="group">
+    <div class="flex justify-between items-baseline mb-1">
+        <p class="text-base font-medium text-primary">2× Google Summer of Code</p>
+        
+    </div>
+    
+    <div class="text-sm text-secondary font-light"><p>Selected twice (Top 2% of 43K+ applicants) for Google Summer of Code 2022 &amp; 2023.</p></div>
+    
+</li>
+                            
+                            <li class="group">
+    <div class="flex justify-between items-baseline mb-1">
+        <p class="text-base font-medium text-primary">IEEE Leadership</p>
+        
+    </div>
+    
+    <div class="text-sm text-secondary font-light"><p>Elected President (Student’s Association) and Vice President (IEEE Student Chapter); represented the South East Asia Cluster at IEEE Asia Pacific’s CLAP (2021).</p></div>
+    
+</li>
+                            
+                            <li class="group">
+    <div class="flex justify-between items-baseline mb-1">
+        <p class="text-base font-medium text-primary">Speaking &amp; Writing</p>
+        
+    </div>
+    
+    <div class="text-sm text-secondary font-light"><p>Invited speaker at IIT Madras and other institutions (1,000+ students). Wrote a blog with 35k+ LinkedIn impressions and 3.7k+ views.</p></div>
+    
+</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="border-t border-border pt-8">
+                        <h2
+                            class="mb-8 text-2xl font-normal tracking-tight text-secondary">Education</h2>
+                        <div class="space-y-8">
+                            
+                            <div>
+    <div class="flex justify-between items-baseline mb-1">
+        <h3 class="text-base font-medium text-primary">BTech. Artificial Intelligence</h3>
+        
+        <p class="text-xs font-mono text-secondary">2020
+            — 2024</p>
+        
+    </div>
+    
+    <p class="text-sm text-secondary font-light">G.H. Raisoni College of Engineering &amp; Management, Pune</p>
+    
+    
+    <div class="md-content text-sm text-secondary font-light mt-2"><ul>
+<li><strong>CGPA</strong>: 8.88</li>
+</ul></div>
+    
+</div>
+                            
+                            <div>
+    <div class="flex justify-between items-baseline mb-1">
+        <h3 class="text-base font-medium text-primary">BS. Data Science and Applications</h3>
+        
+        <p class="text-xs font-mono text-secondary">2021
+            — 2025</p>
+        
+    </div>
+    
+    <p class="text-sm text-secondary font-light">Indian Institute of Technology, Madras</p>
+    
+    
+    <div class="md-content text-sm text-secondary font-light mt-2"><ul>
+<li>Dropped out to pursue full-time opportunities in Engineering.</li>
+<li><strong>CGPA</strong>: 8.24</li>
+</ul></div>
+    
+</div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                class="w-full max-w-6xl px-6 py-24 lg:px-12 mb-20 border-t border-border"
+                id="blogs">
+                <h2 class="mb-16 text-3xl font-normal tracking-tight">Recent
+                    Writing /</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    
+                    <a class="group block h-full" href="https://prathamesh-ghatole.hashnode.dev/google-summer-of-code-101-a-practical-guide-with-resources" target="_blank">
+    <div
+        class="flex flex-col h-full justify-between p-6 bg-surface border border-transparent hover:border-border hover:bg-white transition-all duration-300">
+        <div>
+            <div class="flex items-center gap-2 mb-4">
+                <span
+                    class="text-xs font-mono text-secondary uppercase tracking-wider">Blog</span>
+            </div>
+            <h3
+                class="text-xl font-medium text-primary mb-3 group-hover:underline decoration-1 underline-offset-4">Google Summer of Code 101: A Practical Guide with Resources!</h3>
+            <p class="text-sm text-secondary leading-relaxed">
+                A practical guide to getting started with GSoC, with resources and lessons learned.
+            </p>
+        </div>
+        <div
+            class="mt-8 pt-4 border-t border-border/50 flex justify-between text-xs text-secondary/70">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</a>
+                    
+                    <a class="group block h-full" href="https://blog.metabrainz.org/2022/10/28/cleaning-up-the-music-listening-histories-dataset/" target="_blank">
+    <div
+        class="flex flex-col h-full justify-between p-6 bg-surface border border-transparent hover:border-border hover:bg-white transition-all duration-300">
+        <div>
+            <div class="flex items-center gap-2 mb-4">
+                <span
+                    class="text-xs font-mono text-secondary uppercase tracking-wider">Blog</span>
+            </div>
+            <h3
+                class="text-xl font-medium text-primary mb-3 group-hover:underline decoration-1 underline-offset-4">Cleaning The Music Listening Histories Dataset</h3>
+            <p class="text-sm text-secondary leading-relaxed">
+                A deep dive into cleaning and optimizing a massive music listening histories dataset (GSoC 2022).
+            </p>
+        </div>
+        <div
+            class="mt-8 pt-4 border-t border-border/50 flex justify-between text-xs text-secondary/70">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</a>
+                    
+                    <a class="group block h-full" href="https://blog.metabrainz.org/2023/11/06/gsoc-23-automating-area-management-in-musicbrainz/" target="_blank">
+    <div
+        class="flex flex-col h-full justify-between p-6 bg-surface border border-transparent hover:border-border hover:bg-white transition-all duration-300">
+        <div>
+            <div class="flex items-center gap-2 mb-4">
+                <span
+                    class="text-xs font-mono text-secondary uppercase tracking-wider">Blog</span>
+            </div>
+            <h3
+                class="text-xl font-medium text-primary mb-3 group-hover:underline decoration-1 underline-offset-4">Automating Area Management in MusicBrainz using Wikidata | GSoC 2023</h3>
+            <p class="text-sm text-secondary leading-relaxed">
+                How I built an automated ETL from Wikidata → MusicBrainz during Google Summer of Code 2023.
+            </p>
+        </div>
+        <div
+            class="mt-8 pt-4 border-t border-border/50 flex justify-between text-xs text-secondary/70">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</a>
+                    
+                </div>
+            </section>
+        </main>
+
+        <footer class="w-full bg-black text-white py-16">
+    <div
+        class="mx-auto flex max-w-6xl flex-col md:flex-row justify-between gap-12 px-6 lg:px-12">
+        <div class="flex flex-col gap-4">
+            <span class="text-2xl font-display font-medium">PG</span>
+            <p class="text-sm text-gray-400 max-w-xs leading-relaxed">
+                Designed with purity and purpose. Built for the web of tomorrow.
+            </p>
+            <p class="text-xs text-gray-600 mt-2">© 2025 Prathamesh Ghatole.</p>
+        </div>
+        <div class="grid grid-cols-2 gap-x-12 gap-y-8 text-sm">
+            <div class="flex flex-col gap-3">
+                <span
+                    class="text-gray-500 font-mono text-xs uppercase mb-1">Socials</span>
+                
+                <a class="hover:text-gray-300 transition-colors"
+                    href="https://github.com/Prathamesh-Ghatole" target="_blank">GitHub</a>
+                
+                <a class="hover:text-gray-300 transition-colors"
+                    href="https://www.linkedin.com/in/prathamesh-ghatole" target="_blank">LinkedIn</a>
+                
+                <a class="hover:text-gray-300 transition-colors"
+                    href="https://twitter.com/PrathameshG69" target="_blank">Twitter</a>
+                
+            </div>
+            <div class="flex flex-col gap-3">
+                <span
+                    class="text-gray-500 font-mono text-xs uppercase mb-1">Legal</span>
+                <a class="hover:text-gray-300 transition-colors"
+                    href="#">Privacy</a>
+                <a class="hover:text-gray-300 transition-colors"
+                    href="#">Terms</a>
+            </div>
+        </div>
+    </div>
+</footer>
+    </body>
+</html>
