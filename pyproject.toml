@@ -1,6 +1,6 @@
 [project]
 name = "prathamesh-ghatole-github-io"
-version = "0.7.0"
+version = "1.0.0"
 description = "A static site for my personal portfolio and blog."
 readme = "README.md"
 requires-python = ">=3.12"
