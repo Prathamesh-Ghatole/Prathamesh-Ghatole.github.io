@@ -1,0 +1,33 @@
+<header
+    class="fixed top-0 z-50 w-full bg-white/90 backdrop-blur-md border-b border-border">
+    <div
+        class="mx-auto flex h-20 max-w-6xl items-center justify-between px-6 lg:px-12">
+        <div class="flex items-center gap-2 group cursor-pointer">
+            <span class="text-xl font-medium tracking-tight">{{ site.logo_text
+                or 'TWO' }}</span>
+        </div>
+
+        <nav class="hidden md:flex items-center gap-8">
+            <a class="text-sm text-secondary hover:text-black transition-colors"
+                href="#about">About</a>
+            <a class="text-sm text-secondary hover:text-black transition-colors"
+                href="#experience">Experience</a>
+            <a class="text-sm text-secondary hover:text-black transition-colors"
+                href="#projects">Work</a>
+            <a class="text-sm text-secondary hover:text-black transition-colors"
+                href="#stack">Stack</a>
+            <a class="text-sm text-secondary hover:text-black transition-colors"
+                href="#highlights">Highlights</a>
+            <a class="text-sm text-secondary hover:text-black transition-colors"
+                href="#blogs">Writing</a>
+        </nav>
+
+        {% if site.email %}
+        <a
+            class="hidden sm:flex items-center gap-2 border border-border bg-white px-5 py-2 text-sm font-medium text-black hover:bg-black hover:text-white hover:border-black transition-all duration-300"
+            href="mailto:{{ site.email }}">
+            Get in touch
+        </a>
+        {% endif %}
+    </div>
+</header>
