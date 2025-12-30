@@ -186,6 +186,49 @@
                 </div>
             </section>
 
+            <section class="w-full bg-surface" id="stack">
+                <div class="max-w-6xl mx-auto px-6 py-24 lg:px-12">
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                        <div class="lg:col-span-4">
+                            <h2
+                                class="text-3xl font-normal tracking-tight">Technical
+                                Stack /</h2>
+                        </div>
+                        <div class="lg:col-span-8">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                                {% for item in stack %}
+                                {% include 'partials/stack_card.html' %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="w-full max-w-6xl px-6 py-24 lg:px-12"
+                id="highlights">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-24">
+                    <div class="border-t border-black pt-8">
+                        <h2
+                            class="mb-8 text-2xl font-normal tracking-tight">Achievements</h2>
+                        <ul class="space-y-6">
+                            {% for item in achievements %}
+                            {% include 'partials/achievement_item.html' %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="border-t border-border pt-8">
+                        <h2
+                            class="mb-8 text-2xl font-normal tracking-tight text-secondary">Education</h2>
+                        <div class="space-y-8">
+                            {% for item in education %}
+                            {% include 'partials/education_item.html' %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section
                 class="w-full max-w-6xl px-6 py-24 lg:px-12 mb-20 border-t border-border"
                 id="blogs">

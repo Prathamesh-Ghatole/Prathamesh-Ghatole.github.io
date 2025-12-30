@@ -111,11 +111,15 @@ def load_markdown_item(path: Path) -> ContentItem:
     if isinstance(links, list):
         for link in links:
             if isinstance(link, dict) and isinstance(link.get("url"), str):
-                link["url"] = normalize_asset_ref(link["url"])  # allow external or site-root
+                link["url"] = normalize_asset_ref(
+                    link["url"]
+                )  # allow external or site-root
 
     body_md = post.content or ""
     body_html = md_to_html(body_md) if body_md.strip() else ""
-    return ContentItem(meta=meta, body_md=body_md, body_html=body_html, source_path=path)
+    return ContentItem(
+        meta=meta, body_md=body_md, body_html=body_html, source_path=path
+    )
 
 
 def load_collection(dir_path: Path) -> list[ContentItem]:
@@ -127,7 +131,9 @@ def load_collection(dir_path: Path) -> list[ContentItem]:
     return items
 
 
-def sort_items(items: list[ContentItem], *, date_key: str = "date") -> list[ContentItem]:
+def sort_items(
+    items: list[ContentItem], *, date_key: str = "date"
+) -> list[ContentItem]:
     """Sort newest-first if date_key exists; otherwise stable order."""
 
     def key(i: ContentItem):
@@ -176,6 +182,10 @@ def main() -> None:
     projects = load_collection(CONTENT_DIR / "projects")
     writing = load_collection(CONTENT_DIR / "writing")
 
+    stack = load_collection(CONTENT_DIR / "stack")
+    achievements = load_collection(CONTENT_DIR / "achievements")
+    education = load_collection(CONTENT_DIR / "education")
+
     # Sort collections
     experience = sort_items(experience, date_key="start")
     writing = sort_items(writing, date_key="date")
@@ -193,6 +203,9 @@ def main() -> None:
         experience=experience,
         projects=projects,
         writing=writing,
+        stack=stack,
+        achievements=achievements,
+        education=education,
     )
 
     (OUT_DIR / "index.html").write_text(html, encoding="utf-8")
@@ -201,4 +214,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

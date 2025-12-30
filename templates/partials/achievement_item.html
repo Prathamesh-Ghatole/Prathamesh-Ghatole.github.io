@@ -1,0 +1,14 @@
+<li class="group">
+    <div class="flex justify-between items-baseline mb-1">
+        <p class="text-base font-medium text-primary">{{ item.meta.title }}</p>
+        {% if item.meta.icon %}
+        <span
+            class="material-symbols-outlined text-secondary text-lg group-hover:text-black transition-colors">{{
+            item.meta.icon }}</span>
+        {% endif %}
+    </div>
+    {% if item.body_html %}
+    <div class="text-sm text-secondary font-light">{{ item.body_html | safe
+        }}</div>
+    {% endif %}
+</li>
