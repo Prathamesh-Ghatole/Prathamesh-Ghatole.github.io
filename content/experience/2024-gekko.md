@@ -1,5 +1,5 @@
 ---
-role: "Data Engineer Consultant"
+role: "Data Engineer"
 company: "Gekko"
 location: ""
 start: "Apr 2024"

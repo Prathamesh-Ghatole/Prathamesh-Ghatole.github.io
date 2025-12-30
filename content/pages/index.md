@@ -1,13 +1,13 @@
 ---
 title: "Prathamesh Ghatole"
-logo_text: "PG"
+logo_text: " "
 email: "prathamesh.s.ghatole@gmail.com"
 
 hero_headline_lines:
   - "AI / Data"
   - "Engineer"
 
-hero_subtitle: "2x Google Summer of Code · GCP Professional Data Engineer · Open Source"
+hero_subtitle: "Production ML & Data Systems · 2× Google Summer of Code · GCP Professional Data Engineer · Open Source"
 
 # Can be a URL or a repo-managed asset path.
 profile_image: "/assets/profile.jpeg"
@@ -21,8 +21,8 @@ socials:
     url: "https://twitter.com/PrathameshG69"
 
 footer_blurb: "Designed with purity and purpose. Built for the web of tomorrow."
-copyright_year: "2025"
+copyright_year: "2026"
 name: "Prathamesh Ghatole"
 ---
 
-Hi, I'm Prathamesh, a Data / Gen AI Engineer experienced in shipping end-to-end, data-driven software in fast-paced startup environments with a great track record of open-source contributions. I'm a Google Cloud certified Professional Data Engineer and have an academic background in Data Science & AI @ IIT Madras and Pune University.
+AI & Data Engineer owning end-to-end, data-driven systems in production. Focused on pragmatic ML and data pipelines under real-world constraints, with strong open-source experience and academic background in Data Science & AI.
