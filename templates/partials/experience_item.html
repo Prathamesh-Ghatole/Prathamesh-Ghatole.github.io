@@ -1,0 +1,26 @@
+<div class="group border-b border-border pb-12 last:border-0">
+    <div
+        class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2 mb-4">
+        <h3 class="text-2xl font-medium text-primary">{{ item.meta.role or
+            item.meta.title }}</h3>
+        <span class="text-sm text-secondary">{{ item.meta.start or '' }} — {{
+            item.meta.end or '' }}</span>
+    </div>
+    <div class="text-lg text-secondary mb-6 font-light">
+        {{ item.meta.company or '' }}{% if item.meta.location %} • {{
+        item.meta.location }}{% endif %}
+    </div>
+    {% if item.body_html %}
+    <div class="text-secondary leading-relaxed mb-6 max-w-2xl">{{ item.body_html
+        | safe }}</div>
+    {% endif %}
+    {% if item.meta.tags %}
+    <div class="flex flex-wrap gap-3">
+        {% for tag in item.meta.tags %}
+        <span
+            class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">{{
+            tag }}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>

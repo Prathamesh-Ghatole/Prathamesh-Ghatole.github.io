@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#f3f4f6"/>
+  <circle cx="256" cy="210" r="92" fill="#111" opacity="0.85"/>
+  <path d="M96 450c22-86 92-128 160-128s138 42 160 128" fill="#111" opacity="0.85"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="36" fill="#111" font-family="Inter, system-ui, -apple-system, sans-serif" opacity="0.5">Profile</text>
+</svg>
