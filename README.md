@@ -16,6 +16,7 @@ I wanted a portfolio that is:
 
 - **Content-driven** -- update the site by editing Markdown (structured via frontmatter).
 - **Custom generator** -- a small Python + Jinja2 pipeline that produces a clean static build.
+- **Live reload (local dev)** -- auto rebuild + browser refresh while editing content/templates.
 - **Automated deploy** -- GitHub Actions publishes `./public` to `gh-pages` on every push to `main`.
 
 ## Tech
@@ -46,6 +47,16 @@ python -m http.server -d public 8000
 ```
 
 Open: http://localhost:8000
+
+### Live reload (auto refresh)
+
+For local development, you can run a live-reload server. Any changes to
+`content/`, `templates/`, or `static/` will trigger a rebuild + browser refresh.
+
+```bash
+uv sync --group dev
+uv run python scripts/dev_server.py
+```
 
 ## Deployment
 

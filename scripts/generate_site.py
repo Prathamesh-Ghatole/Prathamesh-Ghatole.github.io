@@ -137,7 +137,12 @@ def sort_items(
     """Sort newest-first if date_key exists; otherwise stable order."""
 
     def key(i: ContentItem):
-        v = i.meta.get(date_key)
+        # Allow per-item override for sorting while keeping display fields intact.
+        # Example: experience items can use sort_start=YYYY-MM for correct ordering
+        # while rendering start='Apr 2024'.
+        v = i.meta.get(f"sort_{date_key}")
+        if v is None:
+            v = i.meta.get(date_key)
         if v is None:
             return ""
         return str(v)

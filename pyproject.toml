@@ -1,6 +1,6 @@
 [project]
 name = "prathamesh-ghatole-github-io"
-version = "0.6.0"
+version = "0.7.0"
 description = "A static site for my personal portfolio and blog."
 readme = "README.md"
 requires-python = ">=3.12"
@@ -8,4 +8,9 @@ dependencies = [
     "jinja2>=3.1.6",
     "markdown>=3.10",
     "python-frontmatter>=1.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "livereload>=2.7.0",
 ]
