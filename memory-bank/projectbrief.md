@@ -8,7 +8,7 @@ The site is generated as a **fully static** build from **human-editable content*
 ## Goals
 - Maintain a **static site** (no runtime backend).
 - Keep content easy to update using **Markdown**.
-- Keep the design close to the provided Tailwind-based `base.html` template.
+- Keep the design close to the Tailwind-based Jinja template in `templates/layout.html`.
 - Support a clean deployment workflow to GitHub Pages using a dedicated `gh-pages` branch.
 
 ## Non-Goals (for now)
@@ -22,4 +22,3 @@ The site is generated as a **fully static** build from **human-editable content*
 - Static generator script `scripts/generate_site.py`.
 - Output directory `public/` (generated; not committed on main).
 - GitHub Actions workflow to publish `public/` to `gh-pages`.
-
