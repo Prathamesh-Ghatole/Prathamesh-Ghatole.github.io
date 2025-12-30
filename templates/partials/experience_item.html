@@ -11,8 +11,9 @@
         item.meta.location }}{% endif %}
     </div>
     {% if item.body_html %}
-    <div class="text-secondary leading-relaxed mb-6 max-w-2xl">{{ item.body_html
-        | safe }}</div>
+    <div
+        class="md-content text-secondary leading-relaxed mb-6 max-w-2xl">{{
+        item.body_html | safe }}</div>
     {% endif %}
     {% if item.meta.tags %}
     <div class="flex flex-wrap gap-3">

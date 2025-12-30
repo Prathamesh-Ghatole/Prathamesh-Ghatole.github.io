@@ -12,7 +12,7 @@
     <p class="text-sm text-secondary font-light">{{ item.meta.org }}</p>
     {% endif %}
     {% if item.body_html %}
-    <div class="text-sm text-secondary font-light mt-2">{{ item.body_html | safe
-        }}</div>
+    <div class="md-content text-sm text-secondary font-light mt-2">{{
+        item.body_html | safe }}</div>
     {% endif %}
 </div>
