@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Developer Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1a1a1a", 
+                        "secondary": "#555555",
+                        "accent": "#0000ff","background": "#ffffff",
+                        "surface": "#f9f9f9",
+                        "border": "#e5e5e5",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"],
+                        "body": ["Inter", "sans-serif"],
+                    },
+                    borderRadius: {"DEFAULT": "0px", "lg": "4px", "xl": "8px", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: "Inter", sans-serif; color: #1a1a1a; }
+        h1, h2, h3, h4, h5, h6 { font-family: "Space Grotesk", sans-serif; }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }.hover-underline-animation {
+            display: inline-block;
+            position: relative;
+        }
+        .hover-underline-animation::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 1px;
+            bottom: 0;
+            left: 0;
+            background-color: currentColor;
+            transform-origin: bottom right;
+            transition: transform 0.25s ease-out;
+        }
+        .hover-underline-animation:hover::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+    </style>
+</head>
+<body class="bg-background text-primary antialiased selection:bg-black selection:text-white">
+<header class="fixed top-0 z-50 w-full bg-white/90 backdrop-blur-md border-b border-border">
+<div class="mx-auto flex h-20 max-w-6xl items-center justify-between px-6 lg:px-12">
+<div class="flex items-center gap-2 group cursor-pointer">
+<span class="text-xl font-medium tracking-tight">TWO</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm text-secondary hover:text-black transition-colors" href="#about">About</a>
+<a class="text-sm text-secondary hover:text-black transition-colors" href="#experience">Experience</a>
+<a class="text-sm text-secondary hover:text-black transition-colors" href="#projects">Work</a>
+<a class="text-sm text-secondary hover:text-black transition-colors" href="#blogs">Writing</a>
+</nav>
+<a class="hidden sm:flex items-center gap-2 border border-border bg-white px-5 py-2 text-sm font-medium text-black hover:bg-black hover:text-white hover:border-black transition-all duration-300" href="mailto:hello@example.com">
+                Get in touch
+            </a>
+</div>
+</header>
+<main class="flex flex-col items-center w-full pt-20">
+<section class="w-full max-w-6xl px-6 py-20 lg:px-12 lg:py-32" id="about">
+<div class="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-24 items-start">
+<div class="flex flex-col gap-8 order-2 lg:order-1 pt-4">
+<div class="space-y-6">
+<h1 class="text-6xl sm:text-7xl lg:text-8xl font-light tracking-tight leading-[0.95]">
+                            Crafting<br/>
+                            digital<br/>
+                            philosophy.
+                        </h1>
+<p class="text-xl leading-relaxed text-secondary max-w-md font-light">
+                            Full-stack engineer blending minimalist design with scalable architecture. Inspired by the intersection of complex systems and human intuition.
+                        </p>
+</div>
+<div class="flex flex-wrap items-center gap-6 pt-8 text-sm font-medium">
+<a class="flex items-center gap-2 text-secondary hover:text-black transition-colors hover-underline-animation pb-1" href="https://github.com" target="_blank">
+                            GitHub
+                            <span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+<a class="flex items-center gap-2 text-secondary hover:text-black transition-colors hover-underline-animation pb-1" href="https://linkedin.com" target="_blank">
+                            LinkedIn
+                            <span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+<a class="flex items-center gap-2 text-secondary hover:text-black transition-colors hover-underline-animation pb-1" href="https://x.com" target="_blank">
+                            X.com
+                            <span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+<a class="flex items-center gap-2 text-secondary hover:text-black transition-colors hover-underline-animation pb-1" href="mailto:hello@example.com">
+                            Email
+                            <span class="material-symbols-outlined text-[16px]">mail</span>
+</a>
+</div>
+</div>
+<div class="relative order-1 lg:order-2 flex justify-center lg:justify-end">
+<div class="relative w-full aspect-square max-w-md">
+<div class="absolute inset-0 bg-gradient-to-tr from-gray-100 to-white rounded-none"></div>
+<div class="relative h-full w-full overflow-hidden bg-gray-50" data-alt="Monochrome portrait of a developer">
+<div class="absolute inset-0 bg-cover bg-center grayscale contrast-125" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBsIIQWSkzswNxJMi0uALGahJgZPizTYX_2JQqNUe-j2MH_4tDy-ewJ2017fsT4A8UNG46ixSNfzZKHQ-XXKmY2OpdIHlbatXJ8-jjrPfZASD1KM4eQ7V4nQPa8-2kcmk0v2j3jbIumZUW6zb1Ah9jM4RSHxDJLYjZ2uCR9eNg5WMIciLPzfXokp7y3GRQPGlHVrymw8QI8eaan-M5SqdnQyR4iUMBRd8b47J-sBtol5sEe5EFWmW7-PWJ2SmUSF4MBz3fZfSRnB5et');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-white/20 to-transparent"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="w-full border-t border-border max-w-6xl mx-auto"></div>
+<section class="w-full max-w-6xl px-6 py-24 lg:px-12" id="experience">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<div class="lg:col-span-4">
+<h2 class="text-3xl font-normal tracking-tight sticky top-32">Experience /</h2>
+</div>
+<div class="lg:col-span-8 space-y-16">
+<div class="group border-b border-border pb-12 last:border-0">
+<div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2 mb-4">
+<h3 class="text-2xl font-medium text-primary">Senior Software Engineer</h3>
+<span class="text-sm text-secondary">2022 — Present</span>
+</div>
+<div class="text-lg text-secondary mb-6 font-light">Tech Corp • San Francisco, CA</div>
+<p class="text-secondary leading-relaxed mb-6 max-w-2xl">
+                            Architected a scalable microservices ecosystem handling 5M+ daily requests. Led a team of 6 engineers to rebuild the core payment infrastructure, integrating Stripe and PayPal APIs. Implemented CI/CD pipelines reducing deployment time dramatically.
+                        </p>
+<div class="flex flex-wrap gap-3">
+<span class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Go</span>
+<span class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Kubernetes</span>
+<span class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">gRPC</span>
+</div>
+</div>
+<div class="group border-b border-border pb-12 last:border-0">
+<div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2 mb-4">
+<h3 class="text-2xl font-medium text-primary">Frontend Developer</h3>
+<span class="text-sm text-secondary">2020 — 2022</span>
+</div>
+<div class="text-lg text-secondary mb-6 font-light">Startup Inc • Remote</div>
+<p class="text-secondary leading-relaxed mb-6 max-w-2xl">
+                             Developed a proprietary design system used across 4 different products. Optimized core web vitals, improving LCP scores by 25%. Collaborated closely with product designers for pixel-perfect layouts.
+                        </p>
+<div class="flex flex-wrap gap-3">
+<span class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">React</span>
+<span class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">TypeScript</span>
+<span class="text-xs uppercase tracking-wider text-secondary border border-border px-2 py-1">Tailwind</span>
+</div>
+</div>
+<div class="group">
+<div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2 mb-4">
+<h3 class="text-2xl font-medium text-primary">Junior Web Developer</h3>
+<span class="text-sm text-secondary">2018 — 2020</span>
+</div>
+<div class="text-lg text-secondary mb-6 font-light">Creative Agency • New York, NY</div>
+<p class="text-secondary leading-relaxed mb-6 max-w-2xl">
+                            Maintained and updated 20+ client websites using WordPress and custom PHP. Assisted in database migration projects, ensuring zero data loss during transitions.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<div class="w-full border-t border-border max-w-6xl mx-auto"></div>
+<section class="w-full max-w-6xl px-6 py-24 lg:px-12" id="projects">
+<h2 class="text-3xl font-normal tracking-tight mb-16">Selected Works /</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16">
+<div class="group cursor-pointer">
+<div class="aspect-[4/3] w-full overflow-hidden bg-gray-100 mb-6 border border-border transition-colors hover:border-secondary">
+<div class="h-full w-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCvxJh9InNvJ86Ud6MCuxFKRmQTgLPrA0UcD1sHpKok7hZXe4MaDkFSJttkzqOYrYz-Tbebje-mjAWk-oSg1yPcXi1_YS09K6tn_WKg_vcIKI9iZnCqwImQ8GubiSsgImPAKk2yKgmiCoq_MKHf6IlJ4hFVsmLc_DENY-rTXID_LcUrs2r1dEmNvRrmFtRuRk4fHTAiguS51z_Efqg7R6PGRd3mObNrxLmZh-DnW_KG4v6nEaTxRMwEgBBYDPiOO1gERoK-3nILeB1c');"></div>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center justify-between mb-2">
+<h3 class="text-xl font-medium group-hover:text-accent transition-colors">FinDash AI</h3>
+<span class="material-symbols-outlined text-[18px] opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">arrow_forward</span>
+</div>
+<p class="text-secondary text-sm leading-relaxed mb-4 line-clamp-2">
+                            A financial analytics dashboard leveraging machine learning to predict market trends. Features real-time websocket data streaming.
+                        </p>
+<div class="flex flex-wrap gap-2 text-xs text-secondary/70">
+<span>Next.js</span> • <span>Python</span> • <span>TensorFlow</span>
+</div>
+</div>
+</div>
+<div class="group cursor-pointer">
+<div class="aspect-[4/3] w-full overflow-hidden bg-gray-100 mb-6 border border-border transition-colors hover:border-secondary">
+<div class="h-full w-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBU6jJN29dVkTgfF7HNfIl1rNJhibRSmNbKsMEmHTwpx1hV_nv95zRvL0Oq0J30wCB2XBNWNHHqLgZYhaz_pqHOxYpkDHuOZYf2llm_dl_ycrCLpvgSvG8HO76_VIDLV8MNIXqLVooOej2-O59R9Eg00MKoRGROu42n9JWTO2yt0Rb1VQ7wxFxIpzl8eh_uM4Yu_1zZLri4f6v41XxbR4RDGohsbdac_zMBKRyka8rYuYeEPvaIkEW_qtUFvUak6SfuCz-01tRn61kZ');"></div>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center justify-between mb-2">
+<h3 class="text-xl font-medium group-hover:text-accent transition-colors">ZenTask</h3>
+<span class="material-symbols-outlined text-[18px] opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">arrow_forward</span>
+</div>
+<p class="text-secondary text-sm leading-relaxed mb-4 line-clamp-2">
+                            A productivity tool designed for deep work. Removes all distractions and uses a custom algorithm to prioritize tasks.
+                        </p>
+<div class="flex flex-wrap gap-2 text-xs text-secondary/70">
+<span>Vue 3</span> • <span>Firebase</span> • <span>Tailwind</span>
+</div>
+</div>
+</div>
+<div class="group cursor-pointer">
+<div class="aspect-[4/3] w-full overflow-hidden bg-gray-100 mb-6 border border-border transition-colors hover:border-secondary">
+<div class="h-full w-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDkG0V2Rnp-harP1OrPSVKO1i_ooxVcDxftQRfZbukw5a62eTgAbb8lPeDrV5uz0Yoc0QKs-YMU50wyo5C1udn-FXL4M5MyL5GI7huaIFuoilqw_RrlizXqddckk4fOe80R85OLbolwKuYa1_8EUldxiB8VZgHDCzF12lzmiHil4S2TPLyCBRNiCc4Dh1uvO_TAESm-fY9Xhm1LO3DHz5NFmk2JSWn7_PNUuuahWwcLe--OC97y5OEFf-DUi_Y9tWJ_j__S-2uj-rbP');"></div>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center justify-between mb-2">
+<h3 class="text-xl font-medium group-hover:text-accent transition-colors">Urban Pulse</h3>
+<span class="material-symbols-outlined text-[18px] opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">arrow_forward</span>
+</div>
+<p class="text-secondary text-sm leading-relaxed mb-4 line-clamp-2">
+                            WebGL-powered urban visualization tool for city planners. Renders millions of data points smoothly to analyze traffic flow.
+                        </p>
+<div class="flex flex-wrap gap-2 text-xs text-secondary/70">
+<span>Three.js</span> • <span>WebGL</span> • <span>Node.js</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="w-full bg-surface">
+<div class="max-w-6xl mx-auto px-6 py-24 lg:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<div class="lg:col-span-4">
+<h2 class="text-3xl font-normal tracking-tight">Technical Stack /</h2>
+</div>
+<div class="lg:col-span-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+<div>
+<h3 class="text-lg font-medium text-primary mb-3">Interface Engineering</h3>
+<p class="text-sm text-secondary mb-4 leading-relaxed">
+                                    Creating responsive, accessible, and performant user interfaces with modern frameworks.
+                                </p>
+<div class="text-sm text-black font-mono">React.js, Vue, Tailwind CSS, Figma</div>
+</div>
+<div>
+<h3 class="text-lg font-medium text-primary mb-3">System Architecture</h3>
+<p class="text-sm text-secondary mb-4 leading-relaxed">
+                                    Designing robust backends that scale with user demand and ensure data integrity.
+                                </p>
+<div class="text-sm text-black font-mono">Node.js, Python, PostgreSQL, Docker</div>
+</div>
+<div>
+<h3 class="text-lg font-medium text-primary mb-3">Emerging Tech</h3>
+<p class="text-sm text-secondary mb-4 leading-relaxed">
+                                    Exploring the boundaries of AI, large language models, and blockchain integration.
+                                </p>
+<div class="text-sm text-black font-mono">OpenAI API, Solidity, LangChain</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="w-full max-w-6xl px-6 py-24 lg:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-24">
+<div class="border-t border-black pt-8">
+<h2 class="mb-8 text-2xl font-normal tracking-tight">Achievements</h2>
+<ul class="space-y-6">
+<li class="group">
+<div class="flex justify-between items-baseline mb-1">
+<p class="text-base font-medium text-primary">Hackathon Winner 2023</p>
+<span class="material-symbols-outlined text-secondary text-lg group-hover:text-black transition-colors">trophy</span>
+</div>
+<p class="text-sm text-secondary font-light">First place at Global AI Hack for "Best use of LLMs".</p>
+</li>
+<li class="group">
+<div class="flex justify-between items-baseline mb-1">
+<p class="text-base font-medium text-primary">Tech Talk Speaker</p>
+<span class="material-symbols-outlined text-secondary text-lg group-hover:text-black transition-colors">mic</span>
+</div>
+<p class="text-sm text-secondary font-light">Spoke at JSConf 2022 about performant rendering patterns.</p>
+</li>
+<li class="group">
+<div class="flex justify-between items-baseline mb-1">
+<p class="text-base font-medium text-primary">Open Source Contributor</p>
+<span class="material-symbols-outlined text-secondary text-lg group-hover:text-black transition-colors">code</span>
+</div>
+<p class="text-sm text-secondary font-light">Active maintainer of 2 popular UI libraries on GitHub.</p>
+</li>
+</ul>
+</div>
+<div class="border-t border-border pt-8">
+<h2 class="mb-8 text-2xl font-normal tracking-tight text-secondary">Education</h2>
+<div class="space-y-8">
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h3 class="text-base font-medium text-primary">B.S. Computer Science</h3>
+<p class="text-xs font-mono text-secondary">2014 — 2018</p>
+</div>
+<p class="text-sm text-secondary font-light">University of Technology</p>
+</div>
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h3 class="text-base font-medium text-primary">AWS Certified Solutions Architect</h3>
+<p class="text-xs font-mono text-secondary">2020</p>
+</div>
+<p class="text-sm text-secondary font-light">Amazon Web Services</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="w-full max-w-6xl px-6 py-24 lg:px-12 mb-20 border-t border-border" id="blogs">
+<h2 class="mb-16 text-3xl font-normal tracking-tight">Recent Writing /</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<a class="group block h-full" href="#">
+<div class="flex flex-col h-full justify-between p-6 bg-surface border border-transparent hover:border-border hover:bg-white transition-all duration-300">
+<div>
+<div class="flex items-center gap-2 mb-4">
+<span class="text-xs font-mono text-secondary uppercase tracking-wider">Engineering</span>
+</div>
+<h3 class="text-xl font-medium text-primary mb-3 group-hover:underline decoration-1 underline-offset-4">The Philosophy of Minimalist Code</h3>
+<p class="text-sm text-secondary leading-relaxed">
+                                Why writing less code is often harder, but always better. Exploring 'negative space' in software.
+                            </p>
+</div>
+<div class="mt-8 pt-4 border-t border-border/50 flex justify-between text-xs text-secondary/70">
+<span>Nov 12, 2023</span>
+<span>5 min read</span>
+</div>
+</div>
+</a>
+<a class="group block h-full" href="#">
+<div class="flex flex-col h-full justify-between p-6 bg-surface border border-transparent hover:border-border hover:bg-white transition-all duration-300">
+<div>
+<div class="flex items-center gap-2 mb-4">
+<span class="text-xs font-mono text-secondary uppercase tracking-wider">AI</span>
+</div>
+<h3 class="text-xl font-medium text-primary mb-3 group-hover:underline decoration-1 underline-offset-4">Navigating the AI Revolution</h3>
+<p class="text-sm text-secondary leading-relaxed">
+                                Reflections on how large language models are reshaping the developer workflow.
+                            </p>
+</div>
+<div class="mt-8 pt-4 border-t border-border/50 flex justify-between text-xs text-secondary/70">
+<span>Oct 08, 2023</span>
+<span>8 min read</span>
+</div>
+</div>
+</a>
+<a class="group block h-full" href="#">
+<div class="flex flex-col h-full justify-between p-6 bg-surface border border-transparent hover:border-border hover:bg-white transition-all duration-300">
+<div>
+<div class="flex items-center gap-2 mb-4">
+<span class="text-xs font-mono text-secondary uppercase tracking-wider">React</span>
+</div>
+<h3 class="text-xl font-medium text-primary mb-3 group-hover:underline decoration-1 underline-offset-4">React Server Components</h3>
+<p class="text-sm text-secondary leading-relaxed">
+                                A deep dive into the new mental model for React applications and performance impacts.
+                            </p>
+</div>
+<div class="mt-8 pt-4 border-t border-border/50 flex justify-between text-xs text-secondary/70">
+<span>Sep 15, 2023</span>
+<span>12 min read</span>
+</div>
+</div>
+</a>
+</div>
+</section>
+</main>
+<footer class="w-full bg-black text-white py-16">
+<div class="mx-auto flex max-w-6xl flex-col md:flex-row justify-between gap-12 px-6 lg:px-12">
+<div class="flex flex-col gap-4">
+<span class="text-2xl font-display font-medium">TWO</span>
+<p class="text-sm text-gray-400 max-w-xs leading-relaxed">
+                    Designed with purity and purpose. Built for the web of tomorrow.
+                </p>
+<p class="text-xs text-gray-600 mt-2">
+                    © 2024 Developer Name.
+                </p>
+</div>
+<div class="grid grid-cols-2 gap-x-12 gap-y-8 text-sm">
+<div class="flex flex-col gap-3">
+<span class="text-gray-500 font-mono text-xs uppercase mb-1">Socials</span>
+<a class="hover:text-gray-300 transition-colors" href="#">Twitter / X</a>
+<a class="hover:text-gray-300 transition-colors" href="#">LinkedIn</a>
+<a class="hover:text-gray-300 transition-colors" href="#">GitHub</a>
+</div>
+<div class="flex flex-col gap-3">
+<span class="text-gray-500 font-mono text-xs uppercase mb-1">Legal</span>
+<a class="hover:text-gray-300 transition-colors" href="#">Privacy</a>
+<a class="hover:text-gray-300 transition-colors" href="#">Terms</a>
+</div>
+</div>
+</div>
+</footer>
+
+</body></html>
