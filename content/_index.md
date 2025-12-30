@@ -3,7 +3,7 @@ title: "Portfolio"
 date: 2024-01-11
 draft: false
 ---
-{{<image src="/cover.png">}}
+<!-- {{<image src="/cover.png">}} -->
 `Updated Dec 29 2025`
 
 #### Data & Gen AI Engineer | 2x Google Summer of Code | GCP Professional Data Engineer | Open Source
