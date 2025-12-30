@@ -1,7 +1,11 @@
 [project]
 name = "prathamesh-ghatole-github-io"
-version = "0.1.0"
+version = "0.2.0"
 description = "A static site for my personal portfolio and blog."
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "jinja2>=3.1.6",
+    "markdown>=3.10",
+    "python-frontmatter>=1.1.0",
+]
