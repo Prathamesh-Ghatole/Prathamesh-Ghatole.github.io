@@ -4,7 +4,7 @@ logo_text: " "
 email: "prathamesh.s.ghatole@gmail.com"
 
 hero_headline_lines:
-  - "AI / Data"
+  - "AI ^^/^^ Data"
   - "Engineer"
 
 hero_subtitle: "2× Google Summer of Code · GCP Professional Data Engineer · Open Source"
@@ -24,5 +24,5 @@ footer_blurb: "Designed with purity and purpose. Built for the web of tomorrow."
 copyright_year: "2026"
 name: "Prathamesh Ghatole"
 ---
-
-AI & Data Engineer owning end-to-end, data-driven systems in production. Focused on pragmatic ML and data pipelines under real-world constraints, with strong open-source experience and a formal background in Data Science.
+<!-- original version -->
+Hi, I’m Prathamesh. I build and own end-to-end production data systems, ML and robust data pipelines under real-world constraints. I bring strong open-source experience and a formal Data Science background, with an emphasis on systems that scale, fail gracefully, and get used.
