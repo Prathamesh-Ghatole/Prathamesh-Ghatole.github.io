@@ -2,15 +2,17 @@
     <div
         class="mx-auto flex max-w-6xl flex-col md:flex-row justify-between gap-12 px-6 lg:px-12">
         <div class="flex flex-col gap-4">
-            <span class="text-2xl font-display font-medium">{{ site.logo_text or
-                'TWO' }}</span>
+            <span class="text-2xl font-display font-medium">{{ (site.logo_text
+                or
+                'TWO') | md_inline }}</span>
             <p class="text-sm text-gray-400 max-w-xs leading-relaxed">
-                {{ site.footer_blurb or
-                'Designed with purity and purpose. Built for the web of tomorrow.'
-                }}
+                {{ (site.footer_blurb or
+                'Designed with purity and purpose. Built for the web of tomorrow.')
+                | md_inline }}
             </p>
-            <p class="text-xs text-gray-600 mt-2">© {{ site.copyright_year or
-                '2025' }} {{ site.name or 'Developer Name' }}.</p>
+            <p class="text-xs text-gray-600 mt-2">© {{ (site.copyright_year or
+                '2025') | md_inline }} {{ (site.name or 'Developer Name') |
+                md_inline }}.</p>
         </div>
         <div class="grid grid-cols-2 gap-x-12 gap-y-8 text-sm">
             <div class="flex flex-col gap-3">

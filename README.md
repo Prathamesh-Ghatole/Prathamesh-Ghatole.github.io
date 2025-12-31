@@ -37,13 +37,13 @@ uv sync
 Generate the site:
 
 ```bash
-uv run python scripts/generate_site.py
+uv run scripts/generate_site.py
 ```
 
 Serve locally:
 
 ```bash
-python -m http.server -d public 8000
+uv run scripts/dev_server.py
 ```
 
 Open: http://localhost:8000

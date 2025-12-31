@@ -18,6 +18,10 @@ from typing import Any
 
 import frontmatter
 import markdown as md
+from markdown.extensions import Extension
+from markdown.inlinepatterns import InlineProcessor
+from markupsafe import Markup
+from xml.etree import ElementTree as etree
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 
@@ -64,6 +68,25 @@ def slugify(value: str) -> str:
 
 
 def md_to_html(text: str) -> str:
+    class HighlightInlineProcessor(InlineProcessor):
+        """Render ==highlight== as <mark class="md-highlight">highlight</mark>."""
+
+        def handleMatch(self, m, data):
+            el = etree.Element("mark")
+            el.set("class", "md-highlight")
+            el.text = m.group(1)
+            return el, m.start(0), m.end(0)
+
+    class HighlightExtension(Extension):
+        def extendMarkdown(self, markdown):
+            # Match ==text== but avoid matching empty content.
+            pattern = r"==(.+?)=="
+            markdown.inlinePatterns.register(
+                HighlightInlineProcessor(pattern, markdown),
+                "md-highlight",
+                175,
+            )
+
     return md.markdown(
         text,
         extensions=[
@@ -71,6 +94,7 @@ def md_to_html(text: str) -> str:
             "smarty",
             "sane_lists",
             "toc",
+            HighlightExtension(),
         ],
         output_format="html5",
     )
@@ -167,10 +191,34 @@ def copy_static() -> None:
 
 
 def build_env() -> Environment:
-    return Environment(
+    env = Environment(
         loader=FileSystemLoader(str(TEMPLATES_DIR)),
         autoescape=select_autoescape(["html", "xml"]),
     )
+
+    def md_inline(value: Any) -> Markup:
+        """Render a string as *inline* markdown (safe HTML).
+
+        - Converts markdown to HTML using md_to_html (includes ==highlight==).
+        - Strips a single surrounding <p>...</p> wrapper.
+        - Returns Markup so templates can use it safely in text-node contexts.
+
+        IMPORTANT: This should NOT be used in attribute contexts (href, style, src).
+        """
+
+        if value is None:
+            return Markup("")
+        s = str(value)
+        if not s.strip():
+            return Markup("")
+        html = md_to_html(s).strip()
+        # For single-line values markdown wraps in <p>...</p>
+        if html.startswith("<p>") and html.endswith("</p>"):
+            html = html[3:-4]
+        return Markup(html)
+
+    env.filters["md_inline"] = md_inline
+    return env
 
 
 def main() -> None:

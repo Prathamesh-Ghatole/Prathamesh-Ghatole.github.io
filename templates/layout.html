@@ -142,10 +142,42 @@
         outline: 2px solid #e83f3f;
         outline-offset: 2px;
       }
+
+      /* Custom selection UI: keep native selection transparent and draw an
+         overlay border (implemented with JS below). */
+      ::selection {
+        background: transparent;
+        color: inherit;
+      }
+      ::-moz-selection {
+        background: transparent;
+        color: inherit;
+      }
+
+      /* Markdown highlight (==like this==) */
+      mark.md-highlight {
+        background: #e83f3f;
+        color: #eeede7;
+        padding: 0 0.15em;
+      }
+
+      /* Selection overlay rectangles */
+      #selection-outline-layer {
+        position: fixed;
+        inset: 0;
+        z-index: 9999;
+        pointer-events: none;
+      }
+      .selection-outline-rect {
+        position: absolute;
+        border: 2px solid #e83f3f;
+        box-sizing: border-box;
+        border-radius: 2px;
+      }
     </style>
   </head>
-  <body
-    class="bg-background text-primary antialiased selection:bg-accent selection:text-background">
+  <body class="bg-background text-primary antialiased">
+    <div id="selection-outline-layer" aria-hidden="true"></div>
     {% include 'partials/header.html' %}
 
     <main class="flex flex-col items-center w-full pt-20">
@@ -159,14 +191,14 @@
                 class="text-6xl sm:text-7xl lg:text-8xl font-body font-extrabold uppercase tracking-tight leading-[0.9]">
                 {% for line in (site.hero_headline_lines or
                 ['Crafting','digital','philosophy.']) %}
-                {{ line }}<br />
+                {{ line | md_inline }}<br />
                 {% endfor %}
               </h1>
               <p
                 class="text-xl leading-relaxed text-secondary max-w-md font-light">
-                {{ site.hero_subtitle or
-                'Full-stack engineer blending minimalist design with scalable architecture.'
-                }}
+                {{ (site.hero_subtitle or
+                'Full-stack engineer blending minimalist design with scalable architecture.')
+                | md_inline }}
               </p>
             </div>
             <div
@@ -311,5 +343,63 @@
     </main>
 
     {% include 'partials/footer.html' %}
+
+    <script>
+      (function () {
+        const layer = document.getElementById("selection-outline-layer");
+        if (!layer) return;
+
+        function clearLayer() {
+          layer.innerHTML = "";
+        }
+
+        function isValidSelection(sel) {
+          return sel && sel.rangeCount > 0 && !sel.isCollapsed;
+        }
+
+        function drawSelectionOutline() {
+          const sel = window.getSelection();
+          if (!isValidSelection(sel)) {
+            clearLayer();
+            return;
+          }
+
+          const range = sel.getRangeAt(0);
+          const rects = Array.from(range.getClientRects());
+
+          // Ignore tiny rects that can appear around line breaks.
+          const filtered = rects.filter((r) => r.width > 1 && r.height > 1);
+          if (filtered.length === 0) {
+            clearLayer();
+            return;
+          }
+
+          clearLayer();
+          for (const r of filtered) {
+            const el = document.createElement("div");
+            el.className = "selection-outline-rect";
+            el.style.left = `${r.left}px`;
+            el.style.top = `${r.top}px`;
+            el.style.width = `${r.width}px`;
+            el.style.height = `${r.height}px`;
+            layer.appendChild(el);
+          }
+        }
+
+        // Update on selection and also on viewport changes so the outline
+        // stays aligned while scrolling.
+        document.addEventListener("selectionchange", drawSelectionOutline);
+        window.addEventListener("scroll", drawSelectionOutline, true);
+        window.addEventListener("resize", drawSelectionOutline);
+        document.addEventListener("mouseup", drawSelectionOutline);
+        document.addEventListener("keyup", drawSelectionOutline);
+
+        // Clear when clicking elsewhere.
+        document.addEventListener("mousedown", function () {
+          // selectionchange will re-draw if user drags to select.
+          clearLayer();
+        });
+      })();
+    </script>
   </body>
 </html>
