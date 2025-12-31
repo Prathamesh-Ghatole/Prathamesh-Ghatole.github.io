@@ -22,7 +22,7 @@
               primary: "#111111",
               secondary: "#4b4b4b",
               accent: "#e83f3f", // Toshiba red
-              background: "#eeede7", // paper white
+              background: "#ffffff", // normal white
               surface: "#f6f5ef", // subtle elevation over paper
               border: "#d8d6cf",
             },
@@ -142,10 +142,47 @@
         outline: 2px solid #e83f3f;
         outline-offset: 2px;
       }
+
+      /* Custom selection UI: keep native selection transparent and draw an
+         overlay border (implemented with JS below). */
+      ::selection {
+        background: transparent;
+        color: inherit;
+      }
+      ::-moz-selection {
+        background: transparent;
+        color: inherit;
+      }
+
+      /* Markdown highlight (==like this==) */
+      mark.md-highlight {
+        background: #e83f3f;
+        color: #ffffff;
+        padding: 0 0.15em;
+      }
+
+      /* Markdown accent (^^like this^^) */
+      span.md-accent {
+        color: #e83f3f;
+      }
+
+      /* Selection overlay rectangles */
+      #selection-outline-layer {
+        position: fixed;
+        inset: 0;
+        z-index: 9999;
+        pointer-events: none;
+      }
+      .selection-outline-rect {
+        position: absolute;
+        border: 2px solid #e83f3f;
+        box-sizing: border-box;
+        border-radius: 2px;
+      }
     </style>
   </head>
-  <body
-    class="bg-background text-primary antialiased selection:bg-accent selection:text-background">
+  <body class="bg-background text-primary antialiased">
+    <div id="selection-outline-layer" aria-hidden="true"></div>
     <header
     class="fixed top-0 z-50 w-full bg-background/90 backdrop-blur-md border-b border-border">
     <div
@@ -190,24 +227,24 @@
       <section class="w-full max-w-6xl px-6 py-20 lg:px-12 lg:py-32"
         id="about">
         <div
-          class="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-24 items-start">
-          <div class="flex flex-col gap-8 order-2 lg:order-1 pt-4">
-            <div class="space-y-6">
+          class="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-24 items-start lg:items-center">
+          <div class="flex flex-col order-2 lg:order-1 pt-4 lg:pt-0">
+            <div class="space-y-8 lg:space-y-10">
               <h1
                 class="text-6xl sm:text-7xl lg:text-8xl font-body font-extrabold uppercase tracking-tight leading-[0.9]">
                 
-                AI / Data<br />
+                AI <span class="md-accent">/</span> Data<br />
                 
                 Engineer<br />
                 
               </h1>
               <p
-                class="text-xl leading-relaxed text-secondary max-w-md font-light">
+                class="text-lg leading-relaxed text-secondary max-w-md font-light">
                 2× Google Summer of Code · GCP Professional Data Engineer · Open Source
               </p>
             </div>
             <div
-              class="flex flex-wrap items-center gap-6 pt-8 text-sm font-medium">
+              class="mt-12 flex flex-wrap items-center gap-6 text-sm font-medium">
               
               <a
                 class="flex items-center gap-2 text-secondary hover:text-accent transition-colors hover-underline-animation pb-1"
@@ -244,6 +281,14 @@
               </a>
               
             </div>
+
+            
+            <!-- Keep About copy inside the left column so it doesn't flow under the image on desktop -->
+            <div class="prose prose-neutral max-w-none mt-14">
+              <!-- original version -->
+<p>Hi, I’m Prathamesh. I build and own end-to-end production data systems, ML and robust data pipelines under real-world constraints. I bring strong open-source experience and a formal Data Science background, with an emphasis on systems that scale, fail gracefully, and get used.</p>
+            </div>
+            
           </div>
 
           <div
@@ -265,12 +310,6 @@
             </div>
           </div>
         </div>
-
-        
-        <div class="prose prose-neutral max-w-2xl mt-14">
-          <p>AI &amp; Data Engineer owning end-to-end, data-driven systems in production. Focused on pragmatic ML and data pipelines under real-world constraints, with strong open-source experience and a formal background in Data Science.</p>
-        </div>
-        
       </section>
 
       <div class="w-full border-t border-border max-w-6xl mx-auto"></div>
@@ -868,7 +907,7 @@
     <div
         class="mx-auto flex max-w-6xl flex-col md:flex-row justify-between gap-12 px-6 lg:px-12">
         <div class="flex flex-col gap-4">
-            <span class="text-2xl font-display font-medium"> </span>
+            <span class="text-2xl font-display font-medium"></span>
             <p class="text-sm text-gray-400 max-w-xs leading-relaxed">
                 Designed with purity and purpose. Built for the web of tomorrow.
             </p>
@@ -900,5 +939,63 @@
         </div>
     </div>
 </footer>
+
+    <script>
+      (function () {
+        const layer = document.getElementById("selection-outline-layer");
+        if (!layer) return;
+
+        function clearLayer() {
+          layer.innerHTML = "";
+        }
+
+        function isValidSelection(sel) {
+          return sel && sel.rangeCount > 0 && !sel.isCollapsed;
+        }
+
+        function drawSelectionOutline() {
+          const sel = window.getSelection();
+          if (!isValidSelection(sel)) {
+            clearLayer();
+            return;
+          }
+
+          const range = sel.getRangeAt(0);
+          const rects = Array.from(range.getClientRects());
+
+          // Ignore tiny rects that can appear around line breaks.
+          const filtered = rects.filter((r) => r.width > 1 && r.height > 1);
+          if (filtered.length === 0) {
+            clearLayer();
+            return;
+          }
+
+          clearLayer();
+          for (const r of filtered) {
+            const el = document.createElement("div");
+            el.className = "selection-outline-rect";
+            el.style.left = `${r.left}px`;
+            el.style.top = `${r.top}px`;
+            el.style.width = `${r.width}px`;
+            el.style.height = `${r.height}px`;
+            layer.appendChild(el);
+          }
+        }
+
+        // Update on selection and also on viewport changes so the outline
+        // stays aligned while scrolling.
+        document.addEventListener("selectionchange", drawSelectionOutline);
+        window.addEventListener("scroll", drawSelectionOutline, true);
+        window.addEventListener("resize", drawSelectionOutline);
+        document.addEventListener("mouseup", drawSelectionOutline);
+        document.addEventListener("keyup", drawSelectionOutline);
+
+        // Clear when clicking elsewhere.
+        document.addEventListener("mousedown", function () {
+          // selectionchange will re-draw if user drags to select.
+          clearLayer();
+        });
+      })();
+    </script>
   </body>
 </html>
