@@ -25,4 +25,4 @@ copyright_year: "2026"
 name: "Prathamesh Ghatole"
 ---
 
-AI & Data Engineer owning end-to-end, ML & data systems in production. Focused on pragmatic ML and data pipelines under real-world constraints, with strong open-source experience and academic background in Data Science & AI.
+AI & Data Engineer owning end-to-end, data-driven systems in production. Focused on pragmatic ML and data pipelines under real-world constraints, with strong open-source experience and a formal background in Data Science.
