@@ -1,43 +1,69 @@
 <!DOCTYPE html>
 <html class="scroll-smooth" lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <title>{{ site.title or 'Developer Portfolio' }}</title>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <script
-            src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=Inter:wght@300;400;500;600&display=swap"
-            rel="stylesheet" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-            rel="stylesheet" />
-        <script id="tailwind-config">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>{{ site.title or 'Developer Portfolio' }}</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script
+      src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=Inter:wght@300;400;500;600;800&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+      rel="stylesheet" />
+    <script id="tailwind-config">
       tailwind.config = {
         theme: {
           extend: {
             colors: {
-              primary: "#1a1a1a",
-              secondary: "#555555",
-              accent: "#0000ff",
-              background: "#ffffff",
-              surface: "#f9f9f9",
-              border: "#e5e5e5",
+              // Mostly black & paper-white, with Toshiba red as the only accent.
+              primary: "#111111",
+              secondary: "#4b4b4b",
+              accent: "#e83f3f", // Toshiba red
+              background: "#eeede7", // paper white
+              surface: "#f6f5ef", // subtle elevation over paper
+              border: "#d8d6cf",
             },
             fontFamily: {
-              display: ["Space Grotesk", "sans-serif"],
-              body: ["Inter", "sans-serif"],
+              // Headings (heavier, more UI-ish)
+              display: [
+                "IBM Plex Sans",
+                "-apple-system",
+                "BlinkMacSystemFont",
+                '"Segoe UI"',
+                "Roboto",
+                '"Helvetica Neue"',
+                "Arial",
+                "sans-serif",
+              ],
+              // Body
+              body: [
+                "Inter",
+                "system-ui",
+                "-apple-system",
+                "BlinkMacSystemFont",
+                '"Segoe UI"',
+                "Roboto",
+                '"Helvetica Neue"',
+                "Arial",
+                "sans-serif",
+              ],
+              // UI monospace (tags, metadata)
+              mono: ["SF Mono", "Consolas", "Liberation Mono", "Menlo", "monospace"],
+              // Optional serif
+              serif: ["Georgia", "Cambria", "Times New Roman", "Times", "serif"],
             },
             borderRadius: { DEFAULT: "0px", lg: "4px", xl: "8px", full: "9999px" },
           },
         },
       };
     </script>
-        <style>
+    <style>
       body {
         font-family: "Inter", sans-serif;
-        color: #1a1a1a;
+        color: #111111;
       }
       h1,
       h2,
@@ -45,7 +71,8 @@
       h4,
       h5,
       h6 {
-        font-family: "Space Grotesk", sans-serif;
+        font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
       }
       .hide-scrollbar::-webkit-scrollbar {
         display: none;
@@ -100,7 +127,7 @@
       /* Content links (keep consistent across prose + markdown blocks) */
       .md-content a,
       .prose a {
-        color: #0000ff;
+        color: #e83f3f;
         text-decoration: underline;
         text-underline-offset: 2px;
         text-decoration-thickness: 1px;
@@ -108,176 +135,181 @@
       }
       .md-content a:hover,
       .prose a:hover {
-        color: #1a1a1a;
+        color: #c92f2f;
+      }
+      .md-content a:focus-visible,
+      .prose a:focus-visible {
+        outline: 2px solid #e83f3f;
+        outline-offset: 2px;
       }
     </style>
-    </head>
-    <body
-        class="bg-background text-primary antialiased selection:bg-black selection:text-white">
-        {% include 'partials/header.html' %}
+  </head>
+  <body
+    class="bg-background text-primary antialiased selection:bg-accent selection:text-background">
+    {% include 'partials/header.html' %}
 
-        <main class="flex flex-col items-center w-full pt-20">
-            <section class="w-full max-w-6xl px-6 py-20 lg:px-12 lg:py-32"
-                id="about">
+    <main class="flex flex-col items-center w-full pt-20">
+      <section class="w-full max-w-6xl px-6 py-20 lg:px-12 lg:py-32"
+        id="about">
+        <div
+          class="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-24 items-start">
+          <div class="flex flex-col gap-8 order-2 lg:order-1 pt-4">
+            <div class="space-y-6">
+              <h1
+                class="text-6xl sm:text-7xl lg:text-8xl font-body font-extrabold uppercase tracking-tight leading-[0.9]">
+                {% for line in (site.hero_headline_lines or
+                ['Crafting','digital','philosophy.']) %}
+                {{ line }}<br />
+                {% endfor %}
+              </h1>
+              <p
+                class="text-xl leading-relaxed text-secondary max-w-md font-light">
+                {{ site.hero_subtitle or
+                'Full-stack engineer blending minimalist design with scalable architecture.'
+                }}
+              </p>
+            </div>
+            <div
+              class="flex flex-wrap items-center gap-6 pt-8 text-sm font-medium">
+              {% for s in (site.socials or []) %}
+              <a
+                class="flex items-center gap-2 text-secondary hover:text-accent transition-colors hover-underline-animation pb-1"
+                href="{{ s.url }}" target="_blank">
+                {{ s.label }}
+                <span
+                  class="material-symbols-outlined text-[16px]">arrow_outward</span>
+              </a>
+              {% endfor %}
+
+              {% if site.email %}
+              <a
+                class="flex items-center gap-2 text-secondary hover:text-accent transition-colors hover-underline-animation pb-1"
+                href="mailto:{{ site.email }}">
+                Email
+                <span
+                  class="material-symbols-outlined text-[16px]">mail</span>
+              </a>
+              {% endif %}
+            </div>
+          </div>
+
+          <div
+            class="relative order-1 lg:order-2 flex justify-center lg:justify-end">
+            <div class="relative w-full aspect-square max-w-md">
+              <div
+                class="absolute inset-0 bg-gradient-to-tr from-gray-100 to-white rounded-none"></div>
+              <div
+                class="relative h-full w-full overflow-hidden bg-gray-50"
+                data-alt="Profile portrait">
+                {% if site.profile_image %}
                 <div
-                    class="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-24 items-start">
-                    <div class="flex flex-col gap-8 order-2 lg:order-1 pt-4">
-                        <div class="space-y-6">
-                            <h1
-                                class="text-6xl sm:text-7xl lg:text-8xl font-light tracking-tight leading-[0.95]">
-                                {% for line in (site.hero_headline_lines or
-                                ['Crafting','digital','philosophy.']) %}
-                                {{ line }}<br />
-                                {% endfor %}
-                            </h1>
-                            <p
-                                class="text-xl leading-relaxed text-secondary max-w-md font-light">
-                                {{ site.hero_subtitle or
-                                'Full-stack engineer blending minimalist design with scalable architecture.'
-                                }}
-                            </p>
-                        </div>
-                        <div
-                            class="flex flex-wrap items-center gap-6 pt-8 text-sm font-medium">
-                            {% for s in (site.socials or []) %}
-                            <a
-                                class="flex items-center gap-2 text-secondary hover:text-black transition-colors hover-underline-animation pb-1"
-                                href="{{ s.url }}" target="_blank">
-                                {{ s.label }}
-                                <span
-                                    class="material-symbols-outlined text-[16px]">arrow_outward</span>
-                            </a>
-                            {% endfor %}
-
-                            {% if site.email %}
-                            <a
-                                class="flex items-center gap-2 text-secondary hover:text-black transition-colors hover-underline-animation pb-1"
-                                href="mailto:{{ site.email }}">
-                                Email
-                                <span
-                                    class="material-symbols-outlined text-[16px]">mail</span>
-                            </a>
-                            {% endif %}
-                        </div>
-                    </div>
-
-                    <div
-                        class="relative order-1 lg:order-2 flex justify-center lg:justify-end">
-                        <div class="relative w-full aspect-square max-w-md">
-                            <div
-                                class="absolute inset-0 bg-gradient-to-tr from-gray-100 to-white rounded-none"></div>
-                            <div
-                                class="relative h-full w-full overflow-hidden bg-gray-50"
-                                data-alt="Profile portrait">
-                                {% if site.profile_image %}
-                                <div
-                                    class="absolute inset-0 bg-cover bg-center grayscale contrast-125"
-                                    style="background-image: url('{{ site.profile_image }}');"></div>
-                                {% else %}
-                                <div
-                                    class="absolute inset-0 bg-cover bg-center grayscale contrast-125"
-                                    style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBsIIQWSkzswNxJMi0uALGahJgZPizTYX_2JQqNUe-j2MH_4tDy-ewJ2017fsT4A8UNG46ixSNfzZKHQ-XXKmY2OpdIHlbatXJ8-jjrPfZASD1KM4eQ7V4nQPa8-2kcmk0v2j3jbIumZUW6zb1Ah9jM4RSHxDJLYjZ2uCR9eNg5WMIciLPzfXokp7y3GRQPGlHVrymw8QI8eaan-M5SqdnQyR4iUMBRd8b47J-sBtol5sEe5EFWmW7-PWJ2SmUSF4MBz3fZfSRnB5et');"></div>
-                                {% endif %}
-                                <div
-                                    class="absolute inset-0 bg-gradient-to-t from-white/20 to-transparent"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                {% if about_html %}
-                <div class="prose prose-neutral max-w-2xl mt-14">
-                    {{ about_html | safe }}
-                </div>
+                  class="absolute inset-0 bg-cover bg-center grayscale contrast-125"
+                  style="background-image: url('{{ site.profile_image }}');"></div>
+                {% else %}
+                <div
+                  class="absolute inset-0 bg-cover bg-center grayscale contrast-125"
+                  style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBsIIQWSkzswNxJMi0uALGahJgZPizTYX_2JQqNUe-j2MH_4tDy-ewJ2017fsT4A8UNG46ixSNfzZKHQ-XXKmY2OpdIHlbatXJ8-jjrPfZASD1KM4eQ7V4nQPa8-2kcmk0v2j3jbIumZUW6zb1Ah9jM4RSHxDJLYjZ2uCR9eNg5WMIciLPzfXokp7y3GRQPGlHVrymw8QI8eaan-M5SqdnQyR4iUMBRd8b47J-sBtol5sEe5EFWmW7-PWJ2SmUSF4MBz3fZfSRnB5et');"></div>
                 {% endif %}
-            </section>
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-white/20 to-transparent"></div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-            <div class="w-full border-t border-border max-w-6xl mx-auto"></div>
+        {% if about_html %}
+        <div class="prose prose-neutral max-w-2xl mt-14">
+          {{ about_html | safe }}
+        </div>
+        {% endif %}
+      </section>
 
-            <section class="w-full max-w-6xl px-6 py-24 lg:px-12"
-                id="experience">
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
-                    <div class="lg:col-span-4">
-                        <h2
-                            class="text-3xl font-normal tracking-tight sticky top-32">Experience
-                            /</h2>
-                    </div>
-                    <div class="lg:col-span-8 space-y-16">
-                        {% for item in experience %}
-                        {% include 'partials/experience_item.html' %}
-                        {% endfor %}
-                    </div>
-                </div>
-            </section>
+      <div class="w-full border-t border-border max-w-6xl mx-auto"></div>
 
-            <div class="w-full border-t border-border max-w-6xl mx-auto"></div>
+      <section class="w-full max-w-6xl px-6 py-24 lg:px-12"
+        id="experience">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+          <div class="lg:col-span-4">
+            <h2
+              class="text-3xl font-semibold tracking-tight sticky top-32">Experience
+              <span class="text-accent">/</span></h2>
+          </div>
+          <div class="lg:col-span-8 space-y-16">
+            {% for item in experience %}
+            {% include 'partials/experience_item.html' %}
+            {% endfor %}
+          </div>
+        </div>
+      </section>
 
-            <section class="w-full max-w-6xl px-6 py-24 lg:px-12" id="projects">
-                <h2 class="text-3xl font-normal tracking-tight mb-16">Projects
-                    /</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16">
-                    {% for item in projects %}
-                    {% include 'partials/project_card.html' %}
-                    {% endfor %}
-                </div>
-            </section>
+      <div class="w-full border-t border-border max-w-6xl mx-auto"></div>
 
-            <section class="w-full bg-surface" id="stack">
-                <div class="max-w-6xl mx-auto px-6 py-24 lg:px-12">
-                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
-                        <div class="lg:col-span-4">
-                            <h2
-                                class="text-3xl font-normal tracking-tight">Technical
-                                Stack /</h2>
-                        </div>
-                        <div class="lg:col-span-8">
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-                                {% for item in stack %}
-                                {% include 'partials/stack_card.html' %}
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+      <section class="w-full max-w-6xl px-6 py-24 lg:px-12" id="projects">
+        <h2 class="text-3xl font-semibold tracking-tight mb-16">Projects
+          <span class="text-accent">/</span></h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16">
+          {% for item in projects %}
+          {% include 'partials/project_card.html' %}
+          {% endfor %}
+        </div>
+      </section>
 
-            <section class="w-full max-w-6xl px-6 py-24 lg:px-12"
-                id="highlights">
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-24">
-                    <div class="border-t border-black pt-8">
-                        <h2
-                            class="mb-8 text-2xl font-normal tracking-tight">Achievements</h2>
-                        <ul class="space-y-6">
-                            {% for item in achievements %}
-                            {% include 'partials/achievement_item.html' %}
-                            {% endfor %}
-                        </ul>
-                    </div>
-                    <div class="border-t border-border pt-8">
-                        <h2
-                            class="mb-8 text-2xl font-normal tracking-tight text-secondary">Education</h2>
-                        <div class="space-y-8">
-                            {% for item in education %}
-                            {% include 'partials/education_item.html' %}
-                            {% endfor %}
-                        </div>
-                    </div>
-                </div>
-            </section>
+      <section class="w-full bg-surface" id="stack">
+        <div class="max-w-6xl mx-auto px-6 py-24 lg:px-12">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+            <div class="lg:col-span-4">
+              <h2
+                class="text-3xl font-semibold tracking-tight">Technical
+                Stack <span class="text-accent">/</span></h2>
+            </div>
+            <div class="lg:col-span-8">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                {% for item in stack %}
+                {% include 'partials/stack_card.html' %}
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <section
-                class="w-full max-w-6xl px-6 py-24 lg:px-12 mb-20 border-t border-border"
-                id="blogs">
-                <h2 class="mb-16 text-3xl font-normal tracking-tight">Blogs
-                    /</h2>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    {% for item in writing %}
-                    {% include 'partials/writing_card.html' %}
-                    {% endfor %}
-                </div>
-            </section>
-        </main>
+      <section class="w-full max-w-6xl px-6 py-24 lg:px-12"
+        id="highlights">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-24">
+          <div class="border-t border-border pt-8">
+            <h2
+              class="mb-8 text-2xl font-normal tracking-tight">Achievements</h2>
+            <ul class="space-y-6">
+              {% for item in achievements %}
+              {% include 'partials/achievement_item.html' %}
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="border-t border-border pt-8">
+            <h2
+              class="mb-8 text-2xl font-normal tracking-tight text-secondary">Education</h2>
+            <div class="space-y-8">
+              {% for item in education %}
+              {% include 'partials/education_item.html' %}
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </section>
 
-        {% include 'partials/footer.html' %}
-    </body>
+      <section
+        class="w-full max-w-6xl px-6 py-24 lg:px-12 mb-20 border-t border-border"
+        id="blogs">
+        <h2 class="mb-16 text-3xl font-semibold tracking-tight">Blogs
+          <span class="text-accent">/</span></h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {% for item in writing %}
+          {% include 'partials/writing_card.html' %}
+          {% endfor %}
+        </div>
+      </section>
+    </main>
+
+    {% include 'partials/footer.html' %}
+  </body>
 </html>

@@ -1,14 +1,14 @@
 <a class="group block h-full" href="{{ item.meta.url or '#' }}" target="_blank">
     <div
-        class="flex flex-col h-full justify-between p-6 bg-surface border border-transparent hover:border-border hover:bg-white transition-all duration-300">
+        class="flex flex-col h-full justify-between p-6 bg-surface border border-transparent hover:border-border hover:bg-background transition-all duration-300">
         <div>
             <div class="flex items-center gap-2 mb-4">
                 <span
-                    class="text-xs font-mono text-secondary uppercase tracking-wider">{{
+                    class="text-xs font-mono text-secondary uppercase tracking-wider group-hover:text-accent transition-colors">{{
                     item.meta.category or 'Writing' }}</span>
             </div>
             <h3
-                class="text-xl font-medium text-primary mb-3 group-hover:underline decoration-1 underline-offset-4">{{
+                class="text-xl font-semibold text-primary mb-3 group-hover:underline decoration-1 underline-offset-4">{{
                 item.meta.title or item.meta.name }}</h3>
             <p class="text-sm text-secondary leading-relaxed">
                 {{ item.meta.blurb or '' }}

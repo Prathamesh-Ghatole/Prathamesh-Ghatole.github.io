@@ -8,7 +8,7 @@
         {% endif %}
 
         <div
-            class="aspect-[4/3] w-full overflow-hidden bg-gray-100 mb-6 border border-border transition-colors hover:border-secondary">
+            class="aspect-[4/3] w-full overflow-hidden bg-gray-100 mb-6 border border-border transition-colors hover:border-accent">
             <div
                 class="h-full w-full bg-contain bg-center bg-no-repeat transition-transform duration-700 group-hover:scale-105"
                 {% if img %}style="background-image: url('{{ img }}');" {% endif
@@ -18,7 +18,7 @@
         <div class="flex flex-col">
             <div class="flex items-center justify-between mb-2">
                 <h3
-                    class="text-xl font-medium group-hover:text-accent transition-colors">
+                    class="text-xl font-semibold group-hover:text-accent transition-colors">
                     {{ item.meta.name or item.meta.title }}
                 </h3>
             </div>

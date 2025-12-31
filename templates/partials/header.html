@@ -1,5 +1,5 @@
 <header
-    class="fixed top-0 z-50 w-full bg-white/90 backdrop-blur-md border-b border-border">
+    class="fixed top-0 z-50 w-full bg-background/90 backdrop-blur-md border-b border-border">
     <div
         class="mx-auto flex h-20 max-w-6xl items-center justify-between px-6 lg:px-12">
         <div class="flex items-center gap-2 group cursor-pointer">
@@ -8,25 +8,32 @@
         </div>
 
         <nav class="hidden md:flex items-center gap-8">
-            <a class="text-sm text-secondary hover:text-black transition-colors"
+            <a
+                class="text-sm text-secondary hover:text-accent transition-colors"
                 href="#about">About</a>
-            <a class="text-sm text-secondary hover:text-black transition-colors"
+            <a
+                class="text-sm text-secondary hover:text-accent transition-colors"
                 href="#experience">Experience</a>
-            <a class="text-sm text-secondary hover:text-black transition-colors"
+            <a
+                class="text-sm text-secondary hover:text-accent transition-colors"
                 href="#projects">Projects</a>
-            <a class="text-sm text-secondary hover:text-black transition-colors"
+            <a
+                class="text-sm text-secondary hover:text-accent transition-colors"
                 href="#stack">Stack</a>
-            <a class="text-sm text-secondary hover:text-black transition-colors"
+            <a
+                class="text-sm text-secondary hover:text-accent transition-colors"
                 href="#highlights">Credentials</a>
-            <a class="text-sm text-secondary hover:text-black transition-colors"
+            <a
+                class="text-sm text-secondary hover:text-accent transition-colors"
                 href="#blogs">Blogs</a>
         </nav>
 
         {% if site.email %}
         <a
-            class="hidden sm:flex items-center gap-2 border border-border bg-white px-5 py-2 text-sm font-medium text-black hover:bg-black hover:text-white hover:border-black transition-all duration-300"
+            class="hidden sm:flex items-center gap-2 border border-border bg-background px-5 py-2 text-sm font-medium text-primary hover:bg-accent hover:text-background hover:border-accent transition-all duration-300"
             href="mailto:{{ site.email }}">
             Get in touch
+            <span class="material-symbols-outlined text-[16px]">mail</span>
         </a>
         {% endif %}
     </div>

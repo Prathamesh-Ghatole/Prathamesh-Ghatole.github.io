@@ -17,16 +17,16 @@
                 <span
                     class="text-gray-500 font-mono text-xs uppercase mb-1">Socials</span>
                 {% for s in (site.socials or []) %}
-                <a class="hover:text-gray-300 transition-colors"
+                <a class="hover:text-accent transition-colors"
                     href="{{ s.url }}" target="_blank">{{ s.label }}</a>
                 {% endfor %}
             </div>
             <div class="flex flex-col gap-3">
                 <span
                     class="text-gray-500 font-mono text-xs uppercase mb-1">Legal</span>
-                <a class="hover:text-gray-300 transition-colors"
+                <a class="hover:text-accent transition-colors"
                     href="#">Privacy</a>
-                <a class="hover:text-gray-300 transition-colors"
+                <a class="hover:text-accent transition-colors"
                     href="#">Terms</a>
             </div>
         </div>
