@@ -22,7 +22,7 @@
               primary: "#111111",
               secondary: "#4b4b4b",
               accent: "#e83f3f", // Toshiba red
-              background: "#eeede7", // paper white
+              background: "#ffffff", // normal white
               surface: "#f6f5ef", // subtle elevation over paper
               border: "#d8d6cf",
             },
@@ -157,8 +157,13 @@
       /* Markdown highlight (==like this==) */
       mark.md-highlight {
         background: #e83f3f;
-        color: #eeede7;
+        color: #ffffff;
         padding: 0 0.15em;
+      }
+
+      /* Markdown accent (^^like this^^) */
+      span.md-accent {
+        color: #e83f3f;
       }
 
       /* Selection overlay rectangles */
@@ -184,9 +189,9 @@
       <section class="w-full max-w-6xl px-6 py-20 lg:px-12 lg:py-32"
         id="about">
         <div
-          class="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-24 items-start">
-          <div class="flex flex-col gap-8 order-2 lg:order-1 pt-4">
-            <div class="space-y-6">
+          class="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-24 items-start lg:items-center">
+          <div class="flex flex-col order-2 lg:order-1 pt-4 lg:pt-0">
+            <div class="space-y-8 lg:space-y-10">
               <h1
                 class="text-6xl sm:text-7xl lg:text-8xl font-body font-extrabold uppercase tracking-tight leading-[0.9]">
                 {% for line in (site.hero_headline_lines or
@@ -195,14 +200,14 @@
                 {% endfor %}
               </h1>
               <p
-                class="text-xl leading-relaxed text-secondary max-w-md font-light">
+                class="text-lg leading-relaxed text-secondary max-w-md font-light">
                 {{ (site.hero_subtitle or
                 'Full-stack engineer blending minimalist design with scalable architecture.')
                 | md_inline }}
               </p>
             </div>
             <div
-              class="flex flex-wrap items-center gap-6 pt-8 text-sm font-medium">
+              class="mt-12 flex flex-wrap items-center gap-6 text-sm font-medium">
               {% for s in (site.socials or []) %}
               <a
                 class="flex items-center gap-2 text-secondary hover:text-accent transition-colors hover-underline-animation pb-1"
@@ -223,6 +228,13 @@
               </a>
               {% endif %}
             </div>
+
+            {% if about_html %}
+            <!-- Keep About copy inside the left column so it doesn't flow under the image on desktop -->
+            <div class="prose prose-neutral max-w-none mt-14">
+              {{ about_html | safe }}
+            </div>
+            {% endif %}
           </div>
 
           <div
@@ -248,12 +260,6 @@
             </div>
           </div>
         </div>
-
-        {% if about_html %}
-        <div class="prose prose-neutral max-w-2xl mt-14">
-          {{ about_html | safe }}
-        </div>
-        {% endif %}
       </section>
 
       <div class="w-full border-t border-border max-w-6xl mx-auto"></div>

@@ -77,6 +77,15 @@ def md_to_html(text: str) -> str:
             el.text = m.group(1)
             return el, m.start(0), m.end(0)
 
+    class AccentInlineProcessor(InlineProcessor):
+        """Render ^^accent^^ as <span class="md-accent">accent</span>."""
+
+        def handleMatch(self, m, data):
+            el = etree.Element("span")
+            el.set("class", "md-accent")
+            el.text = m.group(1)
+            return el, m.start(0), m.end(0)
+
     class HighlightExtension(Extension):
         def extendMarkdown(self, markdown):
             # Match ==text== but avoid matching empty content.
@@ -85,6 +94,14 @@ def md_to_html(text: str) -> str:
                 HighlightInlineProcessor(pattern, markdown),
                 "md-highlight",
                 175,
+            )
+
+            # Match ^^text^^ but avoid matching empty content.
+            accent_pattern = r"\^\^(.+?)\^\^"
+            markdown.inlinePatterns.register(
+                AccentInlineProcessor(accent_pattern, markdown),
+                "md-accent",
+                174,
             )
 
     return md.markdown(
