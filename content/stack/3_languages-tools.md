@@ -5,8 +5,11 @@ items:
   - Python
   - SQL
   - Bash
-  - Git
-  - Linux
-  - Docker
+  - FastAPI
+  - HTML
+  - CSS
+  - Power BI
+  - Plotly Dash
+  - Streamlit
 ---
 
