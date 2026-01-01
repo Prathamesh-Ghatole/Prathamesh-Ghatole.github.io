@@ -282,16 +282,6 @@
 
       <div class="w-full border-t border-border max-w-6xl mx-auto"></div>
 
-      <section class="w-full max-w-6xl px-6 py-24 lg:px-12" id="projects">
-        <h2 class="text-3xl font-semibold tracking-tight mb-16">Projects
-          <span class="text-accent">/</span></h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16">
-          {% for item in projects %}
-          {% include 'partials/project_card.html' %}
-          {% endfor %}
-        </div>
-      </section>
-
       <section class="w-full bg-surface" id="stack">
         <div class="max-w-6xl mx-auto px-6 py-24 lg:px-12">
           <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
@@ -331,6 +321,37 @@
               {% include 'partials/education_item.html' %}
               {% endfor %}
             </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="w-full border-t border-border max-w-6xl mx-auto"></div>
+
+      <section class="w-full max-w-6xl px-6 py-24 lg:px-12" id="projects">
+        <div class="flex items-end justify-between gap-6 mb-10">
+          <h2 class="text-3xl font-semibold tracking-tight">Projects
+            <span class="text-accent">/</span></h2>
+          <div class="text-xs font-mono text-secondary/70 hidden sm:block">
+            scroll • hover to pause
+          </div>
+        </div>
+
+        <div class="relative">
+          <!-- Subtle fade masks on edges to hint horizontal scroll -->
+          <div
+            class="pointer-events-none absolute inset-y-0 left-0 w-12 bg-gradient-to-r from-background to-transparent"></div>
+          <div
+            class="pointer-events-none absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-background to-transparent"></div>
+
+          <div
+            id="projects-carousel"
+            class="flex gap-8 overflow-x-auto pb-4 hide-scrollbar snap-x snap-mandatory"
+            aria-label="Projects carousel">
+            {% for item in projects %}
+            <div class="snap-start shrink-0 w-[85%] sm:w-[460px]">
+              {% include 'partials/project_card.html' %}
+            </div>
+            {% endfor %}
           </div>
         </div>
       </section>
@@ -404,6 +425,85 @@
         document.addEventListener("mousedown", function () {
           // selectionchange will re-draw if user drags to select.
           clearLayer();
+        });
+      })();
+    </script>
+
+    <script>
+      (function () {
+        const scroller = document.getElementById("projects-carousel");
+        if (!scroller) return;
+
+        const prefersReduced = window.matchMedia(
+          "(prefers-reduced-motion: reduce)"
+        ).matches;
+        if (prefersReduced) return;
+
+        // Duplicate slides once to enable a seamless loop.
+        const originalChildren = Array.from(scroller.children);
+        if (originalChildren.length === 0) return;
+
+        // Ensure layout is ready before we measure and start animating.
+        window.requestAnimationFrame(() => {
+          // Clone only once.
+          if (!scroller.dataset.cloned) {
+            for (const child of originalChildren) {
+              scroller.appendChild(child.cloneNode(true));
+            }
+            scroller.dataset.cloned = "true";
+          }
+
+          // Use scrollWidth (more reliable than summing bounding boxes/gaps).
+          const originalTotal = scroller.scrollWidth / 2;
+
+          let paused = false;
+          const speedPxPerFrame = 0.8; // slightly faster so it’s clearly visible
+
+          // Disable snap while auto-scrolling (manual scroll still works fine).
+          scroller.style.scrollSnapType = "none";
+
+          function tick() {
+            if (!paused) {
+              scroller.scrollLeft += speedPxPerFrame;
+
+              // Loop back seamlessly once we've scrolled past the original set.
+              if (scroller.scrollLeft >= originalTotal) {
+                scroller.scrollLeft -= originalTotal;
+              }
+            }
+            window.requestAnimationFrame(tick);
+          }
+
+          function pause() {
+            paused = true;
+          }
+
+          function resume() {
+            paused = false;
+          }
+
+          scroller.addEventListener("mouseenter", pause);
+          scroller.addEventListener("mouseleave", resume);
+          scroller.addEventListener("focusin", pause);
+          scroller.addEventListener("focusout", resume);
+          scroller.addEventListener("touchstart", pause, { passive: true });
+          scroller.addEventListener("touchend", resume, { passive: true });
+
+          // Pause on wheel/trackpad interaction and resume shortly after.
+          let resumeTimeout = null;
+          scroller.addEventListener(
+            "wheel",
+            function () {
+              paused = true;
+              if (resumeTimeout) window.clearTimeout(resumeTimeout);
+              resumeTimeout = window.setTimeout(() => {
+                paused = false;
+              }, 800);
+            },
+            { passive: true }
+          );
+
+          tick();
         });
       })();
     </script>

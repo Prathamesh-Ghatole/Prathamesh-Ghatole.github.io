@@ -1,15 +1,15 @@
 <div>
     <h3 class="text-lg font-semibold text-primary mb-3">{{ item.meta.title
-        }}</h3>
+        | md_inline }}</h3>
     {% if item.meta.summary %}
     <p class="text-sm text-secondary mb-4 leading-relaxed">{{ item.meta.summary
-        }}</p>
+        | md_inline }}</p>
     {% endif %}
     {% set items = item.meta.get('items') %}
     {% if items %}
     <div class="text-sm text-black font-mono">
         {%- for s in items -%}
-        {{ s }}{% if not loop.last %}, {% endif %}
+        {{ s | md_inline }}{% if not loop.last %}, {% endif %}
         {%- endfor -%}
     </div>
     {% endif %}

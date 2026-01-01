@@ -1,14 +1,16 @@
 <div class="group border-b border-border pb-12 last:border-0">
     <div
         class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2 mb-4">
-        <h3 class="text-2xl font-semibold text-primary">{{ item.meta.role or
-            item.meta.title }}</h3>
-        <span class="text-sm text-secondary">{{ item.meta.start or '' }} — {{
-            item.meta.end or '' }}</span>
+        <h3 class="text-2xl font-semibold text-primary">{{ (item.meta.role or
+            item.meta.title) | md_inline }}</h3>
+        <span class="text-sm text-secondary">{{ (item.meta.start or '') |
+            md_inline }} — {{
+            (item.meta.end or '') | md_inline }}</span>
     </div>
     <div class="text-lg text-secondary mb-6 font-light">
-        {{ item.meta.company or '' }}{% if item.meta.location %} • {{
-        item.meta.location }}{% endif %}
+        {{ (item.meta.company or '') | md_inline }}{% if item.meta.location %} •
+        {{
+        (item.meta.location) | md_inline }}{% endif %}
     </div>
     {% if item.body_html %}
     <div
@@ -20,7 +22,7 @@
         {% for tag in item.meta.tags %}
         <span
             class="text-xs uppercase tracking-wider font-mono text-secondary border border-border px-2 py-1 transition-colors group-hover:border-accent group-hover:text-accent">{{
-            tag }}</span>
+            tag | md_inline }}</span>
         {% endfor %}
     </div>
     {% endif %}

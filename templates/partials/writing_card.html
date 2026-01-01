@@ -5,19 +5,19 @@
             <div class="flex items-center gap-2 mb-4">
                 <span
                     class="text-xs font-mono text-secondary uppercase tracking-wider group-hover:text-accent transition-colors">{{
-                    item.meta.category or 'Writing' }}</span>
+                    (item.meta.category or 'Writing') | md_inline }}</span>
             </div>
             <h3
                 class="text-xl font-semibold text-primary mb-3 group-hover:underline decoration-1 underline-offset-4">{{
-                item.meta.title or item.meta.name }}</h3>
+                (item.meta.title or item.meta.name) | md_inline }}</h3>
             <p class="text-sm text-secondary leading-relaxed">
-                {{ item.meta.blurb or '' }}
+                {{ (item.meta.blurb or '') | md_inline }}
             </p>
         </div>
         <div
             class="mt-8 pt-4 border-t border-border/50 flex justify-between text-xs text-secondary/70">
-            <span>{{ item.meta.date or '' }}</span>
-            <span>{{ item.meta.read_time or '' }}</span>
+            <span>{{ (item.meta.date or '') | md_inline }}</span>
+            <span>{{ (item.meta.read_time or '') | md_inline }}</span>
         </div>
     </div>
 </a>

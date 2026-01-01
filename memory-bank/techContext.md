@@ -18,8 +18,8 @@
 ## Local development commands
 ```bash
 uv sync
-uv run python scripts/generate_site.py
-python -m http.server -d public 8000
+uv run scripts/generate_site.py
+uv run scripts/dev_server.py
 ```
 
 ## Deployment

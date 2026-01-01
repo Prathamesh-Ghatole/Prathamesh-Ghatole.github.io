@@ -7,7 +7,7 @@
 - Output is generated to `public/` and deployed via GitHub Actions → `gh-pages`.
 
 ## Current work focus
-- Memory Bank initialization.
+- Homepage layout refinements.
 
 ## Decisions (important)
 - Static site only; no runtime backend.
@@ -19,3 +19,7 @@
 - Improve content schema validation (optional).
 - Add a resume handler (resume artifact built/published via CI).
 
+## Recent changes
+- Reordered homepage sections to: Hero/About → Experience → Technical Stack → Achievements/Education → Projects → Blogs.
+- Projects section now renders as a horizontally scrollable auto-scrolling carousel (pauses on hover/focus; respects prefers-reduced-motion).
+- Project thumbnails now fill a 4:3 frame (bg-cover) for a wider image presentation.

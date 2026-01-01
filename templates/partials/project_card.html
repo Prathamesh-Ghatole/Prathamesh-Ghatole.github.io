@@ -10,7 +10,7 @@
         <div
             class="aspect-[4/3] w-full overflow-hidden bg-gray-100 mb-6 border border-border transition-colors hover:border-accent">
             <div
-                class="h-full w-full bg-contain bg-center bg-no-repeat transition-transform duration-700 group-hover:scale-105"
+                class="h-full w-full bg-cover bg-center bg-no-repeat transition-transform duration-700 group-hover:scale-105"
                 {% if img %}style="background-image: url('{{ img }}');" {% endif
                 %}></div>
         </div>
@@ -19,7 +19,7 @@
             <div class="flex items-center justify-between mb-2">
                 <h3
                     class="text-xl font-semibold group-hover:text-accent transition-colors">
-                    {{ item.meta.name or item.meta.title }}
+                    {{ (item.meta.name or item.meta.title) | md_inline }}
                 </h3>
             </div>
             {% if item.body_html %}
@@ -31,7 +31,8 @@
             {% if item.meta.stack %}
             <div class="flex flex-wrap gap-2 text-xs text-secondary/70">
                 {%- for s in item.meta.stack -%}
-                <span>{{ s }}</span>{% if not loop.last %} • {% endif %}
+                <span>{{ s | md_inline }}</span>{% if not loop.last %} • {%
+                endif %}
                 {%- endfor -%}
             </div>
             {% endif %}
