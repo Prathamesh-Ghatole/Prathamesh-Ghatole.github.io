@@ -11,7 +11,7 @@ items:
   - ==Self Hosting==
   # Tools
   - LangChain / Pydantic AI
-  - FAISS / Milvus
+  - FAISS / pgvector / Qdrant
   - PEFT / LoRA
   - n8n
   - PyTorch
